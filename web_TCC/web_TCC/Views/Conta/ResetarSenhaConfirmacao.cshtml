@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Resetar a senha";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+<div>
+    <p>
+        Sua senha foi resetada. Por favor @Html.ActionLink("Clique aqui para entrar", "Login", "Conta", routeValues: null, htmlAttributes: new { id = "loginLink" })
+    </p>
+</div>

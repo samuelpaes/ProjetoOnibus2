@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+@using (Html.BeginForm("Upload", "Dados", FormMethod.Post,
+    new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+        <legend>Carregar Dados</legend>
+        <div class="editor-field">
+            <!-- accept determina só arquivos txt podem ser upados -->
+            @Html.TextBox("arquivoExterno", "", new { type = "file", accept = ".txt" })
+        </div>
+        <div class="editor-field">
+            <input type="submit" value="Upload" />
+
+        </div>
+        <div><h2>@ViewBag.Message</h2> </div>
+
+
+    </fieldset>
+}

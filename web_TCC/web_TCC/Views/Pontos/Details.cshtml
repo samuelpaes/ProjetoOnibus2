@@ -1,0 +1,58 @@
+﻿@model web_TCC.Models.Pontos
+
+@{
+    ViewBag.Title = "Detalhes Ponto de Ônibus";
+}
+
+<h2>Detalhes Ponto de Ônibus</h2>
+
+<div>
+    @*<h4>Pontos</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Código)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Código)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ativo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Alterar", "Edit", new { id = Model.ID_ponto }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

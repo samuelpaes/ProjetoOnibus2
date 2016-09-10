@@ -1,0 +1,8526 @@
+COORD_X;COORD_Y;feature_id;feature_name;feature_description
+-46.295205;-23.987397;0;Expresso Luxo;Placa
+-46.295543;-23.987614;1;Cometa;Placa
+-46.314230;-23.962941;10;AF05;Av. Afonso Pena     232	AF05	2357775	4618858	Marco Metálico
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.315700;-23.974000;100;RI04;Rua Conselheiro Ribas	562	RI04		2358440	4618942	Marco
+
+Linhas Municipais
+08
+100
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.312808;-23.975881;101;AP09;Rua Conselheiro Ribas, 136 SESC	AP09			2358567	4618769	Abrigo
+Linhas Municipais
+08
+100
+184
+193
+
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.317933;-23.972422;102;RI05;Rua Conselheiro Lafaiete	59       RI05			2358338	4619085	Abrigo
+
+Linha Municipal
+100
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.319650;-23.971250;103;RI06;Rua Conselheiro Lafaiete	03	RI 06		2358275	4619179	Marco
+
+Linha Municipal:
+100
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.330036;-23.966170;104;G01;Rua Azevedo Sodré	112	G01		2357978	4619808	Abrigo
+
+Linhas Municipais:
+05
+40
+53
+-46.327467;-23.966300;105;BQ05;Rua Azevedo Sodré	82	BQ05		2357978	4619648	Marco
+
+Linha Municipal:
+ 40
+-46.332983;-23.965783;106;G02;Rua Claudio Doneuax	s/n	G02		2357947	4619979	Marco
+Linhas Municipais
+40
+53
+-46.335435;-23.965750;107;G03;Rua Euclides da Cunha	50  G03			2357944	4620158	Marco
+
+Linhas Municipais:
+40
+53
+-46.338377;-23.965431;108;G04;Rua Euclides da Cunha	137	G04		2357923	4620311	Marco
+
+Linhas Municipais:
+40
+53
+-46.340750;-23.965150;109;PO02;Rua Euclides da Cunha	206	PO02		2357909	4620445	Marco
+
+Linhas Municipais:
+40
+53
+-46.311629;-23.965053;11;AF07;Av. Afonso Pena      Praça Coronel Fernandes Prestes 36	AF07		2357907	4618696	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.344200;-23.964850;110;PO03;Rua Euclides da Cunha	280	PO03		2357891	4620652	Marco
+
+Linhas Municipais:
+40
+53
+-46.376750;-23.937333;111;BM11;Rua João Osório da Fonseca	281	BM11
+	 23° 56.240'S	 46° 22.605'O	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.377800;-23.937433;112;BM10;Rua Pastor Francisco Gonzaga da Silva	93	BM10		 23° 56.246'S	 46° 22.668'O	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.379050;-23.936317;113;BM09;Rua Alderico M. Soares	Pça Antonieta 	BM09		 23° 56.179'S	 46° 22.743'O	Abrigo
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.374251;-23.937748;114;BM08;Rua José Dias de Moraes	481			2356261	4622466	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.377383;-23.938667;115;BM07;Rua Prefeito Joaquim Alcaide Valls	s/n			2356320	4622643
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.374883;-23.938400;116;BM03;Rua José Dias de Moraes	s/n	BM03		2356304	4622493	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.376511;-23.937694;117;BM06;Rua Prefeito Joaquim Alcaide Valls	186lo			
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.373333;-23.936467;118;BM04;Rua José Dias de Moraes	302	BM04		2356188	4622400	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.372540;-23.935543;119;BM02;Rua José Dias de Moraes	173			2356134	4622357	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.308947;-23.966518;12;AF08;Av. Afonso Pena         360	AF08	2358085	4618396	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.371550;-23.935467;120;BM05;Rua Amadeu Barbielini	450			2356128	4622293	Abrigo
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.370967;-23.936050;121;BM01;Rua Amadeu Barbielini	370			2356163	4622258	Abrigo
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.324800;-23.969743;122;BQ03;Rua Dr. Heitor de Moraes	29	BQ03		2358214	4619474	Marco
+
+Linhas Municipais:
+04
+-46.324184;-23.968473;123;BQ04;Rua Minas Gerais	1   2358100	4619450 Marco
+
+Linhas Municipais:
+40
+-46.324655;-23.966504;124;BQ06;Rua Azevedo Sodre 16  Marco
+
+Linhas Municipais:
+40
+-46.325000;-23.944917;125;BR01;Rua Braz Cubas	340	BR01			Marco
+
+Linhas Municipais:
+5
+29
+37
+53
+152
+155
+193
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+948DV1
+-46.325050;-23.942800;126;BR02;Rua Braz Cubas	289	BR02			Abrigo
+
+Linhas Municipais:
+5
+20
+29
+37
+53
+73
+77
+152
+153
+155
+156
+181
+191
+193
+Linhas Intermunicipais:
+03 (907TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+903VP1
+904TRO AH
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+938TRO AH
+941TRO
+948DV1
+-46.324830;-23.940177;127;BR03;Rua Braz Cubas	196	BR03			Tubinho
+Linhas Municipais:
+5
+20
+29
+37
+53
+73
+77
+152
+153
+155
+156
+181
+191
+193
+Linhas Intermunicipais:
+03 (907TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+903VP1
+904TRO AH
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+938TRO AH
+941TRO
+948DV1
+-46.324617;-23.938000;128;BR04;Rua Braz Cubas	119	BR04			Marco
+
+Linhas Municipais:
+5
+20
+29
+37
+53
+73
+77
+152
+153
+155
+156
+181
+191
+193
+Linhas Intermunicipais:
+03 (907TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+903VP1
+904TRO AH
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+938TRO AH
+941TRO
+948DV1
+-46.324352;-23.934670;129;BR05;Rua Braz Cubas	54	BR05			Marco
+
+Linhas Minicipais:
+5
+20
+29
+37
+53
+73
+77
+181
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+-46.306594;-23.968104;13;AF09;Av. Afonso Pena       446	AF09	2358184	4618248	Marco
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.344635;-23.961764;130;CG05;Rua João Caetano	81	CG05		2357705	4620654	Marco
+
+Linhas Municipais:
+118
+-46.343583;-23.958700;131;CG06;Rua Carlos Gomes	208			2357522	4620615 Marco
+
+Linhas Municipais:
+181
+-46.341417;-23.958967;132;CG07;Rua Carlos Gomes	148			2357538	4620485	Marco
+
+Linhas Municipais:
+181
+-46.339450;-23.959183;133;CG01;Rua Carlos Gomes	89	CG01		2357551	4620367	Abrigo
+
+Linhas Municipais:
+181
+-46.341117;-23.960033;134;CG02;Rua Duque de Caxias	69			2357602	4620467	Marco
+Linhas Municipais:
+118
+-46.338517;-23.960283;135;CG03;Rua Duque de Caxias	s/n			2357617	4620311	Marco
+
+Linhas Municipais:
+118
+-46.342883;-23.961183;136;CG04;Rua José Clemente Pereira	157		2357671	4620573	Marco
+
+Linhas Municipais:
+118
+-46.320117;-23.944133;137;CML03;Rua Campos Mello	41			2356648	4619207	Marco
+Linhas Municipais:
+8
+-46.320400;-23.947017;138;CML02;Rua Campos Mello	Colégio Docas			2356821	4619224	Abrigo
+Linhas Municipais:
+8
+-46.320700;-23.949783;139;CML01;Rua Campos Mello	217			2356987	4619242	Marco
+Linhas Municipais:
+8
+-46.304062;-23.969802;14;AF10;Av. Afonso Pena      508	AF10	2358298	4618138	Abrigo
+
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.344475;-23.954717;140;PM06;Av. Senador Pinheiro Machado	618	PM06		2357287	4620668	Abrigo
+
+
+Linhas Municipais:
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.344741;-23.957040;141;PM07;Av. Senador Pinheiro Machado	678	PM07		2357430	4620687	Marco
+
+Linhas Minicipais:
+7
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.344908;-23.958418;142;PM08;3Av. Senador Pinheiro Machado	724	PM08		2357520	4620698	Marco
+
+Linhas Municipais:
+07
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345103;-23.959858;143;PM09;Av. Senador Pinheiro Machado	786	PM09		2357592	4620709	Marco
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345257;-23.961210;144;PM10;Av. Senador Pinheiro Machado	842	PM10		2357668	4620715	Abrigo
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345519;-23.963506;145;PM11;Av. Senador Pinheiro Machado	950	PM11		2357810	4620732	Marco
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345764;-23.965447;146;PM12;Av. Senador Pinheiro Machado	998	PM12		2357924	4620748	Abrigo
+
+Linhas Municipais:
+23
+37
+40
+52
+53
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345505;-23.966978;147;PM13;Av. Senador Pinheiro Machado	1023	PM13		2358017	4620755	Abrigo
+
+Linhas Minicipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+927TRO
+940TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345306;-23.964349;148;PM14;Av. Senador Pinheiro Machado	941	PM14		2357851	4620717	Concreto
+
+Linhas Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+927TRO
+940TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.345064;-23.961807;149;PM15;Av. Senador Pinheiro Machado	813	PM15		2357711	4620705	Marco
+
+Linhas Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.302228;-23.971641;15;AF11;Av. Afonso Pena       586	AF11    2358407	    4618122	                           Abrigo
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.337933;-23.948049;150;PM02;Av. Senador Pinheiro Machado	334	PM02		2356879	4620278	Marco
+
+Linhas Municipais:
+7
+13
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.344825;-23.959758;151;PM16;Av. Senador Pinheiro Machado	759	PM16		2357584	4620684	abrigo
+
+Linhas Municipais:
+19
+25
+73
+77
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.342090;-23.950638;152;PM04;Av. Senador Pinheiro Machado	468	PM04		2357029	4620525	Marco
+
+Linhas Municipais:
+7
+13
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.339754;-23.949167;153;PM03;Av. Senador Pinheiro Machado	376	PM03		2356909	4620392	Marco
+
+Linhas Municipais:
+7
+13
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.344498;-23.957412;154;PM17;Av. Senador Pinheiro Machado	693	PM17		2357457	4620669	Marco
+
+Linha Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.343762;-23.951680;155;PM05;Av. Senador Pinheiro Machado	520	PM05		2357099	4620632	Abrigo
+
+Linhas Municipais:
+13
+23
+37
+52
+152
+Linhas Intermunicipais:
+05 (907TRO H)
+903TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.344270;-23.955550;156;PM18;Av. Senador Pinheiro Machado	631	PM18		2357313	4620656	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.344060;-23.953474;157;PM19;Av. Senador Pinheiro Machado	569	PM19		2357206	4620640	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.343175;-23.951592;158;PM20;Av. Senador Pinheiro Machado	509	PM20		2357092	4620586	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.341760;-23.950747;159;PM21;Av. Senador Pinheiro Machado	LO 468	PM21		2357045	4620504	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+77
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.301922;-23.973306;16;AF12;Av. Afonso Pena	611	AF12		2358404	4618119	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.340399;-23.949838;160;PM22;Av. Senador Pinheiro Machado	Praça da Biblia	PM22		2356993	4620421	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+77
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.338295;-23.948562;161;PM23;Av. Senador Pinheiro Machado	325	PM23		2356898	4620299	Abrigo
+
+Linhas Municipais:
+19
+25
+73
+77
+156
+Linhas Intermunicipais:
+03 (907TRO AH)
+903TRO
+903VP1
+941TRO
+926TRO – Intersul Peruíbe
+-46.332199;-23.944760;162;PM24;Av. Senador Pinheiro Machado	57 AL	PM24		2356681	4619928	Abrigo
+
+Linhas Municipais:
+73
+77
+153
+156
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+938TRO AH
+941TRO
+-46.337140;-23.950733;163;BC02;Av. Bernadino de Campos	88	BC02		2357045	4620228	Marco
+
+
+Linhas Municipais:
+17
+54
+153
+181
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO  AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.336944;-23.949068;164;BC01;Av. Bernadino de Campo	30	BC01		2356941	4620216	Marco
+
+Linhas Municipais:
+17
+54
+153
+181
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO  AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.337407;-23.953185;165;BC03;Av. Bernadino de Campos	158	BC03	CP	Marco de Metal
+
+
+Linhas Municipais:
+17
+54
+153
+181
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO  AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.337861;-23.956886;166;BC04;Av. Bernadino de Campos	332	BC04		2357416	4620272	Marco
+
+Linhas Municipais:
+17
+54
+153
+181
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO  AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.338407;-23.961018;167;BC06;Av. Bernadino de Campo	470	BC06		2357662	4620305	Marco
+
+Linhas Municipais:
+17
+54
+153
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.338880;-23.965274;168;BC08;Av. Bernadino de Campo	588	BC08		2357897	4620332	Abrigo
+
+Linhas Municipais:
+17
+54
+153
+194
+Linhas Intermunicipais:
+21 (902TRO H)
+904TRO AH
+931TRO
+938TRO H
+939DV1
+939TRO
+-46.338704;-23.965882;169;BC10;Av. Bernadino de Campo	613	BC10		2357937	4620318	Abrigo
+
+Linhas Municipais:
+10
+13
+54
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+944TRO
+-46.300730;-23.974741;17;AF13;Av. Afonso Pena 	670	Abrigo
+
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.338389;-23.962585;170;BC11;Av. Bernadino de Campo	517	BC11		2357737	4620297	Abrigo
+
+Linhas Municipais:
+10
+13
+54
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+944TRO
+-46.337803;-23.958473;171;BC12;Av. Bernadino de Campo	387	BC12		2357515	4620270	Marco
+
+Linhas Municipais:
+10
+13
+54
+118
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+-46.337634;-23.956844;172;BC13;Av. Bernadino de Campo	327	BC13		2357409	4620259	Marco
+
+Linhas Municipais:
+10
+13
+54
+118
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+-46.337315;-23.953971;173;BC14;Av. Bernadino de Campo	215	BC14		2357233	4620233	Abrigo
+
+Linhas Municipais:
+10
+13
+54
+118
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+-46.336703;-23.949314;174;BC16;Av. Bernadino de Campo	 47	BC16		2356955	4620199	Abrigo
+
+Linhas Municipais:
+10
+13
+54
+118
+153
+191
+Linhas Intermunicipais:
+24 (902TRO AH)
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+-46.325973;-23.953739;175;WL 14;Av. Washington Luiz	169	WL14		2357204	4619558	Marco
+Linhas Municipais:
+05
+53
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.326272;-23.954187;176;WL 04;Av. Washington Luiz	180	WL04		2357254	4619575	Marco
+Linhas Municipais:
+05
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.328547;-23.965415;177;WL 10;Av. Washington Luiz	476	WL10		2357915	4619723	Marco
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.328862;-23.965871;178;WL 08;Av. Washington Luiz	488	WL08		2357959	4619730	Marco
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.328350;-23.961836;179;WL 07;Av. Washington Luiz	399	WL07		2357710	4619701	Marco
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.296825;-23.977349;18;AF14;Av. Afonso Pena      	AF14	2358641	4617810	Marco
+
+Linhas Intermunicipais:
+906TRO
+917TRO
+919TRO
+927TRO
+940TRO
+952TRO AH
+-46.328092;-23.962088;180;WL 11;Av. Washington Luiz	401	WL11		2357672	4619683	Abrigo
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.328015;-23.959049;181;WL 06;Av. Washington Luiz	326	WL06		2357577	4619686	Marco
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.327734;-23.958870;182;WL 12;Av. Washington Luiz	323	WL12		2357529	4619655	Abrigo
+Linhas Municipais:
+05
+53
+Linhas Intermunicipais:
+934TRO
+-46.326461;-23.956307;183;WL 05;Av. Washington Luiz	246	WL05		2357376	4619585	Marco
+Linhas Municipais:
+05
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.326123;-23.955823;184;WL 13;Av. Washington Luiz	223	WL13		2357310	4619564	Abrigo
+Linhas Municipais:
+05
+53
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.326076;-23.952342;185;WL 03;Av. Washington Luiz	136	WL03		2357140	4619565	Abrigo
+Linhas Municipais:
+05
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.325760;-23.951568;186;WL 15;Av. Washington Luiz	105	WL15		2357103	4619545	Abrigo
+Linhas Municipais:
+05
+53
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.325396;-23.949103;187;WL 16;Av. Washington Luiz		47	WL16		Abrigo
+Linhas Municipais:
+05
+53
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+934TRO
+936TRO
+-46.309686;-23.960491;188;SC12;Av. Siqueira Campos	98	SC12		2357633	4618588	Marco
+
+Linhas Municipais:
+61
+80
+-46.312127;-23.960306;189;SC13;Av. Siqueira Campos	261	SC13		2357620	4618727	Abrigo
+
+Linhas Municipais:
+61
+80
+-46.299538;-23.975239;19;AF15;Av. Afonso Pena      689	AF15	2358517	4617972	Abrigo
+
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.315987;-23.960688;190;SC14;Av. Siqueira Campos	272	SC14		2357642	4618962	Abrigo
+
+Linhas Municipais:
+29
+80
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.318063;-23.962202;191;SC15;Av. Siqueira Campos	332	SC15		2357740	4619087	Marco
+
+Linhas Municipais:
+10
+80
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.319228;-23.963141;192;SC16;Av. Siqueira Campos	Hospital Guilherme Álvaro s/n	SC16		2357784	4619148	Abrigo
+
+Linhas Municipais:
+10
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.319566;-23.964623;193;SC17;Av. Siqueira Campos	462	SC17		2357874	4619174	Abrigo
+
+Linhas Municipais:
+10
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.319818;-23.967301;194;SC18;Av. Siqueira Campos	541	SC18		2358036	4619186	Abrigo
+
+Linhas Municipais: 
+10
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.320071;-23.969652;195;SC19;Av. Siqueira Campos	582	SC19		2358150	4619194	Abrigo
+
+Linhas Municipais:
+10
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.320370;-23.972451;196;SC20;Av. Siqueira Campos	Praça Dr. Hipólito do Rego	SC20		2358344	4619216	Abrigo
+
+Linhas Municipais:
+10
+Linhas Intermunicipais:
+06 (915TRO H)
+952TRO H
+-46.320272;-23.972940;197;SC01;Av. Siqueira Campos	651	SC01		2358373	4619219	Abrigo
+
+Linhas Municipais:
+17
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.319956;-23.971554;198;SC02;Av. Siqueira Campos	641	SC02		2358288	4619196	Abrigo
+
+Linhas Municipais:
+17
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.319704;-23.969206;199;SC03;Av. Siqueira Campos	585	SC03		2358152	4619185	Abrigo
+
+Linhas Municipais:
+17
+100
+Linhas Intermunicipais:
+04 (915TRO AH)
+927TRO
+940TRO
+952TRO AH
+-46.351002;-23.968421;2;Expresso Luxo - Cometa;Abrigo
+-46.301297;-23.974047;20;AF16;Av. Afonso Pena     627	AF16	2358429	4618105	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.319500;-23.966687;200;SC04;Av. Siqueira Campos	519	SC04		2357990	4619170	Abrigo
+
+Linhas Municipais:
+17
+100
+Linhas Intermunicipais:
+04 (915TRO AH)
+927TRO
+940TRO
+952TRO AH
+-46.319284;-23.964599;201;SC05;Av. Siqueira Campos	459	SC05		2357874	4619154	Abrigo
+
+Linhas Municipais:
+17
+100
+Linhas Intermunicipais:
+04 (915TRO AH)
+927TRO
+940TRO
+952TRO AH
+-46.318124;-23.962700;202;SC06;Av. Siqueira Campos	385	SC06		2357755	4619082	Abrigo
+
+Linhas Municipais:
+17
+80
+100
+Linhas Intermunicipais:
+04 (915TRO AH)
+927TRO
+940TRO
+952TRO AH
+-46.316299;-23.961770;203;SC07;Praça Palmares n º26	SC07		2357756	4619091	Abrigo
+
+Linhas Municipais:
+61
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.314033;-23.960468;204;SC08;Av. Siqueira Campos	229	SC08		2357702	4618977	Abrigo
+
+Linhas Municipais:
+61
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+-46.311852;-23.960588;205;SC09;Av. Siqueira Campos	151	SC09		2357637	4618707	Abrigo
+
+Linhas Municipais:
+61
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+-46.309326;-23.960841;206;SC10;Av. Siqueira Campos	83	SC10		2357633	4618710	Abrigo
+
+Linhas Municipais:
+61
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+-46.306720;-23.961141;207;SC11;Av. Siqueira Campos	Citrosuco	SC11		2357661	4618391	Abrigo
+
+Linhas Municipais:
+61
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+-46.307368;-23.969498;208;ACH08;Av. Almirante Cochrane	273	ACH08		2358176	4618450	Abrigo
+
+Linha Municipais:
+5
+61
+-46.309698;-23.971300;209;ACH09;Av. Almirante Cochrane	215	ACH09		2358278	4618582	Abrigo
+
+Linhas Municipais:
+5
+61
+-46.301982;-23.971849;21;AF17;Av. Afonso Pena      P.S. Macuco	    AF17	2358407	4618122	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.313106;-23.974964;210;ACH10;Av. Almirante Cochrane	93	ACH10		2358480	4618758	Abrigo
+
+Linhas Municipais:
+5
+54
+-46.314815;-23.976960;211;ACH11;Av. Almirante Cochrane	15	ACH11		2358621	4618874	Marco
+
+Linhas Municipais:
+5
+54
+184
+193
+-46.313093;-23.975285;212;ACH01;Av. Almirante Cochrane	88	ACH01		2358504	4618781	Marco
+
+Linhas Municipais:
+5
+54
+-46.311272;-23.973265;213;ACH02;54	Av. Almirante Cochrane	144	ACH02		2358396	4618677	Abrigo
+
+Linhas Municipais:
+5
+54
+61
+-46.309675;-23.971583;214;ACH03;Av. Almirante Cochrane	194	ACH03		2358294	4618581	Marco
+
+Linhas Municipais:
+5
+54
+61
+-46.307693;-23.970077;215;ACH04;Av. Almirante Cochrane	238	ACH04		2358200	4618461	Marco
+
+Linhas Municipais:
+5
+54
+61
+158
+-46.306489;-23.969147;216;ACH05;Av. Almirante Cochrane	264	ACH05		2358147	4618387	Abrigo
+
+Linhas Municipais:
+5
+54
+61
+158
+-46.304815;-23.967888;217;ACH06;Av. Almirante Cochrane	288	ACH06		2358070	4618286	Abrigo
+
+Linhas Municipais:
+158
+-46.302580;-23.966159;218;ACH07;Av. Almirante Cochrane	404	ACH07		2357969	4618150	Marco
+
+Linhas Municipais:
+158
+-46.306029;-23.981214;219;MO05;Av. Coronel Joaquim Montenegro 109		MO05		Marco
+
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.303024;-23.970211;22;AF18;Av. Afonso Pena             544	AF18	2358209	4618178	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.300161;-23.976731;220;MO03;Av. Coronel Joaquim Montenegro	401	MO03		Abrigo
+
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.302823;-23.978769;221;MO04;Av. Coronel Joaquim Montenegro 341		MO04		Marco
+
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.306677;-23.981925;222;MO01;Av. Coronel Joaquim Montenegro	62	MO01		2358878	4618391	Marco
+
+Linhas Municipais:
+8
+100
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.299139;-23.976378;223;MO02;Av. Coronel Joaquim Montenegro	424	MO02		2358572	4617943	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.362273;-23.945092;224;CAN03;Av. Dr. Rosário Baptista Conte	subida	CAN03		2356704	4621735	Marco
+Linhas Municipais;
+13
+-46.362367;-23.945083;225;CAN01;Av. Dr. Rosário Baptista Conte	descida	CAN01	2356705	4621742	Marco
+Linhas Municipais:
+13
+61
+-46.366959;-23.945175;226;CAN02;Av. Francisco Ferreira Canto	610	2356734	4621994	Abrigo
+
+Linhas Municipais:
+184
+80 Portuária
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.285612;-23.920237;227;MT01;Abrigo
+Linhas Intermunicipais:
+951 - Translitoral
+-46.286909;-23.918669;228;MTC02;Abrigo 
+Linhas Intermunicipais:
+951 - Translitoral
+-46.284861;-23.916209;229;MTC03;Marco
+Linhas Intermunicipais:
+951 - Translitoral
+-46.304448;-23.969235;23;AF19;Av. Afonso Pena     465	AF19	2358152	4618267	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.281086;-23.914599;230;MTC05;Abrigo
+Linhas Intermunicipais:
+951 - Translitoral
+-46.281435;-23.914039;231;MTC04;Marco
+Linhas Intermunicipais:
+951 - Translitoral
+-46.281240;-23.913963;232;MTC06;Abrigo
+Linhas Intermunicipais:
+951 - Translitoral
+-46.188472;-23.890571;233;CAR01;Rua Andrades Soares snº Portinho - Abrigo
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.190017;-23.885258;234;CAR05;Praça da Palmeiras Esq. R. Caramuru - Abrigo
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.191254;-23.883559;235;CAR06;Rua Andrades Soares  nº02lo Esq. R.  Xavantes - Abrigo
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.192115;-23.882120;236;CAR07;Rua Andrades Soares  Al nº 1106 - Abrigo
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.189150;-23.887775;237;CAR03;Rua Andrades Soares nº 364 - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.192187;-23.882261;238;CAR08;Rua Andrades Soares  s/nº - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.191287;-23.883661;239;CAR09;Rua Andrades Soares  nº31C - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.307326;-23.967357;24;AF20;Av. Afonso Pena          393	AF20	2358042	4618437	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.190513;-23.885518;240;CAR10;Praça da Palmeiras Esq. R. Caramuru - Abrigo
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.189310;-23.887816;241;CAR11;Rua Andrades Soares nº 295 - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.189170;-23.888340;242;CAR12;Rua Andrades Soares nº 827LO - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.189071;-23.888282;243;CAR13;Rua Andrades Soares nº 827 - Marco
+Linhas Intermunicipais:
+949 - Translitoral
+06 - Viação Bertioga
+-46.350678;-23.956485;244;CM01;Rua Doutor Carvalho de Mendonça	825	2357386	4621026		Abrigo
+
+
+Linhas Municipais:
+07 
+13
+118
+-46.348417;-23.956025;245;CM02;Rua Doutor Carvalho de Mendonça	751	2357357	4620902		Marco
+
+
+Linhas Municipais:
+07 
+13
+118
+-46.346943;-23.955737;246;CM03;Rua Doutor Carvalho de Mendonça	711AL
+2357338	4620810	Abrigo
+
+
+Linhas Municipais:
+07 
+13
+118
+-46.344684;-23.955246;247;CM04;Rua Doutor Carvalho de Mendonça	633
+2357311	4620675	Marco
+
+
+Linhas Municipais:
+07 
+13
+-46.341231;-23.954514;248;CM05;Rua Doutor Carvalho de Mendonça	541
+2357269	4620470	Abrigo
+
+
+Linhas Municipais:
+13
+-46.338860;-23.954018;249;CM06;Rua Doutor Carvalho de Mendonça	455	2357237	4620326	Asfalto	Novo
+
+
+Linhas Municipais:
+
+ 13
+-46.308275;-23.966711;25;AF21;Av. Afonso Pena	363	AF21		2358003	4618495	Marco
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.334176;-23.953018;250;CM07;Rua Doutor Carvalho de Mendonça	313	2357180	4620042	Marco
+
+
+Linhas Municipais:
+
+ 13
+-46.332880;-23.952761;251;CM08;Rua Doutor Carvalho de Mendonça	281AL	2357157	4619941	Marco de Metal
+
+
+Linhas Municipais:
+
+ 13
+-46.329083;-23.951933;252;CM09;Rua Doutor Carvalho de Mendonça	157	2357116	4619745	Marco
+Linhas Municipais:
+
+ 13
+-46.326424;-23.951367;253;CM10;Rua Doutor Carvalho de Mendonça	79	2357084	4619062	Marco
+
+
+Linhas Municipais:
+
+ 13
+-46.324217;-23.950850;254;CM11;Rua Doutor Carvalho de Mendonça	5	2357051	4619453	Marco
+
+
+Linhas Municipais:
+
+ 13
+-46.325616;-23.933050;255;CT04;Praça da República		63	CT04		Abrigo
+
+Linhas Municipais:
+05
+07
+08
+37
+40
+53
+54
+61
+73
+77
+80
+100
+139
+184
+193
+-46.325806;-23.932837;256;CT05;Praça da República		Ponto Final s/n	CT05		Abrigo
+
+Linhas Municipais:
+10
+17
+19
+23
+-46.330254;-23.934121;257;CT06;Praça Rui Barbosa	snº	CT06		2356047	4619815	Abrigo
+
+Linhas Seletivas:
+201
+202
+203
+204
+206
+-46.330696;-23.933867;258;CT07;Praça Rui Barbosa	12			2356065	4619839	Placa
+
+Linhas Municipais:
+17
+29
+54
+42
+80
+118
+181
+184
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+-46.332548;-23.934285;259;CT01;Praça dos Andradas	23			2356052	4619962	Placa
+Linhas Municipais:
+17
+23
+52
+54
+-46.309943;-23.965573;26;AF22;Av. Afonso Pena       317	AF22	2357993	4618595	Abrigo
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.326436;-23.933685;260;CT03;Rua Martin Afonso	30	CT03	2356021	4619592	Placa
+
+Linhas Municipais:
+5
+8
+17
+23
+54
+61
+80
+100
+139
+184
+193
+-46.327032;-23.936435;261;CT02;Rua Martin Afonso	136	CT02	2356179	4619618	Placa
+
+Linhas Municipais:
+10
+19
+54
+80
+118
+139
+184
+193
+-46.327014;-23.932478;262;RB01c;Praça Barão do Rio Branco	Ponto Final	RB01	2355940	4619614	Abrigo
+
+Linhas Municipais:
+07
+77
+-46.327227;-23.932292;263;RB01a;Praça Barão do Rio Branco	Ponto Final	RB01	2355940	4619614	Abrigo
+
+Linhas Municipais:
+40
+53
+-46.327097;-23.932352;264;RB01b;Praça Barão do Rio Branco	Ponto Final	RB01	2355940	4619614	Abrigo
+
+Linhas Municipais:
+37
+73
+-46.362433;-23.930850;265;CP06;Rua Boris Kauffmann	61			2355851	4621746 Concreto
+
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+919TRO
+938TRO AH
+938TRO H
+-46.362319;-23.930043;266;CP04;Av. Marginal da Anchieta	82			2355804	4621744	Abrigo
+
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+938TRO H
+-46.364867;-23.929867;267;CP03;Av. Marginal da Anchieta	208			2355792	4621892	Marco
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+938TRO H
+-46.365183;-23.929700;268;CP05;Av. Marginal da Anchieta	s/n			2355782	4621911	Marco
+
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+919TRO
+938TRO AH
+938TRO H
+-46.368846;-23.928405;269;CP02;Av. Marginal da Anchieta	Deicmar			2355702	4622131 Abrigo
+
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+938TRO H
+-46.311312;-23.964351;27;AF23;Av. Afonso Pena      Praça Coronel Fernandes Prestes 18	AF23	2357859	4618677	Abrigo
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.369200;-23.928233;270;CP07;Av. Marginal da Anchieta	s/n			2355694	4622152	Marco
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+919TRO
+938TRO AH
+938TRO H
+-46.375917;-23.927283;271;CP01;Av. Marginal da Anchieta	2115			2355637	4622555	Marco
+
+Linhas Municipais:
+101
+Linhas Intermunicipais:
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+938TRO H
+-46.321501;-23.944394;272;CN 24;Av. Conselheiro Nébias	251	CN24		2356657	4619290	Marco
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.321731;-23.945364;273;CN02;Av. Conselheiro Nébias 272 Abrigo
+
+Linhas Municipais:
+04
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.321875;-23.947011;274;CN 03;Av. Conselheiro Nébias	300	CN03		2358818	4619311	Abrigo
+
+Linhas Municipais:
+04
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.321739;-23.946775;275;CN 23;Av. Conselheiro Nébias	300LO	CN23		2359806	4619306	Abrigo
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.321887;-23.948139;276;CN 22;Av. Conselheiro Nébias	327	CN22		2356884	4619312	Abrigo
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.322159;-23.951170;277;CN 21;Av. Conselheiro Nébias	LO390	CN21		2357068	4619331	Abrigo
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.322218;-23.950601;278;CN 05;Av. Conselheiro Nébias	402	CN05		2357075	4619347	Abrigo
+
+Linhas Municipais:
+04
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.322605;-23.954497;279;CN 06;Av. Conselheiro Nébias	474	CN06		2357276	4619358	Abrigo
+
+Linhas Municipais:
+04
+10
+13
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais
+02 (900TRO H)
+934EX1
+-46.313513;-23.963147;28;AF24;Av. Afonso Pena       253	AF24	2357789	4618839	Abrigo
+
+
+Linhas Municipais:
+23
+30
+42
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+952TRO H
+-46.322517;-23.954978;280;CN 20;Av. Conselheiro Nébias	473	CN20		2357295	4619352	Marco
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.323022;-23.959970;281;CN 18;Av. Conselheiro Nébias	588	CN18		2357595	4619383	Abrigo
+
+Linhas Municipais:
+04
+07
+40
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.323231;-23.960649;282;CN 08;Av. Conselheiro Nébias	600	CN08		2357601	4619365	Abrigo
+
+Linhas Municipais:
+04
+13
+40
+77
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+944TRO
+934EX1
+-46.323182;-23.962031;283;CN 17;Av. Conselheiro Nébias	640	CN17		2357698	4619393	Abrigo
+
+Linhas Municipais:
+04
+07
+40
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.323454;-23.963472;284;CN 10;Av. Conselheiro Nébias	674	CN10		2357813	4619401	Abrigo
+
+Linhas Municipais:
+04
+13
+40
+77
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+944TRO
+934EX1
+-46.323552;-23.965267;285;CN 16;Av. Conselheiro Nébias	699	CN16		2357911	4619411	Abrigo
+
+Linhas Municipais:
+04
+07
+40
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.323857;-23.967947;286;CN 12;Av. Conselheiro Nébias	764	CN12		2358023	4619427	Marco
+
+Linhas Municipais:
+04
+13
+77
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+944TRO
+934EX1
+-46.323829;-23.968689;287;CN 15;Av. Conselheiro Nébias	786	CN15		2358113	4619422	Abrigo
+
+Linhas Municipais:
+04
+07
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.324229;-23.971110;288;CN 13;Av. Conselheiro Nébias	826	CN13		2358274	4619444	Abrigo
+ 
+Linhas Municipais:
+13
+77
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+944TRO
+934EX1
+-46.324082;-23.971535;289;CN 14;Av. Conselheiro Nébias	833	CN14		2358285	4619451	Abrigo
+
+Linhas Municipais:
+04
+07
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.315870;-23.961575;29;AF25;Av. Afonso Pena        183	AF25	2357680	4618970	Abrigo
+
+
+Linhas Municipais:
+23
+30
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+-46.321331;-23.942527;290;CN 25;Av. Conselheiro Nébias	227	CN25		2356550	4619281	Abrigo
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.321193;-23.940643;291;CN  26;Av. Conselheiro Nébias	187	CN26		2356448	4619271	Marco
+
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.320870;-23.937789;292;CN 27;Av. Conselheiro Nébias	107	CN27		2356268	4619256	Marco
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+80
+100
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+-46.320624;-23.935143;293;CN 28;Av. Conselheiro Nébias	42	CN28		2356110	4619238	Marco
+
+Linhas Municipais:
+04
+07
+17
+23
+40
+61
+80
+100
+184
+-46.322821;-23.956769;294;CN 07;Av. Conselheiro Nébias	524	CN07		2357416	4619368	Abrigo
+
+Linhas Municipais:
+04
+13
+40
+77
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.322832;-23.958096;295;CN 19;Av. Conselheiro Nébias	549	CN19		2357486	4619371	Marco
+
+Linhas Municipais:
+04
+07
+40
+154
+184
+Linhas Intermunicipais:
+01 (900TRO AH)
+934EX1
+-46.302712;-23.986297;296;DB01;Av. Dino Bueno	12	DB01			Marco
+
+Linhas Municipais:
+23
+152
+-46.301500;-23.983967;297;DB02;Av. Dino Bueno	Praça Ida Trilli Gomes Santos		Abrigo
+
+Linhas Municipais:
+23
+152
+-46.300400;-23.982183;298;DB03;Av. Dino Bueno	120	DB03			Marco
+
+Linhas Municipais:
+23
+152
+-46.301900;-23.984500;299;DB04;Av. Dino Bueno	59	DB04			Marco
+
+Linhas Municipais:
+19
+156
+-46.317198;-23.960675;30;AF26;Av. Afonso Pena       165	AF26	2357623	4619056	Abrigo
+
+Linhas Municipais:
+17
+23
+30
+100
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.303117;-23.986567;300;DB05;Av. Dino Bueno	9	DB05			Marco
+
+Linhas Municipais:
+19
+156
+-46.322823;-23.951786;301;EN01;Rua João Guerra	308			2357110	4619344
+Linhas Municipais:
+13
+-46.319650;-23.973000;302;EP02;Av. Dr Epitácio Pessoa	144	EP02		2358380	4619179	Abrigo
+
+Linhas Municipais:
+
+04
+54
+-46.317000;-23.974383;303;EP03;Av. Dr Epitácio Pessoa	230	EP03		2358463	4619020	Abrigo
+
+Linhas Municipais:
+
+04
+54
+-46.314617;-23.975717;304;EP04;Av. Dr Epitácio Pessoa	297	EP04		2358543	4618877	Marco
+
+Linhas Municipais:
+
+04
+08
+54
+-46.311585;-23.978036;305;EP05;Av. Dr Epitácio Pessoa	382	EP05		2358685	4618692	Abrigo
+
+Linhas Municipais:
+
+04
+08
+-46.309517;-23.979633;306;EP06;Av. Dr Epitácio Pessoa	466	EP06		2358778	4618571	Abrigo
+
+Linhas Municipais:
+
+04
+08
+-46.307700;-23.982250;307;EP07;Av. Dr Epitácio Pessoa	574	EP07		2358935	4618462	Marco
+
+Linhas Municipais:
+
+04
+08
+-46.306224;-23.985135;308;EP08;Av. Dr Epitácio Pessoa	662			2359124	4618363	Marco
+
+Linhas Municipais:
+04
+08
+-46.322917;-23.971350;309;EP01;Av. Dr Epitácio Pessoa	44	EP01		2358281	4649375	Marco
+
+
+
+<br /><br />Linhas Municipais:
+<br /><br /> 04 
+<br />54
+-46.320002;-23.958835;31;AF27;Av. Afonso Penan          71	AF27	2357530	4619195	Abrigo
+
+Linhas Municipais:
+17
+23
+30
+100
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.306412;-23.984273;310;EP13;Av. Dr Epitácio Pessoa	656 LO	EP13		2359051	4618375    Abrigo
+
+Linhas Municipais:
+
+04
+08
+100
+-46.307267;-23.982950;311;EP14;Av. Dr Epitácio Pessoa	583	EP14		2358977	4618436	Abrigo
+
+Linhas Municipais:
+
+04
+08
+100
+-46.307412;-23.983049;312;EP15;Av. Dr Epitácio Pessoa		EP14		2358977	4618436	Marco Móvel
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.305913;-23.986275;313;EP12;Av. Dr Epitácio Pessoa	686 LO	EP09	Ponta da Praia	2359179	4618358	Marco
+
+Linha Municipal :
+
+04
+-46.305417;-23.988633;314;EP11;Av. Dr Epitácio Pessoa	737			2359318	4618325  Marco
+Linha Municipal
+04
+-46.305697;-23.987765;315;EP10;Av. Dr Epitácio Pessoa	s/n			2359274	4618337    Marco
+
+Linhas Municipais:
+04
+08
+-46.370933;-23.944733;316;DO01;Rua Professor Francisco Di Domenico	230	Marco	2356684	4622256
+
+Linhas Municipais
+154
+155
+-46.372400;-23.943717;317;DO02;Rua Professor Francisco Di Domenico	400	Abrigo	2356623	4622344
+
+Linhas Municipais
+
+154
+155
+-46.374017;-23.942617;318;DO03;Rua Professor Francisco Di Domenico	610		2356557	4622441	Marco
+
+Linhas Municipais
+154
+155
+-46.374850;-23.942067;319;DO04;Rua Professor Francisco Di Domenico	711		2356524	4622491	Marco
+
+Linhas Municipais
+154
+155
+-46.322564;-23.957663;32;AF28;Av. Afonso Pena            8	AF28	2357462	4619347	Abrigo
+
+Linhas Municipais:
+17
+23
+30
+100
+152
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.376600;-23.940883;320;DO05;Rua Professor Francisco Di Domenico	942		2356453	4622596	Marco
+
+Linhas Municipais
+154
+155
+-46.378450;-23.939617;321;DO06;Rua Professor Francisco Di Domenico	1186		2356377	4622707	Abrigo
+
+Linhas Municipais
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.379367;-23.939133;322;DO09;Rua Professor Francisco Di Domenico	1282			2356348	4622762	Abrigo
+
+Linhas Municipais
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.380000;-23.938617;323;DO07;Rua Professor Francisco Di Domenico	1381			2356317	4622800	Abrigo
+
+Linhas Municipais
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.380886;-23.938076;324;DO08;Rua Professor Francisco Di Domenico	s/n			2356296	4622838	Marco
+
+Linhas Municipais
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.328283;-23.957677;325;FG10;Av. Francisco Glicério	109 LO	FG10		2357463	4619695	Abrigo
+
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.348558;-23.965295;326;FG01;Av. Francisco Glicério	670 LO	FG01		2357918	4620901	Abrigo Diferenciado
+
+Linhas Municipais:
+30
+40
+53
+-46.346130;-23.964433;327;FG02;Av. Francisco Glicério	617	FG02		2357859	4620760	Abrigo
+
+Linhas Municipais:
+30
+40
+53
+-46.342063;-23.963000;328;FG03;Av. Francisco Glicério	509	FG03		2657779	4620518	Marco
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.340115;-23.962326;329;FG04;Av. Francisco Glicério	439	FG04		2357729	4620387	Marco
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.380917;-23.944583;33;AS01;Av. Afonso Schimidth	1056	AS01		2356675	4622855	Abrigo
+
+Linhas Municipais:
+139
+193
+-46.336509;-23.960947;330;FG05;Av. Francisco Glicério	335	FG05		2357655	4620191	Marco
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+944TRO
+-46.333877;-23.959948;331;FG06;Av. Francisco Glicério	225	FG06		2357596	4620031	Abrigo
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+944TRO
+-46.330711;-23.958822;332;FG07;Av. Francisco Glicério	233	FG07		2357528	4619843	Abrigo
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+944TRO
+-46.328499;-23.957978;333;FG08;Av. Francisco Glicério	111	FG08		2357477	4619708	Abrigo
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+944TRO
+-46.323518;-23.957742;334;FG09;Av. Francisco Glicério	c / Av. Conselheiro Nébias	FG09		2357467	4619404	Abrigo
+
+Linhas Municipais:
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+944TRO
+-46.330281;-23.958453;335;FG11;Av. Francisco Glicério		FG11		2357524	4619861	Abrigo
+
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.334276;-23.959929;336;FG12;Av. Francisco Glicério	235	FG12		2357594	4620049	Abrigo
+
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.341717;-23.962680;337;FG15;Av. Francisco Glicério	483	FG15		2357759	4620496	Abrigo
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.336545;-23.960751;338;FG13;Av. Francisco Glicério	321	FG13		2357646	4620190	Abrigo
+
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.339889;-23.962038;339;FG14;Av. Francisco Glicério	429	FG14		2357721	4620300	Abrigo
+
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.379833;-23.945350;34;AS02;Av. Afonso Schimidth	908	AS02		2356721	4622790	Abrigo
+ 
+Linhas Municipais:
+139
+193
+-46.344633;-23.963783;340;FG16;Av. Francisco Glicério	570	FG16		2357815	4620644	Marco
+
+Linhas Municipais:
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.348690;-23.965286;341;FG17;Av. Francisco Glicério	670	FG17		2357911	4620909	Marco
+
+Linhas Municipais:
+7
+30
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.318532;-23.935032;342;GC02;Rua General Câmara nº 409AL
+
+GC02 Marco
+
+Linhas Municipais:
+08
+52
+61
+-46.322010;-23.934669;343;GC03;Rua General Câmara	274	GC03		2356065	4619363	Marco
+
+Linhas Municipais:
+4
+7
+8
+17
+23
+40
+42
+52
+61
+80
+100
+184
+-46.324217;-23.934450;344;GC04;Rua General Câmara	209	GC04		2356067	4619453	Marco
+
+Linhas Municipais:
+4
+7
+8
+17
+23
+40
+42
+61
+80
+100
+184
+-46.326390;-23.934182;345;GC07;Rua General Câmara	118			2356048	4619589	Placa
+
+Linhas Municipais:
+4
+7
+20
+29
+37
+40
+42
+52
+54
+73
+77
+181
+184
+Linhas Intermunicipais:
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+-46.328882;-23.933856;346;GC06a;Praça Mauá	s/n	GC06				Abrigo
+
+Linhas Municipais:
+20
+-46.329034;-23.933844;347;GC06b;Praça Mauá	s/n	GC06				Abrigo
+
+Linhas Municipais:
+23
+52
+-46.329117;-23.933844;348;GC06c;Praça Mauá	s/n	GC06				Placa
+
+Linhas Municipais:
+4
+-46.327369;-23.934004;349;GC05;Rua General Câmara	73	GC05		2356042	4619643	Abrigo
+
+Linhas Municipais:
+7
+17
+29
+37
+40
+42
+54
+73
+77
+80
+118
+181
+184
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO AH
+-46.378533;-23.946450;35;AS03;Av. Afonso Schimidth	740	AS03		2356787	4622712	Marco
+
+Linhas Municipais:
+139
+193
+-46.378833;-23.934361;350;IA01;102	Rua Dois		IA01		 23° 56.057'S	 46° 22.729'O	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.375967;-23.935317;351;IA06;Rua Dois	Ponto Final	IA06  23° 56.119'S 46° 22.558'O	Abrigo
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.377266;-23.934831;352;IA02;Rua Dois	10	IA02		2356094	4622646	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.377401;-23.934978;353;IA03;Rua Dois		IA03		 23° 56.097'S	 46° 22.632'O	S/ Ponto
+
+Linhas Miunicipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.378593;-23.934641;354;IA04;Rua Hum	s/n	IA04		2356080	4622710	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.378273;-23.935843;355;IA05;Rua Hum	s/n	IA05		2356148	4622697	Marco
+
+Linhas Municipais:
+102
+Linhas Intermunicipais:
+944TRO
+-46.338950;-23.943133;356;J04;Av. Francisco Manoel	s/n	J04			Quadrado
+
+Linhas Municipais:
+100
+153
+181
+-46.335283;-23.943533;357;J05;Av. Francisco Manoel	Santa Casa	J05		2356612	4620117	Abrigo
+
+Linhas Municipais:
+100
+153
+181
+-46.335167;-23.944467;358;J06a;Av. Dr. Claudio Luiz da Costa	50	J06		2356668	4620110	Abrigo
+
+Linhas Municipais:
+7
+17
+23
+37
+52
+54
+152
+153
+181
+194
+-46.335254;-23.944719;359;J06b;Av. Dr. Claudio Luiz da Costa	50	J06			Abrigo
+
+Linhas Intermunicipais:
+05 (907TRO H)
+21 (902TRO H)
+903TRO
+904TRO AH
+931TRO
+938TRO H
+939DV1
+939TRO
+926TRO – Intersul Peruíbe
+-46.376817;-23.947517;36;AS04;Av. Afonso Schimidth	s/n	AS04		2356851	4622609	Marco
+
+Linhas Municipais:
+139
+193
+-46.334767;-23.940667;360;J01;Av. Waldemar Leão	184				Abrigo
+
+Linhas Municipais:
+17
+23
+52
+54
+153
+181
+Linhas Intermunicipais:
+904TRO AH
+931TRO
+939TRO
+926TRO – Intersul Peruíbe
+-46.337468;-23.940957;361;J02;Rua Manoel Nascimento Júnior	61	J02		Abrigo
+
+Linhas Municipais:
+100
+181
+-46.337412;-23.940956;362;J03;Rua Manoel Nascimento Júnior	s/n	J03		Abrigo
+
+Linhas Municipais:
+118
+-46.376800;-23.941000;363;JC05;Rua Professor Mário G. C. Brito	31	JC05	2356460	4622608	Marco
+
+Linhas Municipais:
+102
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.375479;-23.941865;364;JC12;Rua Dr. Sebastião Lins Prado	46			2356507	4622533
+Linhas Municipais:
+152
+156
+-46.382355;-23.949679;365;JC02;Av. Haroldo de Camargo	12	JC02		2356978	4622943	Marco
+Linhas Municipais:
+139
+193
+-46.377605;-23.950411;366;JC13;Av. Haroldo de Camargo	s/n	JC13		2357017	4622705	Marco
+Linhas Municipais:
+139
+193
+-46.375457;-23.950624;367;JC11;Rua Cesar Augusto de Castro Rios  315	JC11 		Marco
+
+Linhas Municipais:
+139
+193
+-46.382017;-23.947750;368;JC03;Rua Flor Horácio Cyrillo 85 
+			Marco
+Linhas Municipais:
+139
+193
+-46.380400;-23.950000;369;JC01;Av. Haroldo de Camargo	300	JC01		 23° 57.000'S	 46° 22.824'O	Marco
+Linhas Municipais:
+139
+193
+-46.305413;-23.970460;37;ALM06;Rua Alexandre Martins	247	ALM06	2356234	4618306	Marco
+
+Linhas Municipais:
+54
+-46.377074;-23.945888;370;JC07;Rua Antônio José Rodrigues Guimarães	Concreto		2356740	4622641
+Linhas Municipais:
+139
+193
+-46.381783;-23.945767;371;JC10;Rua Arquiteto Romeu Esteves Martins Filho	175			2356746	4622907
+Linhas Municipais:
+139
+193
+-46.376483;-23.943450;372;JC09;Rua Aprovada	231			2356607	4622589  	Abrigo
+Linhas Municipais:
+152
+156
+-46.376510;-23.943898;373;JC06;Rua Aprovada	275			2356633	4622595 	Concreto
+Linhas Municipais:
+152
+156
+-46.380800;-23.929800;374;JSM05;Rua Professor Francisco Meira	60			2355788	4622848
+Linhas Municipais:
+101
+-46.378983;-23.928683;375;JSM04;Rua Ada Campanini da Silva	s/n			2355721	4622739	Abrigo
+Linhas Municipais:
+101
+-46.380150;-23.927500;376;JSM03;Rua Doutor Pedro de Castro Rocha	286			2355650	4622809
+Linhas Municipais:
+101
+-46.382500;-23.929317;377;JSM06;Rua Doutor Mário Graccho Pinheiro	244		2355759	4622950	Abrigo
+Linhas Municipais:
+101
+-46.381904;-23.927089;378;JSM01;Rua Doutor Mário Graccho Pinheiro	Praça Dr. Antonio Guilerme Gonçalves			2355626	4622883	Abrigo
+Linhas Municipais:
+101
+-46.385622;-23.926474;379;PR12;Rua Etelvina de Paula Freire	167	PR01			Marco
+
+Linhas Municipais:
+108
+-46.311517;-23.977267;38;ALM02;Rua Alexandre Martins	49	ALM02	2358636	4618691	Abrigo
+
+Linhas Municipais:
+139
+184
+-46.382050;-23.925900;380;BAN02;Av. dos Bandeirantes	s/n	BAN02		2355554	4622923	Placa
+
+Linhas Municipais:
+108
+-46.388100;-23.926633;381;PR03;Praça Elos Clube	21	PR03		2355598	4623286	Concreto
+
+Linhas Municipais:
+108
+-46.386900;-23.926683;382;PR02;Rua Etelvina de Paula Freire	s/n	PR02		2355601	4623214	Abrigo
+
+Linhas Municipais:
+108
+-46.385500;-23.926500;383;PR01;Rua Etelvina de Paula Freire	106	PR01		2355590	4623130	Abrigo
+
+Linhas Municipais:
+108
+-46.385267;-23.925567;384;PR08;Rua Marino Leite	11	PR08		2355534	4623116	Marco
+
+Linhas Municipais:
+108
+-46.385400;-23.925717;385;PR09;Rua Marino Leite	33			2355543	4623124	Abrigo
+
+Linhas Municipais:
+108
+-46.388033;-23.926817;386;PR04;Praça Elos Clube	s/n	PR04		2355609	4623282	Marco
+
+Linhas Municipais:
+108
+-46.388746;-23.926074;387;PR05;Rua dos Portugueses	49	PR05		2355567	4623327	Marco
+
+Linhas Municipais:
+108
+-46.387267;-23.925933;388;PR06;Rua Coronel José João Jorge	168	PR06		2355556	4623236	Marco
+
+Linhas Municipais:
+108
+-46.387055;-23.925345;389;PR10;Rua Capitão Luiz Antônio Pimenta	17	PR10		2355513	4623221	Marco
+
+Linhas Municipais:
+108
+-46.309750;-23.975450;39;ALM03;Rua Alexandre Martins	113lo	ALM03	2358527	4618585	Abrigo
+
+
+
+Linhas Municipais:
+139
+184
+-46.387333;-23.925158;390;PR07;Rua Edgar Ferraz Navarro	120			2355528	4623234	Abrigo
+
+Linhas Municipais:
+108
+-46.388679;-23.925366;391;PR11;Rua Edgar Ferraz Navarro	s/n			2355525	4623318	Marco
+
+Linhas Municipais:
+108
+-46.393575;-23.924352;392;BAN01;Av. dos Bandeirantes	Coca-Cola	BAN01		2355458	4623651	Abrigo
+
+Linhas Municipais:
+108
+-46.364117;-23.928517;393;BAN03;Av. dos Bandeirantes	s/n	BAN03		2355711	4621847	Placa
+-46.348433;-23.965889;394;JM01;Rua Barão de Penedo  46			2357962	4620908	Marco
+Linhas Municipais
+40
+53
+-46.352904;-23.967655;395;JM03;Rua Santa Catarina	202			2358077	4621171	Marco
+Linhas Municipais:
+7
+30
+40
+53
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.350467;-23.967550;396;JM04;Rua Newton Prado	4	JM04		2358053	4621028	Marco
+Linhas Municipais:
+30
+40
+53
+77
+-46.349117;-23.966267;397;JM05;Praça Washington	79			2357976	4620947	Marco
+Linhas Municipais:
+30
+40
+53
+77
+-46.351633;-23.965517;398;JM02;Praça Washington	38			2357931	4621098	Marco
+Linhas Municipais:
+7
+30
+40
+53
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.368800;-23.944317;399;JO14;Av. Jovino de Melo	80	JO14		2356659	4622128	Marco
+
+Linhas Municipais
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.308517;-23.974017;40;ALM04;Rua Alexandre Martins	172	ALM04	2358441	4618510	Abrigo
+
+Linhas Municipais:
+139
+184
+-46.374500;-23.940783;400;JO11;Av. Jovino de Melo	Horto Municipal			2356447	4622470	Abrigo
+
+
+Linhas Municipais
+152
+154
+155
+156
+191
+194
+-46.373483;-23.941167;401;JO03;Av. Jovino de Melo	s/n	JO03		2356470	4622409	Marco
+
+Linhas Municipais:
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.380483;-23.936767;402;JO07;Av. Jovino de Melo	1522			2356206	4622829	Marco
+
+Linhas Municipais:
+102
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.379167;-23.937867;403;JO08;Av. Jovino de Melo	1375	JO08		2356272	4622750	Marco
+
+Linhas Municipais:
+102
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.372367;-23.942067;404;JO12;Av. Jovino de Melo	519	JO12		2356524	4622342	Marco
+
+Linhas Municipais:
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.370333;-23.943383;405;JO13;Av. Jovino de Melo	283	JO13		2356603	4622220	Concreto
+
+Linhas Municipais
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.377667;-23.938817;406;JO09;Av. Jovino de Melo	1245	JO09		2356329	4622660	Marco
+
+Linhas Municipais:
+102
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.376200;-23.939717;407;JO10;Av. Jovino de Melo	995	JO10		2356383	4622572	Marco
+
+Linhas Municipais:
+191
+194
+-46.371369;-23.942471;408;JO02;Av. Jovino de Melo	390  JO02		2356553	4622285	Abrigo
+
+Linhas Municipais:
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.368821;-23.944022;409;JO01;Av. Jovino de Melo	90	JO01		235666	4622144	Marco
+
+Linhas Municipais:
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.307583;-23.973000;41;ALM05;Rua Alexandre Martins	201	ALM05	2358380	4618455	Abrigo
+
+Linhas Municipais:
+139
+-46.375333;-23.939983;410;JO04;Av. Jovino de Melo	5ºDP	JO04		2356399	4622520	Marco
+
+Linhas Municipais:
+191
+194
+-46.377265;-23.938796;411;JO05;Av. Jovino de Melo	1198	JO05		2356325	4622640	Marco
+
+Linhas Municipais:
+191
+194
+-46.378650;-23.937933;412;JO06;Av. Jovino de Melo	1292	JO06		2356276	4622719	Marco
+
+Linhas Municipais:
+102
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.316788;-23.937000;413;JP01;Av. João Pessoa 	541	JP01	2356216	4619016	Abrigo
+Linhas Municipais:
+42
+52
+61
+139
+158
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+06 (915TRO H)
+07 (908TRO AH)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+
+947TRO
+948DV1
+
+948TRO
+
+952TRO AH
+952TRO H
+-46.318200;-23.936738;414;JP02;Av. João Pessoa	484	JP02		2356198	4619093	Abrigo
+
+Linhas Municipais:
+52
+61
+139
+158
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+06 (915TRO H)
+07 (908TRO AH)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+
+947TRO
+
+948DV1
+948TRO
+
+952TRO AH
+952TRO H
+-46.319539;-23.936456;415;JP03;Av. João Pessoa	431	JP03		2356185	4619175	Abrigo
+
+Linhas Municipais:
+139
+158
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+07 (908TRO AH)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.320493;-23.936256;416;JP04;Av. João Pessoa	 LO 414	JP04		2356185	4619175	Abrigo
+
+Linhas Intermunicipais:
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+-46.319912;-23.936345;417;JP04;Av. João Pessoa	 LO 414	JP04		2356185	4619175	Abrigo
+
+Linhas Intermunicipais:
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+-46.320234;-23.936331;418;JP04;Av. João Pessoa	 LO 414	JP04		2356185	4619175	Abrigo
+
+Linhas Intermunicipais:
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+-46.322192;-23.935957;419;JP05;Av. João Pessoa	325	JP05		2356152	4619337	Abrigo
+
+Linhas Municipais:
+139
+154
+158
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.312900;-23.978850;42;ALM01;Rua Alexandre Martins	10	ALM01	2358731	4618774	Marco
+
+Linhas Municipais:
+5
+139
+184
+-46.323525;-23.935705;420;JP06;Av. João Pessoa	271	JP06		2356136	4619416	Abrigo
+
+Linhas Municipais:
+139
+154
+158
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.325258;-23.935322;421;JP07;Av. João Pessoa	205	JP07		2356117	4619513	Placa
+
+Linhas Municipais:
+152
+153
+155
+156
+191
+193
+Linhas Intermunicipais:
+03 (907TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+-46.325847;-23.935197;422;JP08;Av. João Pessoa Nº 185 JP08 Placa
+
+Linhas intermunicipais 
+São Vicente (Àrea continental)
+Praia Grande
+903TRO
+903VP1
+904AH
+931TRO
+932TRO
+933BI1
+933DV1
+933TRO
+939DV1
+939TRO
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.326366;-23.935122;423;JP09;Av. João Pessoa	157	JP09		2356104	4619583	Placa
+
+Linhas Municipais:
+158
+
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+-46.327816;-23.934728;424;JP10;Av. João Pessoa	97	JP10		2356084	4619675	Placa
+
+Linhas Municipais:
+139
+152
+153
+154
+155
+156
+191
+193
+194
+-46.329067;-23.934506;425;JP11;Av. João Pessoa	49	JP11		2356079	4619742	Placa
+
+Linhas Municipais:
+158
+Linhas intermunicipais:
+São Vicente (Àrea continental)
+Praia Grande
+903TRO
+903VP1
+904AH
+931TRO
+932TRO
+933BI1
+933DV1
+933TRO
+939DV1
+939TRO
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.329550;-23.934414;426;JP12;Av. João Pessoa nº 25 JP12 Placa
+
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+-46.329956;-23.934323;427;JP13;Av. João Pessoa	9	JP13		2356057	4619808	Placa
+
+Linhas Municipais:
+139
+152
+153
+154
+155
+156
+191
+193
+194
+-46.377465;-23.945604;428;LC03;Rua Professor Laurindo Chaves	43	LC03		2356735	4622647	Marco
+Linhas Municipais:
+13
+152
+153
+156
+80 Portuária
+-46.378816;-23.944699;429;LC02;Rua Professor Laurindo Chaves	202			2356681	4622724	Abrigo
+Linhas Municipais:
+13
+152
+153
+156
+80 Portuária
+-46.308830;-23.959607;43;AT08;Av. Almirante Tamandaré	80 LO	AT08			Abrigo
+
+Linhas Municipais:
+8
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.379467;-23.944150;430;LC01;Rua Professor Laurindo Chaves	299lo			2356649	4622768	Abrigo
+Linhas Municipais:
+13
+139
+152
+153
+156
+193
+-46.372234;-23.948844;431;FE01;Av. Eng. Manoel Ferramenta Junior	39	FE01		2356928	4622327	Abrigo
+Linhas Municipais:
+13
+139
+153
+193
+-46.373931;-23.947662;432;FE02;Av. Eng. Manoel Ferramenta Junior	19	FE02		2356865	4622439	Abrigo
+Linhas Municipais:
+13
+139
+153
+193
+-46.376725;-23.945813;433;FE03;Av. Eng. Manoel Ferramenta Junior	410	FE03		2356749	4622600	Marco
+Linhas Municipais:
+13
+139
+153
+193
+-46.376176;-23.946253;434;FE04;Av. Eng. Manoel Ferramenta Junior	548	FE04		2356777	4622574	Abrigo
+Linhas Municipais:
+13
+139
+153
+193
+80 Portuária
+-46.374149;-23.947649;435;FE05;Av. Eng. Manoel Ferramenta Junior	14lo	FE05				Abrigo
+Linhas Municipais:
+13
+139
+153
+193
+80 Portuária
+-46.372573;-23.948707;436;FE06;Av. Eng. Manoel Ferramenta Junior	88	FE06		2356922	4622352	Abrigo
+Linhas Municipais:
+13
+139
+153
+193
+80 Portuária
+-46.305900;-23.965113;437;MC14;Rua Bezerra de Menezes 112	MC14	Marco
+Linhas Municipais:
+61
+-46.317117;-23.953608;438;MC12;Rua Batista Pereira	127			2357219	4619027	Marco
+Linhas Municipais:
+8
+-46.317283;-23.955983;439;MC03;Rua Batista Pereira	s/n			2357359	4619037	Marco
+Linhas Municipais:
+8
+-46.308962;-23.959208;44;AT02;Av. Almirante Tamandaré	80	AT02			Marco
+
+Linhas Municipais:
+8
+80
+-46.315700;-23.954000;440;MC04;Rua 28 de Setembro	103			2357240	4618942	Marco
+Linhas Municipais:
+8
+-46.315600;-23.952517;441;MC05;Rua 28 de Setembro	59			2357151	4618936	Marco
+Linhas Municipais:
+8
+-46.317283;-23.952217;442;MC02;Rua João Guerra	167			2357133	4619037
+Linhas Municipais:
+8
+-46.304900;-23.967333;443;MC10;Rua Antonio Maia	138	MC10		2358040	4618294	Marco
+Linhas Municipais:
+61
+-46.305868;-23.965533;444;MC09;Rua Bezerra de Menezes	127	MC09		2357932	4618348	Concreto
+
+Linhas Municipais:
+61
+-46.305952;-23.963961;445;MC13;Rua José do Sacramento	30	MC13		2357840	4618349	Marco
+Linhas Municipais:
+61
+-46.306117;-23.963667;446;MC08;Rua José do Sacramento	s/n	MC08		2357820	4618367	Marco
+
+Linhas Municipais:
+61
+-46.307544;-23.961925;447;MC07;Rua José do Sacramento	s/n	MC07		2357713	4618450	Marco
+Linhas Municipais:
+61
+-46.307517;-23.961900;448;MC06;Rua José do Sacramento	4	MC06		2357714	4618451	Marco
+
+Linhas Municipais:
+61
+-46.350750;-23.956700;449;MP17;Rua Dr Moura Ribeiro	s/n	MP17		2357402	4621045	Marco
+
+Linhas Municipais:
+77
+181
+-46.309126;-23.957509;45;AT01;Av. Esmeraldo Tarquínio Silva	32	AT01			Abrigo
+
+Linhas Municipais:
+8
+80
+-46.345250;-23.951200;450;MP04;Rua Saturnino de Brito	28	MP04		2357072	4620715	Marco
+
+Linhas Municipais:
+07
+-46.345373;-23.952933;451;MP06;Rua Saturnino de Brito	78	MP06		2357176	4620720	Marco
+
+
+Linhas Municipais:
+07
+-46.351516;-23.953837;452;MP14;Av. Nilo Peçanha	1228	MP14	2357233	4621088	Abrigo
+
+Linhas Municipais:
+7
+13
+-46.351667;-23.955750;453;MP16;Av. Nilo Peçanha	1432	MP16	2357343	4621098	Marco
+
+Linhas Municipais:
+7
+13
+181
+-46.351317;-23.954200;454;MP15;Av. Nilo Peçanha	1267	MP15	2357252	4621079	Marco
+
+Linhas Municipais:
+77
+-46.346342;-23.953559;455;MP09;Rua Dr. Napoleão Laureano	55	MP09		2357221	4620781	Concreto
+
+
+Linhas Municipais:
+7
+13
+-46.348000;-23.953383;456;MP10;Rua Dr. Napoleão Laureano	96	MP10		2357206	4620818	Marco
+
+
+Linhas Municipais:
+7
+13
+-46.349783;-23.953167;457;MP12;Rua Dr. Napoleão Laureano	140	MP12		2357200	4620977	Concreto
+
+
+Linhas Municipais:
+7
+13
+-46.350215;-23.953180;458;MP13;Rua Dr. Napoleão Laureano	151	MP13		2357186	4621011	Concreto
+
+
+Linhas Municipais:
+77
+-46.348028;-23.953437;459;MP11;Rua Dr. Napoleão Laureano	113	MP11		2357202	4620878	Marco
+
+Linhas Municipais:
+77
+-46.309167;-23.957183;46;AT10;Av. Esmeraldo Tarquínio Silva	32 LO	AT10			Marco
+
+Linhas Municipais:
+8
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.346783;-23.953657;460;MP08;Rua Dr. Napoleão Laureano	89	MP08		2357213	4620804	Marco
+
+
+Linhas Municipais:
+77
+-46.344437;-23.950626;461;MP03;Rua Antônio Bento do Amorim	72 LO	MP03		2357039	4620666	Marco
+
+
+Linhas Municipais:
+07
+-46.344195;-23.950722;462;MP02;77	Rua Antônio Bento do Amorim	72 MP02		2357039	4620648  Marco
+
+Linhas Municipais:
+77
+-46.343006;-23.950910;463;MP01;Rua Antônio Bento do Amorim	41	MP01		2357051	4620579    Marco
+
+Linhas Municipais:
+77
+-46.345433;-23.952750;464;MP25;Rua Nove de Julho	39	MP25		2357165	4620726	Marco
+
+Linhas Municipais:
+77
+-46.349583;-23.963717;465;MP24;Rua Dr Guilherme Álvaro	45	MP24		2357823	4620975	Marco
+
+Linhas Municipais: 
+77
+-46.349135;-23.961933;466;MP23;Rua Godofredo Fraga	8	MP23		2357716	4620948	Marco
+
+Linhas Municipais:
+77
+-46.347149;-23.961472;467;MP22;Rua João Caetano	131	MP22		2357688	4620827	Marco
+
+Linhas Municipais:
+77
+118
+-46.346001;-23.961602;468;MP21;Rua João Caetano	107	MP21		2357694	4620759
+
+Linhas Municipais:
+77
+118
+-46.348367;-23.958200;469;MP18;Rua Carlos Gomes	300	MP18		2357492	4620902   Marco   
+
+Linhas Municipais:
+77
+181
+-46.309300;-23.962450;47;AT09;Av. Almirante Tamandaré	172	AT09			Marco
+
+Linhas Municipais:
+8
+-46.346292;-23.958408;470;MP19;Rua Carlos Gomes	256	MP19		2357510	4620742	Marco
+
+Linhas Municipais:
+77
+181
+-46.347200;-23.958683;471;MP20;Rua Alfredo Albertini	224	MP20		2357521	4620832	Marco
+
+Linhas Municipais:
+118
+-46.345144;-23.953756;472;MP07;Rua Dr. Napoleão Laureano	29LO	MP07			Abrigo
+
+
+Linhas Municipais:
+13
+-46.366606;-23.940637;473;PA04;Rua Maria Patricia	147			2356438	4622993	Quadrado
+
+
+Linhas Municipais
+102
+152
+156
+-46.368119;-23.939679;474;PA03;Rua Maria Patricia	325			2356377	4622083	Quadrado
+
+
+Linhas Municipais
+102
+152
+156
+-46.368783;-23.939150;475;PA05;Rua Maria Patricia	420			2356349	4622127	Marco
+
+Linhas Municipais
+102
+152
+156
+-46.369133;-23.938983;476;PA02;Rua Maria Patricia	471			2356339	4622148	Marco
+
+Linhas Municipais
+102
+152
+156
+-46.369717;-23.938483;477;PA06;Rua Maria Patricia	536			2356309	4622183	Marco
+
+Linhas Municipais
+102
+152
+156
+-46.370220;-23.938260;478;PA01;Rua Maria Patricia	583			2356301	4622208	Marco
+
+Linhas Municipais
+102
+152
+156
+-46.371250;-23.937467;479;PA07;Rua Maria Patricia	718			2356248	622275	Quadrado
+
+Linhas Municipais
+102
+152
+156
+-46.309517;-23.964933;48;AT05;Av. Almirante Tamandaré	256	AT05			Marco
+
+Linhas Municipais:
+8
+-46.351617;-23.930617;480;MF08;Av. Martins Fontes	1277	MF08		2355837	4621097	Abrigo
+Linhas Municipais:
+61
+101
+108
+139
+152
+153
+154
+155
+156
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.349150;-23.930967;481;MF05;Av. Martins Fontes	1075			2355858	4620949	Abrigo
+Linhas Municipais:
+61
+101
+108
+139
+152
+153
+154
+155
+156
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.353650;-23.930333;482;MF04;Av. Martins Fontes	1557			2355820	4621219 	Abrigo
+Linhas Municipais:
+61
+101
+108
+139
+152
+153
+154
+155
+156
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.353783;-23.930033;483;MF03;Av. Martins Fontes	1547			2355802	4621227	Concreto
+Linhas Municipais:
+101
+139
+152
+153
+154
+155
+156
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.346800;-23.930600;484;MF06;Av. Martins Fontes	Cemitério Saboó			2355836	4620808 Abrigo
+Linhas Municipais:
+61
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.346583;-23.930100;485;MF02;Av. Martins Fontes	Cemitério Saboó			2355806	4620795 Abrigo
+
+Linhas Municipais:
+101
+108
+139
+152
+153
+154
+155
+156
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.341050;-23.929750;486;MF01;Av. Martins Fontes	197			2355785	4620463 Abrigo
+
+Linhas Municipais:
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.341183;-23.929900;487;MF07;Av. Martins Fontes	197			2355794	4620471 Abrigo
+
+Linhas Municipais:
+61
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.351310;-23.941891;488;NC10;Av. Brasil	96lo	NC10		2356527	4621084	Marco
+
+Linhas Municipais:
+118
+-46.351328;-23.941993;489;NC30;Av. Brasil	96	NC30		2356519	4621106	Abrigo
+
+Linhas Municipais:
+100
+181
+-46.309333;-23.963583;49;AT06;Av. Almirante Tamandaré	215	AT06			Marco
+
+Linhas Municipais:
+8
+-46.353273;-23.942645;490;NC22;Rua 01 nº 201lo	NC22		2356539	4621185	Abrigo
+
+Linhas Municipais:
+118
+-46.353172;-23.942551;491;NC09;Rua Hum	s/n	NC09		2356545	4621179	Marco
+
+Linhas Municipais:
+100
+181
+-46.359152;-23.944279;492;NC32;Alameda Prefeito José Gomes	s/n	NC32		Marco
+
+Linhas Municipais:
+13
+-46.358850;-23.944183;493;NC27;Alameda Prefeito José Gomes	s/n	NC27		2356651	4621531	Marco
+
+Linhas Municipais:
+13
+61
+-46.352983;-23.946550;494;NC13;Av. Prefeito Antônio M. Carvalho	s/n	NC13		2356793	4621179	Marco
+
+Linhas Municipais:
+13
+118
+-46.355409;-23.947876;495;NC14;Av. Prefeito Antônio M. Carvalho	4121	NC14		2356875	4621323	Concreto
+
+Linhas Municipais:
+13
+118
+-46.354883;-23.949917;496;NC15;Av. Prefeito Antônio M. Carvalho	780
+	NC15		2356995	4621293	Marco
+
+Linhas Municipais:
+13
+118
+-46.353717;-23.950883;497;NC16;Av. Prefeito Antônio M. Carvalho	s/n	NC16		2357053	4621223	Marco
+
+Linhas Municipais:
+13
+118
+-46.353730;-23.954344;498;NC17;Av. Prefeito Antônio M. Carvalho	s/n	NC17		2357261	4621218	Abrigo
+
+Linhas Municipais:
+13
+118
+-46.353755;-23.955224;499;NC23;Av. Prefeito Antônio M. Carvalho	135lo   NC23		2357311	4621222	Abrigo
+
+Linhas Municipais:
+13
+118
+-46.309133;-23.961300;50;AT07;Av. Almirante Tamandaré	135	AT07			Marco
+
+Linhas Municipais:
+8
+-46.353650;-23.954833;500;NC24;Av. Prefeito Antônio M. Carvalho	121	NC24		2357290	4621219	Abrigo
+
+Linhas Municipais:
+13
+181
+-46.353817;-23.953677;501;NC18;Av. Prefeito Antônio M. Carvalho	100	NC18		2357219	4621227	Marco
+
+Linhas Municipais:
+13
+181
+-46.353617;-23.950883;502;NC19;Av. Prefeito Antônio M. Carvalho	1244	NC19		2357053	4621217	Concreto
+
+Linhas Municipais:
+13
+181
+-46.355300;-23.948367;503;NC20;Av. Prefeito Antônio M. Carvalho	Lagoa da Saudade	NC20	2356902	4621318	Placa
+
+Linhas Municipais:
+13
+181
+-46.352983;-23.946600;504;NC21;Av. Prefeito Antônio M. Carvalho	s/n	NC21		2356796	4621179	Marco
+
+Linhas Municipais:
+13
+181
+-46.343223;-23.941419;505;NC26;Av. Guilherme Russo	117	NC26		2356486	4620589	Marco
+
+Linhas Municipais:
+61
+100
+-46.346705;-23.942870;506;NC01;Av. Santista	1308	NC01		2356577	4620801	Concreto
+
+Linhas Municipais:
+13
+61
+100
+118
+181
+-46.349746;-23.943673;507;NC02;Av. Santista	404al	NC02		2356631	4620985	Concreto
+
+Linhas Municipais:
+13
+61
+100
+118
+181
+-46.351967;-23.944267;508;NC03;Av. Santista	635	NC03		2356656	4621118	Concreto
+
+Linhas Municipais:
+13
+61
+100
+118
+181
+-46.351756;-23.944309;509;NC12;Av. Santista	623	NC12		2356656	4621106	Marco
+
+Linhas Municipais:
+13
+181
+-46.329019;-23.935726;51;AB01;Rua Amador Bueno	96	AB01	Placa
+
+Linhas Municipais:
+04
+20
+29
+118
+-46.357093;-23.946580;510;NC31;Av. Santista	2567	NC31				Abrigo
+
+
+Linhas Municipais:
+181
+118
+-46.354778;-23.945551;511;NC34;Av. Santista	1716LO	NC34				Marco
+
+
+Linhas Municipais:
+181
+118
+-46.352632;-23.945101;512;NC11;Praça Guadalajara	140		2356711	4621151	Marco
+
+Linhas Municipais:
+13
+118
+-46.352155;-23.944711;513;NC29;Praça Guadalajara	s/n	NC29	2356094	4621132	Marco
+
+Linhas Municipais:
+13
+181
+-46.356867;-23.945817;514;NC33;Rua Torquato Dias	77	NC33		2356749	4621412	Abrigo
+
+Linhas Municipais:
+13
+181
+118
+-46.355351;-23.944708;515;NC07;Rua Torquato Dias	30	NC07		2356680	4621323	Abrigo
+
+Linhas Municipais:
+13
+181
+118
+-46.353550;-23.943883;516;NC08;Rua Torquato Dias	295	NC08		2356633	4621213	Abrigo
+
+
+Linhas Municipais:
+13
+181
+118
+-46.353800;-23.943950;517;NC04;Rua Torquato Dias	350	NC04	2356637	4621228	Abrigo
+
+Linhas Municipais:
+13
+61
+-46.355564;-23.944687;518;NC05;Rua Torquato Dias	Colégio Alzira Martins Lichtt	NC05		2356687	4621347	Concreto
+
+Linhas Municipais:
+13
+61
+-46.356867;-23.945367;519;NC25;Rua Torquato Dias	990	NC25		2356722	4621412	Abrigo
+
+Linhas Municipais:
+13
+61
+-46.324833;-23.936567;52;AB02;Rua Amador Bueno	Praça José Bonifácio	AB02			Abrigo
+
+Linhas Municipais:
+29
+-46.357531;-23.946146;520;NC06;Rua Torquato Dias	s/n	NC06		2356768	4621464	Abrigo
+
+Linhas Municipais:
+13
+61
+-46.349060;-23.943609;521;NC35;Av. Santista	365	NC35	Marco
+
+Linhas Municipais:
+13
+118
+181
+-46.339339;-23.939150;522;SB10;Rua São Cristovão	s/n	SB10		2356358	4620364	Marco
+
+Linhas Municipais:
+118
+-46.337240;-23.938071;523;SB11;Rua Assunção de Nossa Senhora	s/n	SB11		2356284	4620233	Concreto
+
+Linhas Municipais:
+118
+-46.339111;-23.937582;524;SB12;Rua Santo Antônio do Valongo	777	SB12		2356253	4620347	Marco
+
+Linhas Municipais:
+118
+-46.340279;-23.937174;525;SB06;Rua Santo Antônio do Valongo	662	SB06		2356231	4620418	Marco
+
+Linhas Municipais:
+100
+181
+-46.341761;-23.937123;526;SB13;Rua Santo Antônio do Valongo	379	SB13		2356230	4620505	Concreto
+
+Linhas Municipais:
+118
+-46.342192;-23.937280;527;SB14;Rua Santo Antônio do Valongo	s/n	SB14		2356239	4620534	Marco
+
+Linhas Municipais:
+118
+-46.342862;-23.937776;528;SB16;Rua Santo Antônio do Valongo	1872	SB16		2356269	4620572	Marco
+
+Linhas Municipais:
+118
+-46.344265;-23.938777;529;SB15;Rua São Roque	s/n	SB15		2356347	4620666	Marco
+
+Linhas Municipais:
+118
+-46.322950;-23.936917;53;AB03;Rua Amador Bueno	294	AB03	Marco
+
+Linhas Municipais:
+29
+-46.344220;-23.938801;530;SB01;Rua São Roque	512	SB01		2356326	4620655	Quadrado
+
+Linhas Municipais:
+100
+181
+-46.342971;-23.937816;531;SB02;Rua Santo Antônio do Valongo	s/n	SB02		2356263	4620578	Marco
+
+Linhas Municipais:
+100
+181
+-46.342305;-23.937438;532;SB04;Rua Santo Antônio do Valongo	546	SB04		2356242	4620535	Marco
+
+Linhas Municipais:
+100
+181
+-46.341556;-23.937075;533;SB05;Rua Santo Antônio do Valongo	1887	SB05		2356224	4620490	Marco
+
+Linhas Municipais:
+100
+181
+-46.340261;-23.937158;534;SB17;Rua Santo Antônio do Valongo	2307	SB17		2356239	4620406	Marco
+
+Linhas Municipais:
+118
+-46.339047;-23.937605;535;SB18;Rua Santo Antônio do Valongo	387	SB18		2356262	4620341	Marco
+
+Linhas Municipais:
+100
+181
+-46.337286;-23.938003;536;SB07;Rua Assunção de Nossa Senhora	1519	SB07		2356289	4620216	Abrigo
+
+Linhas Municipais:
+100
+181
+-46.338695;-23.939318;537;SB19;Rua São Cristovão	s/n	SB19				S/ Ponto
+
+Linhas Municipais:
+100
+181
+-46.338561;-23.939327;538;SB20;Rua São Cristovão	s/n	SB20				S/ Ponto
+
+Linhas Municipais:
+118
+-46.339358;-23.939144;539;SB09;Rua São Cristovão	320	SB09		2356359	4620357	Marco
+
+Linhas Municipais:
+100
+181
+-46.321050;-23.937367;54;AB04;Rua Amador Bueno	364	AB04 	Marco
+
+Linhas Municipais:
+29
+-46.305950;-23.961567;540;PT01;Av. Mario Covas Jr.	Citrosuco	PT01	2357694	4618357	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.300533;-23.968183;541;PT03;Av. Mario Covas Jr.	1040	PT03	2358091	4618032	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.296800;-23.972683;542;PT04;Av. Mario Covas Jr.	1400	PT04	2358361	4617808	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.294067;-23.978733;543;PT06;Av. Mario Covas Jr.	Marinha	PT06	2358724	4617644	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.302935;-23.965297;544;PT02;Av. Mario Covas Jr.	648	PT02	2357947	4618152	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.294317;-23.981733;545;PT08;Av. Mario Covas Jr.	s/n	PT08	2358902	4617649	Abrigo
+
+Linhas Municipais:
+25
+100
+158
+191
+Linhas Intermunicipais:
+906TRO
+917TRO
+919TRO
+927TRO
+940TRO
+942TRO
+943TRO
+943BI1
+952TRO AH
+952TRO H
+-46.295068;-23.984798;546;PT07;Av. Mario Covas Jr.	s/n	PT07	2359057	4617693	Abrigo
+
+Linhas Municipais:
+25
+100
+158
+191
+Linhas Intermunicipais:
+906TRO
+917TRO
+919TRO
+927TRO
+940TRO
+942TRO
+943TRO
+943BI1
+952TRO AH
+952TRO H
+-46.299317;-23.969617;547;PT09;Av. Mario Covas Jr.	s/n	PT09	2358177	4617959	Quadrao
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.295200;-23.974717;548;PT05;Av. Mario Covas Jr.	s/n	PT05	2358483	4617712	Marco
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.356305;-23.931363;549;FA22;Av. Nossa Senhora de Fátima	67     FA22	2355880	4621376	Marco
+
+Linhas Municipais:
+61
+101
+139
+152
+153
+154
+155
+156
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.318750;-23.937833;55;AB05;Rua Amador Bueno	460	AB05 	Marco
+
+Linhas Municipais:
+29
+-46.356543;-23.931374;550;FA01;Av. Nossa Senhora de Fátima	54	2355879	4621389	Abrigo
+
+Linhas Municipais:
+101
+139
+152
+153
+154
+155
+156
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+919TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.357377;-23.932614;551;FA21;Av. Nossa Senhora de Fátima	105     FA21	2356957	4621441	Abrigo
+
+Linhas Municipais:
+61
+101
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+912BI1
+912TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.358366;-23.933056;552;FA02;Av. Nossa Senhora de Fátima       16      FA02	2355986	4621504	Abrigo
+
+Linhas Municipais:
+101
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+Linhas Intermunicipais:
+C 01
+C 03
+C 04
+C 07
+C 10
+C 24
+105
+947
+948
+948EX
+912
+919
+04EX
+901BI
+938BI
+-46.361046;-23.934501;553;FA03;Av. Nossa Senhora de Fátima     254    FA03	2356072	4621666	Abrigo
+
+Linhas Municipais:
+101
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+919TRO
+938TRO AH ida
+938TRO AH volta
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.361164;-23.934756;554;FA20;Av. Nossa Senhora de Fátima	271    FA20	2356084	4621667	Abrigo
+
+Linhas Municipais:
+61
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.362869;-23.936365;555;FA04;Av. Nossa Senhora de Fátima     Sesi - 366     FA04    42356183	4621773	Abrigo
+Linhas Municipais:
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.362804;-23.936830;556;FA19;Av. Nossa Senhora de Fátima	Sesi - 353LO     FA19	2356212	4621775	Abrigo
+
+Linhas Municipais:
+61
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.364473;-23.939850;557;FA05;Av. Nossa Senhora de Fátima	460    FA05	2356388	4621868	Abrigo
+
+Linhas Municipais:
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.364597;-23.940495;558;FA18;Av. Nossa Senhora de Fátima	495      FA18	2356426	4621877	Abrigo
+
+Linhas Municipais:
+61
+102
+139
+152
+153
+154
+155
+156
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.365802;-23.941984;559;FA17;Av. Nossa Senhora de Fátima	551   FA17	2356524	4621956	Abrigo
+
+Linhas Municipais:
+61
+139
+153
+154
+155
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.316700;-23.938267;56;AB06;Rua Amador Bueno	Moinho Paulista	AB06	Marco
+ 
+
+Linhas Municipais:
+25
+29
+61
+100
+158
+191
+193
+
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952H
+-46.366160;-23.942148;560;FA06;Av. Nossa Senhora de Fátima	554       FA06	2356529	4621970	Abrigo
+
+Linhas Municipais:
+102
+139
+153
+154
+155
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.367071;-23.943311;561;FA07;Av. Nossa Senhora de Fátima	592          FA07	   2356598	4622026	Marco
+
+Linhas Municipais:
+139
+153
+154
+155
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.367209;-23.943737;562;FA16;Av. Nossa Senhora de Fátima	625    FA16	2356617	4622027	Abrigo
+
+Linhas Municipais:
+61
+139
+153
+154
+155
+184
+191
+193
+194
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.369071;-23.945810;563;FA08;Av. Nossa Senhora de Fátima	826      FA08	2356753	4622148	Marco
+
+Linhas Municipais:
+139
+153
+154
+155
+184
+193
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.369066;-23.946007;564;FA15;Av. Nossa Senhora de Fátima	735      FA15	2356748	4622132	Abrigo
+
+Linhas Municipais:
+61
+139
+153
+193
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.370468;-23.947506;565;FA09;Av. Nossa Senhora de Fátima	Cemitério Areia Branca    FA09	 2356850   462222       Abrigo
+
+Linhas Municipais:
+139
+153
+193
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.370822;-23.947541;566;FA10;Av. Nossa Senhora de Fátima	s/n      FA10	2356859	4622251	Marco
+
+Linhas Municipais:
+184
+-46.371187;-23.948655;567;FA14;Av. Nossa Senhora de Fátima	895     FA14	2356921	4622272	Abrigo
+
+Linhas Municipais:
+13
+139
+153
+193
+80 Portuária
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.372045;-23.949466;568;FA11;Av. Nossa Senhora de Fátima	 FA11	        Abrigo
+
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.372200;-23.949917;569;FA13;Av. Nossa Senhora de Fátima	297	FA13		 23° 56.995'S	 46° 22.332'O	Abrigo
+
+Linhas Minicipais:
+13
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+912BI1
+912TRO
+938TRO H
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.330106;-23.943639;57;AC01;Av. Dona Ana Costa	Praça Belmiro Ribeiro	AC01		2356627	4619805	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.373084;-23.950753;570;FA12;Av. Nossa Senhora de Fátima	987     FA12	2357046	4622387	Abrigo
+
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+912BI1
+912TRO
+938TRO AH
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.373918;-23.952351;571;São Vicente;2009/11/13 11:8:7 <br />
+-46.353597;-23.968370;572;OR48a;Av. Presidente Wilson	200	OR48a		2358103	4621240	ABrigo + Placa
+
+Linhas Municipais:
+7
+25
+30
+37
+40
+52
+53
+73
+153
+19 Noturno
+23 Noturno
+-46.355376;-23.968571;573;OR 48b;Av. Presidente Wilson 246 Placa OR48b
+
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO AH
+904TRO H
+927TRO
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+940TRO
+941TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+926TRO – Intersul Peruíbe
+-46.355501;-23.968765;574;OR01;Av. Presidente Wilson	José Menino / Divisa	OR01		2358128	4621316	Abrigo
+
+Linhas Municipais:
+25
+52
+-46.353087;-23.968559;575;OR02;Av. Presidente Wilson	2015	OR02		2358116	4621194	Abrigo
+
+Linhas Municipais:
+7
+25
+30
+37
+40
+52
+53
+73
+153
+19 Noturno
+23 Noturno
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+903VP1
+904TRO AH
+904TRO H
+927TRO
+931TRO
+934EX1
+934TRO
+938TRO AH
+939DV1
+939TRO
+940TRO
+941TRO
+942TRO
+942VP1
+943TRO
+943BI1
+944TRO
+952TRO AH
+926TRO – Intersul Peruíbe
+-46.349595;-23.968227;576;OR03;Av. Presidente Wilson	163 LO	OR03		2358093	4620982	Abrigo
+
+Linhas Minicipais:
+7
+23
+25
+37
+52
+73
+152
+153
+19 Noturno
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+903VP1
+904TRO AH
+904TRO H
+927TRO
+931TRO
+934EX1
+934TRO
+938TRO AH
+939DV1
+939TRO
+940TRO
+941TRO
+942TRO
+942VP1
+943TRO
+943BI1
+944TRO
+952TRO AH
+926TRO – Intersul Peruíbe
+-46.347411;-23.967934;577;OR04;Av. Presidente Wilson	143 LO	OR04		2358074	4620846	Abrigo
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+153
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903VP1
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO AH
+939DV1
+939TRO
+941TRO
+942TRO
+942VP1
+943TRO
+943BI1
+944TRO
+952TRO AH
+-46.344755;-23.968077;578;OR05;Av. Presidente Wilson	114 LO	OR05		23588082	4620687	Abrigo
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+153
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+904AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO AH
+939DV1
+939TRO
+942TRO
+942VP1
+943TRO
+943BI1
+944TRO
+952TRO AH
+-46.341214;-23.968153;579;OR06;Av. Presidente Wilson	78 LO	OR06		2358038	4620486	Abrigo
+
+Linhas Municipais:
+7
+23
+37
+52
+152
+153
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO AH
+939DV1
+939TRO
+942TRO
+942VP1
+943TRO
+943BI1
+944TRO
+952TRO AH
+-46.329990;-23.944570;58;AC19;Av. Dona Ana Costa	31	AC19		2356664	4619804	Abrigo
+
+Linhas Municipais:
+20
+
+Linhas Intermunicipais:
+904AH
+-46.336027;-23.969027;580;OR07;Av. Presidente Wilson	33 LO	OR07		2358139	4620161	Abrigo
+
+Linhas Municipais:
+7
+17
+23
+37
+52
+152
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+901BI H
+904TRO AH
+934EX1
+934TRO
+942TRO
+942VP1
+943TRO
+943BI1
+952TRO AH
+-46.332183;-23.969924;581;OR08;Av. Vicente de Carvalho	92 LO	OR08		2358191	4619929	Abrigo
+
+Linhas Municipais:
+5
+7
+17
+23
+42
+52
+139
+152
+154
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+934EX1
+934TRO
+942TRO
+942VP1
+943TRO
+943BI1
+952TRO AH
+-46.329917;-23.970570;582;OR09;Av. Vicente de Carvalho	57 LO	OR09		2358234	4619789	Abrigo
+
+Linhas Municipais:
+5
+7
+17
+23
+42
+52
+139
+152
+154
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+934EX1
+934TRO
+942TRO
+942VP1
+943TRO
+943BI1
+952TRO AH
+-46.326464;-23.971768;583;OR10;Av. Vicente de Carvalho	24 LO	OR10		2358308	4619584	Abrigo
+
+Linhas Municipais:
+5
+7
+17
+23
+42
+52
+139
+152
+154
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+934EX1
+942TRO
+942VP1
+943TRO
+943BI1
+952TRO AH
+-46.322566;-23.973476;584;OR11;Av. Bartolomeu de Gusmão	15 LO	OR11		2358408	4619359	Abrigo
+
+Linhas Municipais:
+5
+17
+23
+42
+52
+139
+152
+184
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+952TRO AH
+-46.319595;-23.975363;585;OR12;Av. Bartolomeu de Gusmão	39 LO	OR12		2358518	4619175	Abrigo
+
+Linhas Municipais:
+5
+23
+42
+52
+139
+152
+184
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.317974;-23.976221;586;OR13;Av. Bartolomeu de Gusmão	53 LO	OR13		2358575	4619078	Abrigo
+
+Linhas Municipais:
+5
+23
+42
+52
+139
+152
+184
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.315093;-23.978449;587;OR14;Av. Bartolomeu de Gusmão	74 LO	OR14		2358706	4618902	Abrigo
+
+Linhas Minicipais:
+5
+23
+42
+52
+139
+152
+184
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.313082;-23.980127;588;OR15;Av. Bartolomeu de Gusmão	97 LO	OR15		2358805	4618785	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.311458;-23.981761;589;OR16;Av. Bartolomeu de Gusmão	 111 LO	OR16		2358916	4618681	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.330409;-23.946467;59;AC02;Av. Dona Ana Costa	64	AC02		2356787	4619827	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.309767;-23.983446;590;OR17;Av. Bartolomeu de Gusmão	130 LO	OR17		l	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.308481;-23.987268;591;OR 18;Av. Samuel Augusto Leão de Moura	OR18		2359231	4618513	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.305776;-23.991031;592;OR 19;Av. Almirante Saldanha da Gama  05lo	OR19		2359460	4618348	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.303209;-23.991514;593;OR 20;Av. Almirante Saldanha da Gama	63  LO	OR20		2359489	4618190	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.300263;-23.990432;594;OR 21;Av. Almirante Saldanha da Gama	96 LO	OR21		2359425	4618011	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.297835;-23.989140;595;OR22;Av. Almirante Saldanha da Gama	 141 LO	OR22		2359347	4617869	Abrigo
+
+Linhas Municipais:
+23
+42
+52
+152
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+942TRO
+942VP1
+943TRO
+943BI1
+-46.296201;-23.987974;596;OR23;Av. Saldanha da Gama		163	OR23		Abrigo
+
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.297984;-23.989046;597;OR24;Av. Almirante Saldanha da Gama	145	OR24		2359344	4617881	Abrigo
+
+Linhas Municipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.300910;-23.990600;598;OR 25;Av. Almirante Saldanha da Gama	89	OR25		2359436	4618056	Abrigo
+
+Lilnhas Municipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.303241;-23.991325;599;OR 26;Av. Almirante Saldanha da Gama	63	OR26		2359479	4618217	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.320908;-23.958412;6;AF01;Av. Afonso Pena	44   AF01       2357505	4619249	Abrigo
+
+Linhas Municipais:
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.330325;-23.947465;60;AC18;Av. Dona Ana Costa	89	AC18		2356847	4619815	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.305990;-23.990724;600;OR 27;Av. Almirante Saldanha da Gama	05	OR27		2359443	4618357	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.307743;-23.988284;601;OR 28;Av. Bartolomeu de Gusmão	174	OR28		2359289	4618462	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.307809;-23.986543;602;OR 29;Av. Bartolomeu de Gusmão	155	OR29		2359199	4618465	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.308513;-23.984866;603;OR 30;Av. Bartolomeu de Gusmão	138	OR30		2359195	4618470	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+927TRO
+940TRO
+942TRO
+943BI1
+943TRO
+-46.309752;-23.983208;604;OR31;Av. Bartolomeu de Gusmão	127	OR31		2358922	4618666	Abrigo
+
+Linhas Municipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+942TRO
+943BI1
+943TRO
+-46.311314;-23.981652;605;OR32;Av. Bartolomeu de Gusmão	111	OR32		2358905	4618595	Abrigo
+
+Linhas Municipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+942TRO
+943BI1
+943TRO
+-46.313358;-23.979626;606;OR33;Av. Bartolomeu de Gusmão	93	OR33		2358778	4618802	Abrigo
+
+Linhas Minicipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+942TRO
+943BI1
+943TRO
+-46.315317;-23.978058;607;OR34;Av. Bartolomeu de Gusmão	74	OR34		2358685	4618914	Abrigo
+
+Linhas Municipais:
+4
+19
+25
+29
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+942TRO
+943BI1
+943TRO
+-46.318205;-23.975917;608;OR35;Av. Bartolomeu de Gusmão	49	OR35		2358550	4619091	Abrigo
+
+Linhas Municipais:
+4
+5
+19
+25
+29
+54
+156
+184
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+942TRO
+943BI1
+943TRO
+-46.320652;-23.974408;609;OR36;Av. Bartolomeu de Gusmão	33	OR36		2358464	4619235	Abrigo
+
+Linhas Municipais:
+4
+5
+17
+19
+25
+29
+54
+156
+184
+191
+193
+Linhas Intermunicipais:
+04 (915TRO AH)
+08 (908TRO H)
+942TRO
+943TRO
+943BI1
+952TRO AH
+-46.330740;-23.949038;61;AC03;Av. Dona Ana Costa	134	AC03		2356950	4619844	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.322300;-23.973472;610;OR 37;Av. Bartolomeu de Gusmão	15	OR37		2358408	4619341	Marco
+
+Linhas Municipais:
+4
+5
+10
+19
+25
+29
+54
+156
+184
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+942TRO
+943TRO
+943BI1
+952TRO H
+-46.325857;-23.971843;611;OR38;Av. Vicente de Carvalho	19	OR38		2358323	4619492	Abrigo
+
+Linhas Municipais:
+5
+10
+13
+19
+25
+29
+54
+77
+155
+156
+191
+193
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+934EX1
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.328670;-23.970775;612;OR39;Av. Vicente de Carvalho	46	OR39		2358248	4619708	Abrigo
+
+Linhas Municipais:
+5
+10
+13
+19
+25
+29
+54
+77
+155
+156
+191
+193
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+934EX1
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.332056;-23.969765;613;OR40;Av. Vicente de Carvalho	92	OR40		2358194	4619934	Abrigo
+ 
+Linhas Municipais:
+5
+10
+13
+19
+25
+29
+54
+77
+155
+156
+191
+193
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+934EX1
+934TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.336223;-23.968658;614;OR41;Av. Presidente Wilson	36	OR41		2358121	4620179	Abrigo
+
+Linhas Municipais:
+10
+13
+19
+25
+54
+73
+77
+156
+191
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+901BI1 AH
+904TRO H
+934EX1
+934TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.337989;-23.968335;615;OR42;Av. Presidente Wilson	52	OR42		2358071	4620385	Abrigo
+
+Linhas Municipais:
+10
+13
+19
+25
+54
+73
+77
+156
+191
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+901BI1 AH
+904TRO H
+934EX1
+934TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.340261;-23.968057;616;OR43;Av. Presidente Wilson	72	OR43		2358087	4620423	Marco
+
+Linhas Municipais:
+19
+25
+73
+77
+153
+156
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.344145;-23.967824;617;OR44;Av. Presidente Wilson	108	OR44		2358080	4620646	Marco
+
+Linhas Municipais:
+19
+25
+73
+77
+153
+156
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+-46.347669;-23.967675;618;OR45;Av. Presidente Wilson	143	OR45		2358057	4620864	Abrigo
+
+Linhas Municipais:
+23
+25
+37
+52
+73
+77
+152
+153
+19 Noturno
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+941TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+926TRO – Intersul Peruíbe
+-46.349071;-23.967818;619;OR46;Av. Presidente Wilson	156	OR46		2358066	4620953	Abrigo
+
+Linhas Municipais:
+
+25
+37
+52
+73
+77
+153
+19 Noturno
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+941TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+926TRO – Intersul Peruíbe
+-46.330711;-23.950310;62;AC17;Av. Dona Ana Costa	151	AC17		2357010	4619838	Marco Metálico
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.351171;-23.968092;620;OR47;Av. Presidente Wilson	176
+OR47		2358089	4621111	Marco
+
+Linhas Municipais:
+25
+37
+52
+73
+153
+19 Noturno
+23 Noturno
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO AH
+904TRO H
+931TRO
+934EX1
+934TRO
+938TRO H
+939DV1
+939TRO
+941TRO
+942TRO
+943TRO
+943BI1
+944TRO
+952TRO H
+926TRO – Intersul Peruíbe
+-46.315183;-23.973188;623;OW05;Rua Oswaldo Cochrane	114	OW05	2358390	4618915	Marco
+
+Linhas Municipais:
+8
+-46.313514;-23.971192;624;OW06;Rua Oswaldo Cochrane	188	OW06	2358268	4618817	Marco
+
+Linhas Municipais:
+8
+-46.311574;-23.968776;625;OW07;Rua Oswaldo Cochrane	268	OW07	2358123	4618895	Marco
+
+Linhas Municipais:
+8
+-46.309967;-23.966667;626;OW08;Rua Oswaldo Cochrane	336	OW08	2358000	4618598	Marco
+
+Linhas Municipais:
+8
+-46.310624;-23.967324;627;OW01;Rua Oswaldo Cochrane	317	OW01	2358054	4618643	Marco
+
+Linhas Municipais:
+8
+-46.311888;-23.968892;628;OW02;Rua Oswaldo Cochrane	269	OW02	2358137	4618716	Marco
+
+Linhas Municipais:
+8
+-46.313683;-23.971167;629;OW03;Rua Oswaldo Cochrane	193	OW03	2358270	4618821	Marco
+
+Linhas Municipais:
+8
+-46.331176;-23.952682;63;AC04;Av. Dona Ana Costa	198	AC04		2357164	4619872	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.315533;-23.973433;630;OW04;Rua Oswaldo Cochrane	117	OW04	2358406	4618932	Marco
+
+Linhas Municipais:
+8
+-46.316719;-23.934479;631;PQ03;Rua Xavier da Silveira 	PQ03				Abrigo
+
+Linhas Municipais:
+25
+29
+61
+100
+158
+191
+193
+80 Portuária
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.318033;-23.935467;632;PQ02;Rua Dr Cochrane	44LO			 23° 56.128'S	 46° 19.082'O		Marco
+
+Linhas Municipais:
+25
+29
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.318817;-23.938483;633;PQ01;Rua Dr Cochrane	160LO			2356309	4619129	Marco
+Linhas Municipais:
+08
+25
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.294890;-23.980568;634;PL13a;Av. Pedro Lessa		PL13a		2358821	4617712	Placa
+
+Linhas Intermunicipais:
+942TRO
+942VP1
+943TRO
+943BI1
+-46.317917;-23.964250;635;PL01;Av. Pedro Lessa	3018 LO PL01		2357855	4619075	Abrigo
+
+Linhas Municipais:
+80
+-46.315583;-23.966767;636;PL02;Av. Pedro Lessa	2645	PL02		2358006	4618935	Marco
+
+Linhas Municipais:
+80
+-46.312501;-23.968858;637;PL03;80	Av. Pedro Lessa	2259	PL03		2358128	4618745	Marco
+
+Linhas Municipais:
+25
+80
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.310017;-23.970533;638;PL04;Av. Pedro Lessa	1907	PL04		2358232	4618601	Abrigo
+
+Linhas Municipais:
+25
+80
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.305783;-23.973417;639;PL06;Av. Pedro Lessa	1413	PL06		2358404	4618343	Marco
+
+Linhas Municipais:
+25
+80
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.330944;-23.952460;64;AC16;Av. Dona Ana Costa	199	AC16		2357161	4619858	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.303883;-23.974717;640;PL07;Av. Pedro Lessa	1177	PL07		2358483	4618228	Abrigo
+
+Linhas Municipais:
+25
+80
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.302117;-23.975983;641;PL08;Av. Pedro Lessa	937	PL08		2358558	4618126	Marco
+
+Linhas Municipais:
+19
+25
+29
+30
+80
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.300722;-23.976935;642;PL09;Av. Pedro Lessa	755	PL09		2358614	4618040	Abrigo
+
+Linhas Municipais:
+19
+25
+29
+30
+80
+156
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.296600;-23.979617;643;PL11;Av. Pedro Lessa	231	PL11		2358777	4617796	Marco
+
+
+Linhas Municipais:
+25
+191
+-46.297850;-23.978767;644;PL10;Av. Pedro Lessa	417	PL10		2358726	4617871	Marco
+
+Linhas Municipais:
+25
+191
+-46.295638;-23.980081;645;PL13d;Av. Pedro Lessa	Placa	PL13		
+
+Linhas Intermunicipais:
+940TRO
+947TRO
+948DV1
+948TRO
+-46.295431;-23.980222;646;PL13c;Av. Pedro Lessa		PL13			Placa
+
+Linhas Intermunicipais:
+906TRO
+917TRO
+936TRO
+-46.295200;-23.980350;647;PL13b;Av. Pedro Lessa	64	PL13		2358821	4617712	Abrigo
+
+Linhas Municipais:
+52
+158
+194
+Linhas Intermunicipais:
+918TRO
+919TRO
+952TRO H
+-46.297933;-23.978583;648;PL14;Av. Pedro Lessa	416	PL14		2358715	4617876	Marco
+
+Linhas Municipais:
+52
+158
+194
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.299886;-23.977235;649;PL15;Av. Pedro Lessa	666	PL15		2358631	4617989	Abrigo
+
+
+Linhas Municipais:
+23
+30
+42
+52
+80
+152
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.331177;-23.954419;65;AC15;Av. Dona Ana Costa	251	AC15		2357268	4619869	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.303136;-23.975025;650;PL16;Av. Pedro Lessa	1084	PL16		2358494	4618200	Marco
+
+Linhas Municipais:
+52
+80
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.305293;-23.973591;651;PL17;Av. Pedro Lessa	1354	PL17		2358415	4618321	Marco
+
+Linhas Municipais:
+52
+80
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.306700;-23.972667;652;PL18;Av. Pedro Lessa	1530	PL18		2358360	4618402	Abrigo
+
+Linhas Municipais:
+52
+80
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.308292;-23.971560;653;PL19;Av. Pedro Lessa	1754	PL19		2358285	4618512	Abrigo
+
+Linhas Municipais:
+52
+80
+139
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.311717;-23.969250;654;PL20;Av. Pedro Lessa	2150	PL20		2358155	4618703	Concreto
+
+Linhas Municipais:
+52
+80
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.313833;-23.967817;655;PL21;Av. Pedro Lessa	2422	PL21		2358069	4618830	Marco de Metal
+
+Linhas Municipais:
+52
+80
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.316947;-23.965067;656;PL23;Av. Pedro Lessa	2880	PL23		2357871	4619048	Abrigo
+
+Linhas Municipais:
+80
+-46.307427;-23.972331;657;PL05;Av. Pedro Lessa	1609	PL05		2359340	4618438	Marco
+
+Linhas Municipais:
+25
+80
+191
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.313612;-23.951411;658;PE06;Perimetral	Senador Dantas PR-CT	PE06	Placa	2356998	4618778	Abrigo
+
+Linhas Municipais:
+42
+52
+61
+139
+158
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.313709;-23.951706;659;PE03;Av. Perimetral	Senador Dantas CT-PR	PE03		2356698	4618828	Placa
+
+Linhas Municipais:
+25
+29
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.331410;-23.954542;66;AC05;Av. Dona Ana Costa	246	AC05		2357276	4619884	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.317002;-23.940767;660;PE08;Perimetral	Bacia do Mercado PR-CT	PE08	Placa	2356716	4618819	Placa
+
+Linhas Municipais:
+42
+52
+61
+139
+158
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.317267;-23.941259;661;PE01;Av. Perimetral	Bacia do Mercado CT-PR	PE01		2356417	4618879	Placa
+
+Linhas Municipais:
+25
+29
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.309137;-23.956999;662;PE05;Perimetral	Esmeraldo Tarquinio Silva PR-CT	PE05 Placa
+
+Linhas Municipais:
+158
+-46.308506;-23.958036;663;PE04;Av. Perimetral	Esmeraldo Tarquinio Silva CT-PR	PE04 Placa
+
+Linhas Municipais:
+100
+158
+Linhas Intermunicipais:
+952TRO H
+-46.344336;-23.964687;664;PO06;Rua Maranhão	19			2357876	4620655
+Linhas Municipais:
+40
+53
+-46.300250;-23.978433;665;PP14;Av. Professor Aristoteles de Menezes	Praça Primeiro de Maio	PP14		2358706	4618015	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+80
+156
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.300167;-23.980183;666;PP01;Av. Professor Aristoteles de Menezes	 41lo	PP01		2358811	4618010	Concreto
+
+Linhas Municipais:
+19
+29
+30
+80
+156
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.299867;-23.979867;667;PP09;Av. Professor Aristoteles de Menezes	41	PP09		2358792	4617992	Concreto
+
+Linhas Municipais:
+23
+30
+42
+80
+152
+Linhas Intermunicipais:
+07 (908TRO AH)
+-46.295073;-23.986916;668;PP13;Praça Almirante Gago Coutinho	6	PP13	2359310	4617704	Marco
+
+Linhas Municipais:
+19
+25
+29
+156
+191
+-46.294703;-23.986244;669;PP12;Praça Almirante Gago Coutinho	Mercado do Peixe  PP12	2359164	4617682	Abrigo
+
+Linhas Municipais:
+8
+23
+30
+42
+52
+80
+152
+158
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+942TRO
+942VP1
+943TRO
+943BI1
+947TRO
+948TRO
+952TRO H
+952TRO AH
+-46.331333;-23.955950;67;AC14;Av. Dona Ana Costa	277	AC14		2357694	4619879	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.301683;-23.989700;670;PP11;Rua Capitão João Salermo	34	PP11	Ponta da Praia	2359382	4618101	Marco
+-46.300806;-23.981893;671;PP02;Praça Eng. José Rebouças	22			2358922	4618054	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+80
+156
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.299283;-23.981884;672;PP03;Praça Eng. José Rebouças	36	PP03		2658896	4617945	Marco
+
+Linhas Municipais:
+23
+152
+-46.298722;-23.983220;673;PP04;Rua Governador Fernando Costa	142	PP04		2358991	4617916	Marco
+
+Linhas Municipais:
+29
+30
+80
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.297400;-23.985333;674;PP05;Rua Governador Fernando Costa	413	PP05		2359120	4617844	Marco
+
+Linhas Municipais:
+29
+30
+80
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.298677;-23.981330;675;PP08;Rua Vereador Henrique Soler	127	PP08		2358871	4617929	Marco
+
+ Linhas Municipais:
+30
+42
+80
+Linhas Intermunicipais:
+07 (908TRO AH)
+-46.296750;-23.983867;676;PP06;Rua Vereador Henrique Soler	262	PP06		2359032	4617805	Concreto
+
+Linhas Municipais:
+30
+42
+80
+Linhas Intermunicipais:
+07 (908TRO AH)
+-46.297550;-23.982667;677;PP07;Rua Vereador Henrique Soler	219	PP07		2358960	4617853	Marco
+
+Linhas Municipais:
+30
+42
+80
+Linhas Intermunicipais:
+07 (908TRO AH)
+-46.299166;-23.978245;678;PP10;Praça Winston Churchil	61			2358662	4617943	Marco
+
+Linhas Municipais:
+23
+30
+42
+80
+152
+Linhas Intermunicipais:
+07 (908TRO AH)
+-46.386751;-23.939392;679;LT19;Rádio Clube
+-46.331887;-23.958597;68;AC06;Av. Dona Ana Costa	334 Extra	AC06		2357522	4619916	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.325109;-23.936556;680;LT18;Pça José Bonifácio
+
+Abrigo
+-46.325378;-23.936504;681;LT17;Pça José Bonifácio
+-46.328818;-23.935962;682;LT16;Dom Pedro II
+-46.328619;-23.934892;683;LT15;Dom Pedro II
+-46.332108;-23.935392;684;LT14;Pça dos Andradas
+-46.332565;-23.934406;685;LT13;Pça dos Andradas
+-46.339890;-23.935622;686;LT01;Rua Santo Eduardo snº
+Placa
+-46.348437;-23.939463;687;LT02;Rua Quatro snº
+Marco
+-46.349506;-23.939281;688;LT03;Rua Três lo nº 1348
+Marco
+-46.351181;-23.939085;689;LT04;Rua Três lo 1248
+Abrigo Quadrado
+-46.331836;-23.959889;69;AC13;Av. Dona Ana Costa	363	AC13		2357595	4619910	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.357945;-23.937574;690;LT05;Rua Um equina da Rua Oito
+Placa
+-46.355806;-23.939489;691;LT06;Rua Um nº 1343
+Marco
+-46.354650;-23.968324;692;LT07;Rua Monteiro Lobaro lo nº 03
+Abrigo de Concreto + bancos
+-46.356196;-23.964987;693;LT10;Rua Carlos Alberto Curado nº1286
+Marco
+-46.359212;-23.961252;694;LT11;Rua Carlos Alberto Curado lo nº 54
+Abrigo Quadrado
+-46.356802;-23.964519;695;LT12;Rua Carlos Alberto Curado nº 1435
+
+Marco
+-46.355377;-23.965489;696;LT09;Rua Carlos Alberto Curado nº1435
+Marco
+-46.354362;-23.965748;697;LT08;Rua Carlos Alberto Curado lig 84
+Marco
+-46.385587;-23.940418;698;LA06;Praça Dr. Jerônimo La Terza	182	LA06		2356424	4623143	Abrigo
+Linhas Municipais:
+194
+-46.386050;-23.940133;699;LA05;Praça Dr. Jerônimo La Terza	225	LA05		2356408	4623163	Abrigo
+Linhas Municipais:
+191
+-46.319675;-23.959280;7;AF02;Av. Afonso Pena          88	AF02	2357556	4619182	Abrigo
+
+
+Linhas Municipais:
+10
+19
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.332148;-23.962061;70;AC12;Av. Dona Ana Costa	401	AC12		2357718	4619923	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.385856;-23.939698;700;LA04;Praça Dr. Jerônimo La Terza	310	LA04		2356371	4623138	Abrigo
+Linhas Municipais:
+156
+-46.385558;-23.939653;701;LA03;Praça Dr. Jerônimo La Terza	310	LA03		2356371	4623138	Placa
+Linhas Municipais:
+152
+-46.385282;-23.939893;702;LA02;Praça Jerônimo La Terza
+		Abrigo
+Linhas Municipais:
+13
+154
+155
+-46.385245;-23.940112;703;LA01;Praça Jerônimo la Terza 100
+	Abrigo
+Linhas Seletivas:
+205VSJ
+205VJM
+-46.327367;-23.943250;704;RP01;Av. Rangel Pestana	68	RP01		2356595	4619642	Marco
+
+Linhas Municipais:
+7
+37
+61
+100
+118
+152
+194
+Linhas Intermunicipais:
+05 (907TRO H)
+21 (902TRO H)
+903TRO
+938TRO H
+939DV1
+941TRO
+-46.328317;-23.943267;705;RP02;Av. Rangel Pestana	94 LO	RP02		2356596	4619699	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+Linhas Intermunicipais:
+09 (901TRO H)
+901BI1 AH
+904TRO H
+-46.329615;-23.943024;706;RP03;Av. Rangel Pestana	Colégio Cesário Bastos	RP03		2356578	4619783	Abrigo
+
+Linhas Municipais:
+7
+37
+61
+100
+118
+152
+194
+Linhas Intermunicipais:
+05 (907TRO H)
+21 (902TRO H)
+903TRO
+938TRO H
+939DV1
+941TRO
+-46.332233;-23.942733;707;RP04;Av. Rangel Pestana	164	RP04		2356564	4619934	Abrigo
+
+Linhas Municipais:
+7
+37
+61
+100
+118
+152
+194
+Linhas Intermunicipais:
+05 (907TRO H)
+21 (902TRO H)
+903TRO
+938TRO H
+939DV1
+941TRO
+-46.336550;-23.942233;708;RP05;Av. Rangel Pestana	308	RP05		2356534	4620193	Abrigo
+
+Linhas Municipais:
+61
+100
+118
+153
+-46.338550;-23.942017;709;RP06;Av. Rangel Pestana	384	RP06		2356521	4620313	Abrigo
+
+Linhas Municipais:
+61
+100
+118
+153
+181
+-46.332338;-23.962276;71;AC07;Av. Dona Ana Costa	410	AC07		2357735	4619942	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.341968;-23.941634;710;RP09;Largo Washington di Giovanni 36 		RP09		2356503	4620455	Marco
+
+Linhas Municipais:
+61
+100
+118
+153
+181
+-46.341175;-23.941693;711;RP08;Av. Rangel Pestana	440	RP08		2356503	4620455	Marco
+
+Linhas Municipais:
+61
+100
+118
+153
+181
+-46.340543;-23.941883;712;RP10;Av. Rangel Pestana	437	RP10		2356508	4620404	Abrigo
+
+Linhas Municipais:
+100
+118
+153
+181
+-46.337850;-23.942133;713;RP11;Av. Rangel Pestana	338 LO	RP11		2356528	4620271	Marco
+
+Linhas Municipais:
+118
+-46.295845;-23.986918;714;RA07b;Av. Rei Alberto I	Ponto Final 402	RA07	2359201	4617727	Abrigo
+Linhas Municipais
+08
+-46.304700;-23.989483;715;RA01;Av. Rei Alberto I	117	RA01	Ponta da Praia	2359369	4618282	Marco
+Linha Municipal
+04
+08
+-46.302384;-23.989634;716;RA02;Av. Rei Alberto I	190		RA02      2359378	4618145	Abrigo
+Linhas Municipais
+04
+08
+-46.299583;-23.988950;717;RA03;Av. Rei Alberto I	278	
+RA 03         2359337	4617975	Marco
+Linhas Municipais
+04
+08
+19
+156
+Linhas Intermunicipais:
+918
+936
+-46.297766;-23.988029;718;RA05a;Av. Rei Alberto I	Ponto Final 334  	RA05	
+2359279	4617870	Concreto
+Linhas Municipais
+158
+-46.298090;-23.988206;719;RA05b;Av. Rei Alberto I	Ponto Final 334  	RA05	
+2359279	4617870	Abrigo
+Linhas Municipais
+30
+-46.332552;-23.964221;72;AC08;Av. Dona Ana Costa	454	AC08		2357860	4619951	Abrigo
+
+Linhas Municipais:
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.298342;-23.988342;720;RA05c;Av. Rei Alberto I	Ponto Final 334  	RA05	
+2359279	4617870	Placa
+
+Linhas Municipais
+80
+-46.297062;-23.987612;721;RA06;Av. Rei Alberto I	364		2359251	4617823	Marco
+Linhas Municipais
+04
+19
+156
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.296387;-23.987281;722;RA12;Av. Rei Alberto I	
+	Placa
+Linhas Seletivas
+-46.295569;-23.986764;723;RA07a;Av. Rei Alberto I	Ponto Final 422	RA07	2359201	4617727	Concreto
+Linhas Municipais
+04
+-46.297560;-23.987652;724;RA08;Av. Rei Alberto I	 341  	2359269	4617862	Marco
+Linhas Municipais
+
+08
+30
+23
+80
+152
+158
+-46.296692;-23.987223;725;RA11;Av. Rei Alberto I	 379    RA11          Placa
+
+Linhas Municipais
+
+100
+-46.302833;-23.989617;726;RA09;Av. Rei Alberto I       187	RA09
+   2359377	4618170         Marco
+Linha Municipal
+04
+-46.304473;-23.989430;727;RA10;Av. Rei Alberto I	127	RA10	2359369	4618367	Marco
+Linha Municipal
+04
+-46.321883;-23.955850;728;CR01;Av. Conselheiro Rodrigues Alves	403	CR01		Marco
+
+Linhas Municipais:
+10
+19
+80
+-46.312229;-23.956660;729;CR05;Av. Conselheiro Rodrigues Alves	109	CR05			Abrigo
+
+Linhas Municipais:
+8
+80
+-46.332443;-23.964717;73;AC11;Av. Dona Ana Costa	453	AC11		2357877	4619953	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.310831;-23.956655;730;CR07;Av. Conselheiro Rodrigues Alves	61	CR07			Abrigo
+
+Linhas Municipais:
+08
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.315050;-23.956350;731;CR09;Av. Conselheiro Rodrigues Alves	190	CR09			Marco
+
+Linhas Municipais:
+8
+80
+-46.321611;-23.955797;732;CR11;Av. Conselheiro Rodrigues Alves	388	CR11			Marco
+
+Linhas Municipais:
+80
+-46.320133;-23.956050;733;CR02;Av. Conselheiro Rodrigues Alves	344	CR02			Abrigo
+
+Linhas Municipais:
+10
+19
+80
+-46.317583;-23.956267;734;CR03;Av. Conselheiro Rodrigues Alves	264	CR03			Marco
+
+Linhas Municipais:
+80
+-46.315267;-23.956417;735;CR04;Av. Conselheiro Rodrigues Alves	195	CR04			Marco
+Linhas Municipais:
+8
+80
+-46.310733;-23.956783;736;CR06;Av. Conselheiro Rodrigues Alves	55	CR06			Marco de Metal
+
+Linhas Municipais:
+8
+80
+-46.313067;-23.956450;737;CR08;Av. Conselheiro Rodrigues Alves	131	CR08		Abrigo
+
+Linhas Municipais:
+08
+80
+Linhas Intermunicipais:
+04 (915TRO AH)
+952TRO AH
+-46.318933;-23.956020;738;CR12;Av. Conselheiro Rodrigues Alves	306	CR12			Marco
+
+Linhas Municipais:
+80
+-46.382578;-23.940604;739;RC23;Av. Hugo Maia 	106		Marco
+
+Linhas Municipais:
+102
+-46.332806;-23.966604;74;AC09;Av. Dona Ana Costa	530	AC09		2357987	4620221	Abrigo
+
+Linhas Municipais:
+05
+20
+42
+73
+139
+154
+
+Linhas Intermunicipais:
+09 (901TRO H)
+904TRO H
+901BI1 AH
+-46.382021;-23.939223;740;RC22;Av. Hugo Maia 	s/n				Marco
+
+Linhas Municipais:
+102
+-46.381501;-23.938098;741;RC21;Av. Hugo Maia	s/n				Marco
+
+Linhas Municipais:
+102
+-46.386315;-23.937574;742;RC05;Av. Brigadeiro Faria Lima 1432lo	RC05	Marco
+
+Linhas Municipais:
+13
+154
+155
+-46.382566;-23.943205;743;RC13;Rua Dr. Aniz Tranjan	520			2356599	4622957 	Marco
+Linhas Municipais:
+153
+-46.376100;-23.939967;744;RC01;Rua José Dias de Moraes	783	RC01		2356398	4622566	Concreto
+
+Linhas Municipais:
+152
+154
+155
+156
+-46.389638;-23.941748;745;RC16;Av. Brigadeiro Faria Lima	730	RC16				Marco
+Linhas Municipais:
+153
+-46.383662;-23.943937;746;RC14;Av. Brigadeiro Faria Lima	54	RC14		2356645	4623024	Marco
+Linhas Municipais:
+153
+-46.384677;-23.943209;747;RC15;Av. Brigadeiro Faria Lima	178	RC15		2356604	4623085	Marco
+Linhas Municipais:
+153
+-46.386343;-23.942208;748;RC10;Av. Brigadeiro Faria Lima	383	RC10		2356535	4623184	Marco
+Linhas Municipais:
+153
+-46.388304;-23.942356;749;RC09;Av. Brigadeiro Faria Lima	559	RC09		2356540	4623300	Marco
+Linhas Municipais:
+153
+-46.332619;-23.966970;75;AC10;Praça da Independência	21 AC10		2358014	4619954	Abrigo
+
+Linhas Municipais:
+20
+29
+37
+155
+193
+
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+904AH
+-46.389882;-23.940269;750;RC17;Av. Brigadeiro Faria Lima	948	RC17		2356420	4623401	Marco
+Linhas Municipais:
+153
+-46.387840;-23.938791;751;RC08;Av. Brigadeiro Faria Lima	1230	RC08		2356325	4623269	Marco
+Linhas Municipais:
+153
+-46.387567;-23.938535;752;RC06;Av. Brigadeiro Faria Lima	1280	RC06		2356316	4623242	Marco
+Linhas Municipais:
+13
+154
+155
+-46.385053;-23.939315;753;RC18;Av. Governador Roberto da Silveira  LO130	RC18
+			Marco
+Linhas Municipais:
+13
+154
+155
+-46.385131;-23.939656;754;RC19;R. José Alberto de Luca 698 Placa RC19
+
+Linhas Intermunicipais:
+944TRO
+-46.382452;-23.940716;755;RC20;Av. Hugo Maia  Praça Afonso E. Taunay
+2356346	4622914	Marco
+Linhas Municipais:
+102
+-46.381795;-23.939320;756;RC11;Av. Hugo Maia	Praça Armando Erbisti
+2356346	4622914	Marco
+Linhas Municipais:
+102
+-46.377333;-23.941467;757;RC02;Av. Dom Jaime de Barros Câmara	91	RC02	2356503	4622635	Marco
+
+Linhas Municipais:
+102
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.377767;-23.942950;758;RC03;Av. Dom Jaime de Barros Câmara	Praça Dr. Bruno Barbosa	RC03 356567	4622659	Abrigo
+
+Linhas Municipais:
+102
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.377467;-23.942617;759;RC12;Av. Dom Jaime de Barros Câmara	193	RC12		2356557	4622648	Abrigo
+
+Linhas Municipais:
+102
+154
+155
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.304014;-23.977559;76;AP12;Rua Primeiro de Maio
+Ponto Provisório às Terças Feiras Devido a Feira Livre Placa
+
+Linhas Municipais:
+5
+54
+61
+184
+193
+-46.384283;-23.938200;760;RC04;Rua Nelson Epíndola Lobato	197	RC04		2356292	4623057	Abrigo
+Linhas Municipais:
+13
+154
+155
+-46.380902;-23.937440;761;RC07;Av. Hugo Maia	83			2356265	4622859	Marco
+Linhas Municipais:
+102
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.348329;-23.934609;762;S06;Rua Flaminio Levy	445			2356064	4620893	Abrigo
+Linhas Municipais:
+102
+158
+184
+Linhas Intermunicipais:
+941TRO
+-46.352850;-23.934250;763;S02;Rua Oswaldo Carvalho de Rossis	s/n			2356055	4621171
+Linhas Municipais:
+102
+184
+-46.346267;-23.935017;764;S11;Rua Maria Mercedes Féa	9	S11		2356101	4620776	Concreto
+
+Linhas Municipais:
+102
+158
+184
+Linhas Intermunicipais:
+941TRO
+-46.351333;-23.934800;765;S07;Rua Maria Mercedes Féa	116			2356088	4621080	Marco
+Linhas Municipais:
+102
+184
+-46.354068;-23.934116;766;S01;Rua Itanhaém	353lo		2356033	4621270	Abrigo
+Linhas Municipais:
+102
+184
+-46.349034;-23.932433;767;S05;Rua Flaminio Levy	191			2355935	4620948	Abrigo
+Linhas Municipais:
+102
+158
+184
+Linhas Intermunicipais:
+941TRO
+-46.347457;-23.931565;768;S09;Rua Pio XII	40			2355908	4620841	Marco
+Linhas Municipais:
+102
+158
+184
+Linhas Intermunicipais:
+941TRO
+-46.346783;-23.933014;769;S10;Rua Pio XII	s/n			2355990	4620803	Concreto
+Linhas Municipais:
+102
+158
+184
+Linhas Intermunicipais:
+941TRO
+-46.306729;-23.973937;77;AP03;Rua Frei Francisco Sampaio	386	AP03		2358429	2358438	Placa
+
+Linhas Municipais:
+193
+-46.349207;-23.934920;770;S08;Rua Maria Mercedes Féa	79			2356095	4620955	Marco
+Linhas Municipais:
+102
+184
+-46.356150;-23.931967;771;S04;Rua Iguape	38			2355918	4621369	Marco
+Linhas Municipais:
+102
+184
+-46.353814;-23.933176;772;S03;Rua Iguape	289			2355985	4621222	Quadrado
+Linhas Municipais:
+102
+184
+-46.367537;-23.940231;773;SM02;Rua Carlos Caldeira	s/n			2356450	4622001	Abrigo
+
+Linhas Municipais:
+102
+152
+156
+-46.373261;-23.939750;774;SM05;Rua João Fracarolli	621			2356381	4622402	Abrigo
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.373168;-23.939475;775;SM07;Rua João Fracarolli	561			2356379	4622394	Marco
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.374064;-23.940577;776;SM04;Rua João Fracarolli	s/n			2356458	4622455	Marco
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.372400;-23.938650;777;SM08;Rua João Fracarolli	465			2356319	4622344	Marco
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.371800;-23.937900;778;SM06;Rua João Fracarolli	353			2356274	4622308	Marco
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.372184;-23.938227;779;SM03;Rua João Fracarolli	403			2356290	4622328	Abrigo
+Linhas Municipais:
+152
+156
+Linhas Intermunicipais:
+944TRO
+-46.305867;-23.974617;78;AP04;Rua Jurubatuba 	08	AP04	2358477	4618352	Marco
+
+Linhas Municipais:
+5
+54
+61
+184
+193
+-46.368088;-23.941155;780;SM01;Rua Indalécio de Arruda Costa	222			2356469	4622093	Marco
+Linhas Municipais:
+102
+152
+156
+-46.313470;-23.959050;781;SD10;Av. Senador Dantas	233	SD10		2357598	4618814	Marco
+
+
+Linhas Municipais:
+42
+52
+61
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.313100;-23.953783;782;SD02;Av. Senador Dantas	65	SD02		2357228	4618785	Abrigo
+
+25
+29
+61
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.313317;-23.956167;783;SD03;Av. Senador Dantas	123 LO	SD03		2357375	4618796	Marco
+
+Linhas Municipais:
+25
+29
+61
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.313633;-23.959467;784;SD 04;Av. Senador Dantas	259	SD04		2357568	4618818	Marco
+
+25
+29
+61
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.313900;-23.962000;785;SD 05;Av. Senador Dantas	335	SD05		2357720	4618834	Marco
+
+Linhas Municipais:
+25
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.314202;-23.964949;786;SD06;Av. Senador Dantas	395	SD06		2357899	4618852	Marco
+
+
+Linhas Municipais:
+25
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.314399;-23.967114;787;SD07;Av. Senador Dantas	436  LO	SD07		2358026	4618862	Marco
+
+Linhas Municipais:
+25
+191
+193
+Linhas Intermunicipais:
+08 (908TRO H)
+947TRO
+948DV1
+948TRO
+-46.314045;-23.964846;788;SD08;Av. Senador Dantas	393	SD08		2357864	4618842	Marco
+
+Linhas Municipais:
+52
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.313783;-23.962217;789;SD09;Av. Senador Dantas	339	SD09		2357733	4618827	Marco
+
+Linhas Municipais:
+42
+52
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.308767;-23.972633;79;AP01;Rua Frei Francisco Sampaio	303	AP01		2358358	4618526	Marco
+
+Linhas Municipais:
+5
+61
+-46.313264;-23.956773;790;SD11;Av. Senador Dantas	159	SD11		2357406	4618797	Abrigo
+
+Linhas Municipais:
+42
+52
+61
+139
+194
+Linhas Intermunicipais:
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+-46.313112;-23.955155;791;SD12;Av. Senador Dantas	123	SD12		2357310	4618788	Abrigo
+
+Linhas Municipais:
+42
+52
+61
+139
+194
+Linhas Intermunicipais:
+04 (915TRO AH)
+07 (908TRO AH)
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.326591;-23.945267;792;SEF05;Av. Senador Feijó	444  SEF05	Marco
+
+Linhas Municipais:
+5
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+948DV1
+-46.325467;-23.934917;793;SEF01;Av. Senador Feijó	90 SEF01	Placa
+
+Linhas Municipais:
+5
+10
+19
+139
+193
+-46.325650;-23.937017;794;SEF02;Praça José Bonifácio	37 SEF02	Placa
+
+Linhas Municipais:
+04
+05
+07
+08
+10
+19
+20
+37
+40
+53
+61
+73
+77
+80
+100
+118
+139
+184
+Linhas Intermunicipais:
+933DV1
+934EX1
+934TRO
+948DV1
+-46.325800;-23.939433;795;SEF03;Av. Senador Feijó	214 SEF03	Abrigo
+
+Linhas Municipais:
+5
+7
+20
+37
+42
+53
+61
+73
+100
+118
+139
+152
+154
+156
+194
+Linhas Intermunicipais:
+05 (907TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO H
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+938TRO H
+939DV1
+941TRO
+948DV1
+-46.326220;-23.942439;796;SEF04b;Av. Senador Feijó	330  SEF04	Abrigo
+
+
+Linhas Intermunicipais:
+05 (907TRO H)
+09 (901TRO H)
+21 (902TRO H)
+901BI1 AH
+903TRO
+904TRO H
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+938TRO H
+939DV1
+941TRO
+948DV1
+-46.326305;-23.943159;797;SEF04a;Av. Senador Feijó	356 SEF04	Abrigo
+
+Linhas Municipais:
+05
+07
+20
+37
+42
+53
+61
+73
+100
+118
+139
+152
+154
+156
+194
+-46.326831;-23.947226;798;SEF06;Av. Senador Feijó	518al SEF06	Abrigo
+
+Linhas Municipais:
+5
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+948DV1
+-46.321583;-23.940567;799;SS03;Rua Sete de Setembro	Banco Itaú	SS03 Abrigo
+
+Linhas Municipais:
+4
+8
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.317163;-23.960973;8;AF03;Av. Afonso Pena         167	AF03	2357646	4619045	Marco
+
+Linhas Municipais:
+10
+19
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+-46.307123;-23.973684;80;AP02;Rua Frei Francisco Sampaio	Ponto Final BNH	AP02		2358423	4618413	Abrigo
+
+Linhas Municipais:
+5
+54
+61
+184
+-46.324115;-23.940006;800;SS02;Rua Sete de Setembro	 34	SS02	Abrigo
+
+
+Linhas Municipais:
+4
+8
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.325083;-23.939883;801;SS01;Rua Sete de Setembro	19  SS01		Marco
+
+Linhas Municipais:
+4
+8
+10
+19
+40
+77
+80
+155
+184
+Linhas Intermunicipais:
+02 (900TRO H)
+934EX1
+-46.318683;-23.941033;802;SS04;Rua Sete de Setembro	193	SS04		2356462	4619121	Marco
+
+Linhas Municipais:
+8
+-46.318820;-23.943620;803;SJ01;Rua Silva Jardim	42		2356633	4619131	Marco
+
+Linhas Municipais:
+8
+-46.319018;-23.945579;804;SJ02;Rua Silva Jardim	94		2356753	4619142	Abrigo
+
+
+Linhas Municipais:
+8
+-46.319283;-23.948400;805;SJ03;Rua Silva Jardim	170		2356904	4619157	Marco
+
+Linhas Municipais:
+8
+-46.319625;-23.951542;806;SJ04;Rua Silva Jardim	280		2357103	4619181	Marco
+
+Linhas Municipais:
+8
+-46.329611;-23.936727;807;SAF02;Av. São Francisco	128	SAF02	2356204	4619760	Abrigo
+
+Linhas Municipais:
+10
+19
+54
+42
+80
+118
+139
+154
+155
+184
+193
+Linhas Intermunicipais:
+903TRO
+904TRO H
+931TRO
+939DV1
+939TRO
+-46.328253;-23.937008;808;SAF04;Av. São Francisco	Pça Corrêa de Melo LO 10	SAF04		2356192	4619792	Abrigo
+
+Linhas Municipais:
+25
+61
+100
+156
+158
+191
+-46.327895;-23.937083;809;SAF05;Av. São Francisco	Pça Corrêa de Melo LO 02	SAF05		2356214	4619698	Abrigo
+
+Linhas Municipais:
+152
+194
+Linhas Intermunicipais:
+02 (900TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+932TRO
+933BI1
+933DV1
+933TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.305850;-23.976233;81;AP05;Rua Professor Pirajá da Silva	122			2358574	4618351	Marco
+
+Linhas Municipais:
+5
+54
+61
+184
+193
+-46.326703;-23.937333;810;SAF06;Av. São Francisco	164	SAF06		2356240	4619602	Abrigo
+
+Linhas Municipais:
+42
+154
+155
+Linhas Intermunicipais:
+05 (907TRO H)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+936TRO
+938TRO H
+941TRO
+-46.325130;-23.937576;811;SAF07;Av. São Francisco	Praça José Bonifácio 57	SAF07		2356270	4619491	Marco
+
+Linhas Municipais:
+25
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+932TRO
+933BI1
+933DV1
+933TRO
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.322859;-23.938038;812;SAF08;Av. São Francisco	290	SAF08	2356287	4619354	Marco
+
+Linhas Municipais:
+25
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.321228;-23.938354;813;SAF09;Av. São Francisco	336	SAF09	2356309	4619264	Abrigo
+
+Linhas Municipais:
+25
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.319354;-23.938752;814;SAF10;Av. São Francisco	420	SAF10	2356319	4619155	Marco
+
+Linhas Municipais:
+25
+61
+100
+158
+191
+193
+Linhas Intermunicipais:
+06 (915TRO H)
+08 (908TRO H)
+931TRO
+933BI1
+933DV1
+933TRO
+934EX1
+934TRO
+939DV1
+939TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.332531;-23.933617;815;VL01;Av. Visconde de São Leopoldo 176    		VL01	Abrigo
+
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+24 (902TRO AH)
+901BI H
+903TRO
+904TRO AH
+906TRO
+917TRO
+918TRO
+919TRO
+931TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+939TRO
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+926TRO – Intersul Peruíbe
+-46.333469;-23.933912;816;CT09;Rua Alexandre Rodrigues nº 33	CT09	Placa
+
+Linhas Intermunicipais:
+926TRO – Intersul Peruíbe
+-46.334918;-23.932827;817;VL02;Av. Visconde de São Leopoldo	438	VL02			Marco
+
+Linhas Municipais:
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.336237;-23.932165;818;VL03;Av. Visconde de São Leopoldo	584	VL03		2355922	4620175	Marco
+
+Linhas Municipais:
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.337900;-23.931350;819;VL04;Av. Visconde de São Leopoldo	Praça Lions	VL04			Marco
+
+Linhas Municipais:
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+01 (900TRO AH)
+03 (907TRO AH)
+04 (915TRO AH)
+07 (908TRO AH)
+10 (901TRO AH)
+105 (925TRO)
+24 (902TRO AH)
+901BI H
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO AH
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO AH
+-46.307383;-23.977983;82;AP06;Rua Professor Pirajá da Silva	346	AP06		2358679	4618443	Abrigo
+
+Linhas Municipais:
+5
+54
+61
+184
+193
+-46.337617;-23.932312;820;GV01;Av. Presidente Getúlio Dornelles Vargas	Posto de Gasolina	GV01		Abrigo
+
+Linhas Municipais:
+61
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.336033;-23.933800;821;GV02;Av. Presidente Getúlio Dornelles Vargas	Praça Manoel de Almeida	GV02		Quadrado
+Linhas Municipais:
+61
+101
+102
+108
+139
+152
+153
+154
+155
+156
+158
+184
+191
+193
+194
+Linhas Intermunicipais:
+02 (900TRO H)
+05 (907TRO H)
+06 (915TRO H)
+08 (908TRO H)
+09 (901TRO H)
+105 (925TRO)
+21 (902TRO H)
+901BI1 AH
+906TRO
+917TRO
+918TRO
+919TRO
+932TRO
+933BI1
+933DV1
+933TRO
+936TRO
+938TRO H
+941TRO
+947TRO
+948DV1
+948TRO
+952TRO H
+-46.316667;-23.950700;822;VM08;Rua Xavier Pinheiro	s/n Abrigo			2357042	4619000
+Linhas Municipais:
+8
+-46.318807;-23.950477;823;VM06;Rua Xavier Pinheiro	108	Abrigo VM06		2357031	4619132
+Linhas Municipais:
+8
+-46.330394;-23.944078;824;JUM01;Praça Belmiro Ribeiro	5		2356614	4619826	Abrigo
+
+Linhas Municipais:
+73
+77
+153
+156
+181
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+938TRO AH
+941TRO
+-46.334617;-23.942800;825;VM01;Av. Waldemar Leão	CT do Santos	VM01	2356568	4620077	Abrigo
+
+Linhas Municipais:
+10
+19
+25
+54
+100
+118
+Linhas Intermunicipais:
+904TRO H
+931TRO
+939DV1
+939TRO
+926TRO – Intersul Peruíbe
+-46.334000;-23.945283;826;VM02;Av. Eng. Luiz La Scala Junior	198	VM02		2356717	4620040	Marco
+
+Linhas Municipais:
+13
+73
+77
+153
+156
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+938TRO AH
+941TRO
+-46.335112;-23.945023;827;VM07;Av. Dr. Claudio Luiz da Costa	50 LO	VM07		2356700	4620110	Abrigo
+
+Linhas Municipais:
+10
+13
+19
+25
+54
+73
+77
+118
+153
+156
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+904TRO H
+931TRO
+938TRO AH
+939DV1
+939TRO
+941TRO
+926TRO – Intersul Peruíbe
+-46.325613;-23.944605;828;JUM03;Rua Júlio Mesquita	124	JUM03	2356663	4619535	Abrigo
+
+Linhas Municipais:
+20
+73
+77
+153
+156
+181
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+904TRO AH
+938TRO AH
+941TRO
+-46.328233;-23.944267;829;JUM02;Rua Júlio Mesquita	195	JUM02	2356656	4619694	Marco
+
+Linhas Municipais:
+20
+73
+77
+153
+156
+181
+191
+Linhas Intermunicipais:
+03 (907TRO AH)
+24 (902TRO AH)
+903TRO
+903VP1
+904TRO AH
+938TRO AH
+941TRO
+-46.308405;-23.972405;83;AP10;Rua Professor Antenor Bue	680	AP10		2358343	4618501	Abrigo
+Linhas Municipais:
+54
+193
+-46.327293;-23.945516;830;VM04;Rua Lucas Fortunato	55	VM04	2356735	4619631	Marco
+
+Linhas Municipais:
+29
+37
+155
+193
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+-46.329150;-23.945333;831;VM03;Rua Lucas Fortunato	107	VM03	2356727	4619739	Marco
+
+Linhas Municipais:
+29
+37
+155
+193
+Linhas Intermunicipais:
+10 (901TRO AH)
+901BI H
+-46.325867;-23.948867;832;VM05;Rua Almeida de Moraes	37	VM05	2356932	4619552	Marco
+
+Linhas Municipais:
+5
+53
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+933DV1
+934TRO
+936TRO
+948DV1
+-46.319617;-23.941833;833;VN01;Rua Dr Cochrane	231			2356510	4619177	Marco
+Linhas Municipais:
+8
+-46.348687;-23.940498;834;VP05;Av. Brasil	965	VP05		2356434	4620921	Marco
+
+Linhas Municipais:
+118
+-46.348776;-23.940559;835;VP01;Av. Brasil	4271	VP01		2356431	4620927	Marco
+
+Linhas Municipais:
+100
+181
+-46.345948;-23.939797;836;VP03;Av. Brasil	267	VP03		2356396	4620655	Abrigo
+
+Linhas Municipais:
+100
+181
+-46.347390;-23.940466;837;VP02;Av. Brasil	4930	VP02		2356424	4620846	Concreto
+
+Linhas Municipais:
+100
+181
+-46.347887;-23.940064;838;VP06;Rua Um	984	VP06		2356405	4620874	Marco
+
+Linhas Municipais:
+118
+-46.345897;-23.939650;839;VP04;Av. Brasil	s/n	VP04		2356385	4620750	S/ Ponto
+
+Linhas Municipais:
+118
+-46.310794;-23.975788;84;AP11;Rua Vergueiro Steidel	262	AP11		2358553	4618653	Abrigo
+
+Linhas Municipais:
+5
+54
+61
+-46.366275;-23.948879;840;VSJ09;Rua Domingos José Martins	120	SJ09		2356948	4621972	Concreto
+
+Linhas Municipais:
+13
+61
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.368658;-23.948749;841;VSJ10;Rua Domingos José Martins	376	SJ10		2356933	4622120	Marco
+
+Linhas Municipais:
+61
+-46.369050;-23.948883;842;VSJ03;Rua Domingos José Martins	411	SJ03		2356933	4622143	Marco
+
+Linhas Municipais:
+184
+80 Portuária
+-46.367700;-23.948933;843;VSJ15;Rua Domingos José Martins	279	SJ15		2356936	4622062	Marco
+
+Linhas Municipais:
+184
+80 Portuária
+-46.367067;-23.951650;844;VSJ17;Rua Eng. Gercino Hugo Caparelli	s/n	SJ17		2357099	4622024	Concreto
+
+Linhas Municipais:
+13
+184
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.371263;-23.951429;845;VSJ11;Rua Francisco da Costa Pires	161	SJ11		2357088	4622274	Concreto
+Linhas Municipais:
+13
+Linhas Intermunicipais:
+06 (915TRO H)
+105 (925TRO)
+944TRO
+-46.366300;-23.949900;846;VSJ13;Rua Eng. Gercino Hugo Caparelli	Pça Eng. Francisco Prestes Maia	SJ13		2356994	4621978	Abrigo
+
+Linhas Municipais:
+13
+184
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.365103;-23.946835;847;VSJ14;Rua Eng. Gercino Hugo Caparelli	56	SJ14
+	2356812	4621910	Concreto
+
+Linhas Municipais:
+13
+184
+80 Portuária
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.368930;-23.951972;848;VSJ04;Rua Francisco da Costa Pires	308			2357123	4622148	Abrigo
+Linhas Municipais:
+13
+Linhas Intermunicipais:
+06 (915TRO H)
+105 (925TRO)
+944TRO
+-46.372850;-23.951383;849;VSJ01;Rua Francisco da Costa Pires	1003	SJ01		2357083	4622371	Abrigo
+Linhas Municipais:
+13
+Linhas Intermunicipais:
+06 (915TRO H)
+105 (925TRO)
+944TRO
+-46.305980;-23.984995;85;BA05;Praça Alan Kardec	BA05 	Marco
+
+
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.365218;-23.947173;850;VSJ08;Rua Eng. Gercino Hugo Caparelli	Praça Albertino Moreira	SJ08		2356837	4621914	Abrigo
+
+Linhas Municipais:
+13
+61
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.365869;-23.946157;851;VSJ07;Av. Francisco Ferreira Canto 315 	Marco
+
+
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.367493;-23.950672;852;VSJ16;Av. Eleonor Roosevelt	590			2357045	4622051	Abrigo
+Linhas Municipais:
+13
+184
+Linhas Intermunicipais:
+105 (925TRO)
+944TRO
+-46.370833;-23.949267;853;VSJ02;Rua Jayme Manhani	316			2356956	4622250	
+Linhas Municipais:
+13
+-46.386666;-23.939452;854;AG10;Av. Vereador Álvaro Guimarães	751	AG10					abrigo
+Linhas Municipais:
+13
+154
+155
+Linhas Intermunicipais:
+-46.386131;-23.939854;855;AG05;Av. Vereador Álvaro Guimarães		AG05		2356352	4623203	Abrigo
+
+Linhas Municipais:
+153
+-46.384483;-23.940900;856;AG06;Av. Vereador Álvaro Guimarães	436  LO	AG06		2356454	4623069	Abrigo
+
+Linhas Municipais:
+13
+102
+152
+153
+154
+155
+156
+191
+194
+80 Portuária
+Linhas Intermunicipais:
+944TRO
+-46.382167;-23.942483;857;AG07;Av. Vereador Álvaro Guimarães	155	AG07		2356549	4622930	Marco
+
+Linhas Municipais:
+13
+102
+152
+153
+154
+155
+156
+191
+194
+80 Portuária
+Linhas Intermunicipais:
+944TRO
+-46.380267;-23.943800;858;AG09;Av. Vereador Álvaro Guimarães	49 LO	AG09		2356628	4622816	Abrigo
+
+Linhas Municipais:
+13
+102
+152
+153
+154
+155
+156
+191
+194
+80 Portuária
+Linhas Intermunicipais:
+944TRO
+-46.380333;-23.943617;859;AG01;Av. Vereador Álvaro Guimarães	49	AG01		2356617	4622820	Marco
+
+Linhas Municipais:
+13
+102
+152
+153
+154
+155
+156
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.303652;-23.986402;86;BA02;Av. Bancários	53	BA02		2359185	4618222	Abrigo
+
+Linhas Municipais
+08
+23
+100
+152
+-46.381783;-23.942617;860;AG02;Av. Vereador Álvaro Guimarães	113 LO	AG02		2356557	4622907	Marco
+
+Linhas Municipais:
+13
+102
+152
+153
+154
+155
+156
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.382867;-23.941950;861;AG03;Av. Vereador Álvaro Guimarães	230	AG03		2356517	4622972	Marco
+
+Linhas Municipais:
+13
+102
+152
+154
+155
+156
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.384500;-23.940800;862;AG04;Av. Vereador Álvaro Guimarães	436	AG04		2356448	4623070	Abrigo
+
+Linhas Municipais:
+13
+102
+152
+154
+155
+156
+191
+194
+Linhas Intermunicipais:
+944TRO
+-46.301433;-23.988417;87;BA03;Av. Bancários	106	BA03		2359291	4618072	Marco
+
+Linhas Municipais:
+19
+156
+Linhas Intermunicipais:
+918TRO
+936TRO
+-46.301130;-23.988381;88;BA04;Av. Dos Bancários	115	BA04			Marco
+
+Linhas Municipais
+08
+23
+100
+152
+
+Obs: Ponto Desativado às Sextas-Feiras no horário da Feira-Livre
+-46.302306;-23.987459;89;BA01;Av. Dos Bancários	85	BA01		2359298	4618077	Marco
+
+Linhas Municipais
+08
+23
+100
+152
+
+Obs: Ponto Desativado às Sextas-Feiras no horário da Feira-Livre
+-46.315790;-23.961879;9;AF04;Av. Afonso Pena        182	AF04	2357714	4618949	Abrigo
+
+Linhas Municipais:
+19
+29
+30
+156
+Linhas Intermunicipais:
+906TRO
+917TRO
+918TRO
+919TRO
+927TRO
+936TRO
+940TRO
+952TRO AH
+-46.333660;-23.967378;90;G06;Rua Floriano Peixoto	27	GO06		2358037	4620024	Marco
+
+Linhas Minicipais:
+40
+53
+54
+-46.337309;-23.967047;91;G05;Rua Floriano Peixoto	119	GO05		2357992	4620228	Marco
+
+Linhas Municipais:
+40
+53
+54
+-46.339954;-23.966760;92;PO05;Rua Floriano Peixoto	211	PO05		2358014	4620427	Marco
+
+Linhas Municipais
+40
+53
+-46.343185;-23.966352;93;PO04;Rua Floriano Peixoto	265	PO04		2358012	4620639	Marco
+
+Linhas Municipais:
+40
+53
+-46.331536;-23.967600;94;G07;Rua Galeão Carvalhal	42	GO07		2358054	4619886	Marco
+Linhas Municipais:
+5
+40
+53
+54
+-46.330122;-23.967775;95;G08;Rua Galeão Carvalhal	15	GO08		2358040	4619822	Marco
+Linhas Municipais:
+5
+40
+53
+54
+-46.326780;-23.969260;96;BQ01;Rua Governador Pedro de Toledo	  81	BQ01		2358200	4619603	Marco
+
+Linha Municipal
+54
+-46.324559;-23.970456;97;BQ02;Rua Governador Pedro de Toledo	12	BQ02		2358251	4619434	Marco
+
+Linhas Municipais
+4
+54
+-46.310652;-23.977190;98;AP08;Rua Guaiaó	Shopping Praimar	AP08		2358632	4618675	Abrigo
+Linhas Municipais
+05
+08
+54
+61
+100
+184
+193
+Linhas Intermunicipais:
+927TRO
+940TRO
+-46.307703;-23.979403;99;AP07;Rua Guaiaó	100lo	AP07		2358746	4618472	Abrigo
+
+Linhas Municipais
+08
+100
+Linhas Intermunicipais:
+927TRO
+940TRO

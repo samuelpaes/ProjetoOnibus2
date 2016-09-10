@@ -1,0 +1,64 @@
+﻿@model IEnumerable<web_TCC.Models.Registros>
+
+@{
+    ViewBag.Title = "Mapa - Quantidade de embarque";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+
+    var myArrayLat = ViewBag.lat;
+    var myArrayLng = ViewBag.lng;
+    var heatmapDataView = "";
+    int i = 0;
+    foreach (var item in myArrayLat)
+    {
+        if (heatmapDataView == "")
+        {
+            heatmapDataView = "new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+        }
+        heatmapDataView += ", new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+        i++;
+     }
+    
+}
+
+
+@using (Html.BeginForm())
+{
+
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div class="control-group">
+            <div class="controls">
+                <div class="col-md-2 xdisplay_inputx form-group">
+                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                    @Html.TextBox("txtGetDataInicio", "", new { @class = "form-control has-feedback-left", placeholder = "Data inicial" })
+                </div>
+                <div class="col-md-2 xdisplay_inputx form-group">
+                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                    @Html.TextBox("txtGetDataFim", "", new { @class = "form-control has-feedback-left", placeholder = "Data final" })
+                </div>
+                @Html.DropDownList("ID_linha", null, "Linha", new { @class = "dropdown-toggle btn btn-default" })
+            </div>
+        </div>
+    </fieldset>
+    <br />
+    <fieldset>
+        <div class="control-group">
+            <div class="controls">
+                <div class="col-md-1 xdisplay_inputx form-group">
+                    <input type="submit" value="Filtrar" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+}
+
+@Html.Partial("_HeatMapa")
+
+<script>
+    function getPoints() {
+        return [@heatmapDataView
+        ];
+    }
+</script>

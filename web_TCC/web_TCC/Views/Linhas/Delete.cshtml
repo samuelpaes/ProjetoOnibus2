@@ -1,0 +1,51 @@
+﻿@model web_TCC.Models.Linhas
+
+@{
+    ViewBag.Title = "Excluir Linha";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+@*<h3>@ViewBag.Title</h3>*@
+
+@*<h3>Você tem certeza de que quer excluir a linha permanentemente?</h3>*@
+<h5 class="text-danger">Você tem certeza que deseja excluir esta linha de ônibus? Esta ação não pode ser desfeita.</h5>
+
+<div>
+    @*<h4>Linhas</h4>*@
+    @*<hr />*@
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ativo)
+        </dd>
+
+    </dl>
+
+    @*@using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" name="Excluir" value="Excluir" class="btn btn-danger" />
+            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }*@
+</div>

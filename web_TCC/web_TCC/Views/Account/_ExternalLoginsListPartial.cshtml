@@ -1,0 +1,30 @@
+﻿@model web_TCC.Models.ExternalLoginListViewModel
+@using Microsoft.Owin.Security
+
+<h4>Ut graece constituto duo, no eam.</h4>
+<hr />
+@{
+    //var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    //if (loginProviders.Count() == 0) {
+        <div>
+            <p>
+                Ut graece constituto duo, no eam sumo dico menandri. Per ei esse ludus assentior. 
+                Eos ei enim moderatius, eu vim error saepe accommodare, an usu simul nusquam. 
+                Cu posse tation interpretaris mea, ex ius quod consequat liberavisse. 
+                Cum senserit cotidieque id, unum fierent ea nam. Ut agam omnis utamur sit
+            </p>
+        </div>
+    @*}
+    else {
+        using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = Model.ReturnUrl })) {
+            @Html.AntiForgeryToken()
+            <div id="socialLoginList">
+                <p>
+                    @foreach (AuthenticationDescription p in loginProviders) {
+                        <button type="submit" class="btn btn-default" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
+                    }
+                </p>
+            </div>
+        }
+    }*@
+}

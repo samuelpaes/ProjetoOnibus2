@@ -1,0 +1,285 @@
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\web_TCC.dll.config
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\web_TCC.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\web_TCC.pdb
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Antlr3.Runtime.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\EntityFramework.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\EntityFramework.SqlServer.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Newtonsoft.Json.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Owin.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Helpers.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Mvc.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Optimization.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Razor.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\WebGrease.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Helpers.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Mvc.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Optimization.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.Razor.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Antlr3.Runtime.pdb
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Newtonsoft.Json.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\EntityFramework.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\EntityFramework.SqlServer.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\obj\Debug\web_TCC.csprojResolveAssemblyReference.cache
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\obj\Debug\web_TCC.dll
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
+c:\users\vanessa\documents\visual studio 2013\Projects\web_TCC\web_TCC\obj\Debug\web_TCC.csproj.GenerateResource.Cache
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\web_TCC.dll.config
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\web_TCC.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\web_TCC.pdb
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Antlr3.Runtime.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\EntityFramework.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\EntityFramework.SqlServer.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Newtonsoft.Json.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Owin.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Helpers.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Mvc.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Optimization.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Razor.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\WebGrease.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Helpers.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Mvc.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Optimization.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.Razor.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Antlr3.Runtime.pdb
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Newtonsoft.Json.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\EntityFramework.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\EntityFramework.SqlServer.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\obj\Debug\web_TCC.csprojResolveAssemblyReference.cache
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\obj\Debug\web_TCC.csproj.GenerateResource.Cache
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\obj\Debug\web_TCC.dll
+C:\Users\Vanessa\Desktop\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll.config
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.pdb
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Owin.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\WebGrease.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.pdb
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csprojResolveAssemblyReference.cache
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.dll
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csproj.GenerateResource.Cache
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll.config
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.pdb
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Owin.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\WebGrease.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.pdb
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csprojResolveAssemblyReference.cache
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csproj.GenerateResource.Cache
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.dll
+C:\Users\samue\Documents\GitHub\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csprojResolveAssemblyReference.cache
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.csproj.GenerateResource.Cache
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll.config
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\web_TCC.pdb
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Owin.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\WebGrease.dll
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Helpers.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Mvc.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Optimization.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.Razor.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\System.Web.WebPages.Razor.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Antlr3.Runtime.pdb
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Newtonsoft.Json.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\EntityFramework.SqlServer.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\samue\Documents\Visual Studio 2013\Projects\ProjetoOnibus\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
