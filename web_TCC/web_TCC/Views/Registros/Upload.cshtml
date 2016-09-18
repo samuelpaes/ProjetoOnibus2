@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Dados";
+    ViewBag.Title = "Upload de Registros";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
 
@@ -10,17 +10,18 @@
     @Html.AntiForgeryToken()
 
     <fieldset>
-        <legend>Carregar Dados</legend>
-        <div class="editor-field">
-            <!-- accept determina só arquivos txt podem ser upados -->
-            @Html.TextBox("arquivoExterno", "", new { type = "file", accept = ".txt" })
+        
+        <div class="form-group">
+            @Html.TextBox("arquivoExterno", "", new { type = "file", accept = ".txt", @class = "col-md-2 control-label" })
         </div>
-        <div class="editor-field">
-            <input type="submit" value="Upload" />
+        
 
+        <div class="form-group">
+            <div class="col-md-offset-11 col-md-10">
+                <input type="submit" value="Upar" class="btn btn-primary" />
+            </div>
         </div>
+
         <div><h2>@ViewBag.Message</h2> </div>
-
-
     </fieldset>
 }
