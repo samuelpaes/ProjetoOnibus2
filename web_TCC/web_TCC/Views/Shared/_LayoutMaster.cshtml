@@ -89,7 +89,14 @@
                                     <li>
                                         <a href="@Url.Action("Upload", "Registros")"><i class="fa fa-database"></i> Upload de Registros</a>
                                     </li> 
-                                </ul>
+                                    <li>
+                                        <a><i class="fa fa-gear"></i>Configurações de Conta<span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li>@Html.ActionLink("Alterar Senha", "AlterarSenha", "Gerenciar")</li>
+                                            <li>@Html.ActionLink("Cadastrar Novo Usuário", "Registrar", "Conta")</li>
+                                            @*<li class="divider"></li>*@
+                                        </ul>
+                                    </li></ul>
                             </div>
                         </div>
                         <!-- /sidebar menu -->
