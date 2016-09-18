@@ -65,6 +65,10 @@
                         <div class="clearfix"></div>
 
                         <div class="separator">
+                            <p class="change_link">
+                                Novo no Site ?
+                                <a href="#signup" class="to_register">Crie uma Conta</a>
+                            </p>
 
                             <div class="clearfix"></div>
                             <br />
@@ -76,6 +80,57 @@
                         </div>
                     </form>
                    }
+                </section>
+            </div>
+            
+            
+
+            <div id="register" class="animate form registration_form">
+                
+                <section class="login_content">
+                @using (Html.BeginForm("Registrar", "Conta", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <form>
+                        <h1>Criar Conta</h1>
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div>
+                            @Html.TextBoxFor(m => m.Nome, new { @class = "form-control", placeholder = "Nome Completo" })
+                        </div>
+                        <div>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "E-mail" })
+                        </div>
+                        <div>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Senha"})
+                        </div>
+                        <div>
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", placeholder = "Confirme a Senha" })
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-md-10">
+                                <input type="submit" class="btn btn-default" value="Registrar" />
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="separator">
+                            <p class="change_link">
+                                Já Possui uma conta ?
+                                <a href="#signin" class="to_register"> Log in </a>
+                            </p>
+
+                            <div class="clearfix"></div>
+                            <br />
+
+                            <div>
+                                <h1><i class="fa fa-paw"></i> Projeto TCC!</h1>
+                                <p>©2016 All Rights Reserved. Privacy and Terms</p>
+                            </div>
+                        </div>
+                    </form>
+                }
                 </section>
             </div>
         </div>
