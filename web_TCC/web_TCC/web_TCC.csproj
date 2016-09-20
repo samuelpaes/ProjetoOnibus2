@@ -209,6 +209,8 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\exporting.js" />
+    <Content Include="Scripts\highcharts.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -295,6 +297,9 @@
     <Content Include="Views\Pontos\Upload.cshtml" />
     <Content Include="Views\Mapas\Index.cshtml" />
     <Content Include="Views\Shared\_HeatMapa.cshtml" />
+    <Content Include="Views\Relatorios\Index.cshtml" />
+    <Content Include="Views\Relatorios\Index2.cshtml" />
+    <Content Include="Views\Shared\_GraficoGeral.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Images\" />
@@ -310,6 +315,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201607092207404_InitialCreate.resx">
       <DependentUpon>201607092207404_InitialCreate.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

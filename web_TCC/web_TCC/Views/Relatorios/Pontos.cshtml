@@ -3,9 +3,43 @@
 @{
     ViewBag.Title = "Relatórios - Registros por Pontos";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+
+    var myArrayDados = ViewBag.RelPontos;
+
+    var EntradaDataView = "";
+    var SaidaDataView = "";
+    String PontoDataView = "";
+    int i = 0;
+
+    if (ViewBag.RelPontos != null)
+    {
+        foreach (var item in myArrayDados)
+        {
+            if (i == 0)
+            {
+                EntradaDataView += myArrayDados[i].RelatorioEntradaQuantidade;
+                SaidaDataView += myArrayDados[i].RelatorioSaidaQuantidade;
+                PontoDataView += "'"+myArrayDados[i].PontoCodigo+"'";
+                i++;
+            }
+            else
+            {
+                EntradaDataView += "," + myArrayDados[i].RelatorioEntradaQuantidade;
+                SaidaDataView += "," + myArrayDados[i].RelatorioSaidaQuantidade;
+                PontoDataView += ",'" + myArrayDados[i].PontoCodigo+"'";
+                i++;
+            }
+            
+            
+        }
+    }
+
+    var final = PontoDataView.Replace("\"","'").Split(',');
+
 }
 
 @using (Html.BeginForm())
+
 {
 
     @Html.ValidationSummary(true)
@@ -98,8 +132,7 @@
         </table>
     </div>
     
-    @*Gráfico irá aqui*@
-    <!-- Modal -->
+    //Gráficos
     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -107,23 +140,93 @@
                     <button type="button" class="close" data-dismiss="modal">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel">Gráfico Pontos</h4>
                 </div>
                 <div class="modal-body">
-                    <h4>Text in a modal</h4>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    <div class="" id="container" style="width: 64%; height: 450px"></div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /Modal -->
     }
 }
 
 
 
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/highcharts.js"></script>
+<script src="~/Scripts/exporting.js"></script>
+
+
+<script type="text/javascript">
+    var chart2;
+    $(function () {
+        chart2 = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                type: 'column'
+            },
+            title: {
+                text: 'Gráfico de Entrada e Saída por ponto'
+            },
+            subtitle: {
+                text: ''
+            },
+            xAxis: {
+                categories: [
+                    @final
+                    //'Jan',
+                    //'Feb',
+                    //'Mar',
+                    //'Apr',
+                    //'May',
+                    //'Jun',
+                    //'Jul',
+                    //'Aug',
+                    //'Sep',
+                    //'Oct',
+                    //'Nov',
+                    //'Dec'
+                ],
+                crosshair: true,
+                title: {
+                    text: 'Pontos'
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Pessoas'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'Entrada',
+                data: [@EntradaDataView]
+                //data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+
+            }, {
+                name: 'Saída',
+                data: [@SaidaDataView]
+                //data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
+
+            }]
+        });
+    });
+</script>

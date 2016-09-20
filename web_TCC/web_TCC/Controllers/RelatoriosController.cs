@@ -25,12 +25,24 @@ namespace web_TCC.Controllers
             return View();
         }
 
+        public ActionResult Index2()
+        {
+            return View();
+        }
+
+        public ActionResult _GraficoGeral()
+        {
+            return View();
+        }
+
         // GET: Relatorios/Geral
         public ActionResult Geral()
         {
             ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
             return View();
         }
+
+
 
         // GET: Relatorios/Geral
         [HttpPost]
@@ -63,6 +75,7 @@ namespace web_TCC.Controllers
                     }
 
                     ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
+
                     return View(qRelatorio.ToList());
                 }
                 else
@@ -127,10 +140,30 @@ namespace web_TCC.Controllers
                             RelatorioNumeroVeiculo = g.Key.NumeroVeiculo
                         };
 
+
+                    var qRelatorio2 = from r in db.Registros
+                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     orderby r.Linhas.ID_linha, r.NumeroVeiculo, r.Data
+                                     group r by new
+                                     {
+                                         r.Linhas.Numero,
+                                         r.Data,
+                                         r.Pontos.Código,
+                                     } into g
+                                     select new V_RelRegistroPontos
+                                     {
+                                         PontoCodigo = g.Key.Código,
+                                         RelatorioEntradaQuantidade = g.Count(x => x.Entrada == true),
+                                         RelatorioSaidaQuantidade = g.Count(x => x.Entrada == false),
+                                     };
+
                     if (!qRelatorio.Any())
                     {
                         ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
                     }
+
+                    ViewBag.RelPontos = qRelatorio2.ToList();
 
                     ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
                     return View(qRelatorio.ToList());
@@ -159,13 +192,13 @@ namespace web_TCC.Controllers
         [HttpPost]
         public ActionResult Total(FormCollection form)
         {
-            try
-            {
+            //try
+            //{
                 long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
                 string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
                 string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
 
-                if (dataInicio != "" && ID_linha != 0)
+                if (dataInicio != "" && ID_linha != 0 && dataInicio.Substring(3,2) == dataFim.Substring(3,2))
                 {
                     DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
                     DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
@@ -188,29 +221,55 @@ namespace web_TCC.Controllers
                             RegistroTotalPessoas = g.Count(x => x.Entrada == true),
                             Ano = g.Key.Year.ToString(),
                             Mes = g.Key.Month.ToString(),
-                            Dia = g.Key.Day.ToString()
+                            Dia = g.Key.Day.ToString(),
+
+                            Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
                         };
+
+                    var qRelatorio2 = from r in db.Registros
+                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     orderby r.ID_linha, r.Data
+                                     group r by new
+                                     {
+                                         r.Data.Year,
+                                         r.Data.Month,
+                                         r.Data.Day,
+                                         r.Linhas.Numero
+                                     } into g
+                                     select new V_RelRegistroTotal
+                                     {
+                                         RegistroTotalPessoas = g.Count(x => x.Entrada == true),
+                                         //Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
+                                         Ano = g.Key.Year.ToString(),
+                                         Mes = g.Key.Month.ToString(),
+                                         Dia = g.Key.Day.ToString()
+                                     };
 
                     if (!qRelatorio.Any())
                     {
                         ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
                     }
 
+                    ViewBag.RelTotal = qRelatorio2.ToList();
+
+                    var myArrayDados = ViewBag.RelTotal;
+                    
                     ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
                     return View(qRelatorio.ToList());
                 }
                 else
                 {
-                    ModelState.AddModelError(String.Empty, "Escolha uma data e uma linha de ônibus");
+                    ModelState.AddModelError(String.Empty, "Escolha um período dentro do mesmo mês e uma linha de ônibus");
                     return Pontos();
                 }
             }
-            catch (Exception e)
-            {
-                ModelState.AddModelError(String.Empty, "Erro");
-                return Pontos();
-            }
-        }
+            //catch (Exception e)
+            //{
+            //    ModelState.AddModelError(String.Empty, "Erro");
+            //    return Pontos();
+            //}
+        //}
 
 
         protected override void Dispose(bool disposing)
