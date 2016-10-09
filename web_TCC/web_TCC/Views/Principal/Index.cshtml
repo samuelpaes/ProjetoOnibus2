@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<web_TCC.Models.Conta>
 @{
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
@@ -7,6 +7,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -35,36 +38,76 @@
 <!-- page content -->
 <!-- top tiles -->
 <div class="row tile_count">
+  
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-user"></i> Total Users</span>
-        <div class="count">2500</div>
-        <span class="count_bottom"><i class="green">4% </i> From last Week</span>
+        <span class="count_top"><i class="fa fa-calendar"></i> Data</span>
+        <div class="count">
+        
+        <script language=javascript type="text/javascript">
+            var mydate = new Date()
+        var year = mydate.getYear()
+        if (year < 2000)
+            year += (year < 1900) ? 1900 : 0
+        var day = mydate.getDay()
+        var month = mydate.getMonth()
+        var daym = mydate.getDate()
+        if (daym < 10)
+            daym = "0" + daym
+        var dayarray = new Array("Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado")
+        var montharray = new Array(" de Janeiro de ", " de Fevereiro de ", " de Março de ", "de Abril de ", "de Maio de ", "de Junho de", "de Julho de ", "de Agosto de ", "de Setembro de ", " de Outubro de ", " de Novembro de ", " de Dezembro de ")
+
+        document.write(dayarray[day])
+        document.write("</b></i></font>")
+        </script></div>
+        
+        <span class="count_bottom"><i class="green">
+            
+            <script language=javascript type="text/javascript">
+            var mydate = new Date()
+            var year = mydate.getYear()
+            if (year < 2000)
+                year += (year < 1900) ? 1900 : 0
+            var day = mydate.getDay()
+            var month = mydate.getMonth()
+            var daym = mydate.getDate()
+            if (daym < 10)
+                daym = "0" + daym
+            var dayarray = new Array("Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado")
+            var montharray = new Array(" de Janeiro de ", " de Fevereiro de ", " de Março de ", "de Abril de ", "de Maio de ", "de Junho de", "de Julho de ", "de Agosto de ", "de Setembro de ", " de Outubro de ", " de Novembro de ", " de Dezembro de ")
+
+            document.write(daym + " " + montharray[month] + year + " ")
+            document.write("</b></i></font>")
+            </script> </i>
+     
+         
+        </span>
     </div>
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-clock-o"></i> Average Time</span>
-        <div class="count">123.50</div>
-        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span>
+        <span class="count_top"><i class="fa fa-clock-o"></i> Hora</span>
+        <div class="count">14:35:12</div>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-users"></i> Total de Usuários</span>
+        <div class="count">@TempData["Total de Usuários"]</div>
+        <!--<span class="count_bottom"><i class="green">Total </i> From last Week</span>-->
     </div>
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-user"></i> Total Males</span>
-        <div class="count green">2,500</div>
-        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+        <span class="count_top"><i class="fa fa-bus "></i> Total de Linhas</span>
+        <div class="count">@TempData["Total de Linhas"]</div>
+        <!--<span class="count_bottom"><i class="green"><i class="fa fa-bus"></i>3% </i> From last Week</span>-->
     </div>
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-user"></i> Total Females</span>
-        <div class="count">4,567</div>
-        <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span>
+        <span class="count_top"><i class="fa fa-dot-circle-o"></i> Total de Pontos</span>
+        <div class="count green">@TempData["Total de Pontos"]</div>
+    <!--<span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>-->
     </div>
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-user"></i> Total Collections</span>
-        <div class="count">2,315</div>
-        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+        <span class="count_top"><i class="fa fa-file-text-o"></i> Total de Registros</span>
+        <div class="count">@TempData["Total de Registros"]</div>
+        <!--<span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i></span>-->
     </div>
-    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-        <span class="count_top"><i class="fa fa-user"></i> Total Connections</span>
-        <div class="count">7,325</div>
-        <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
-    </div>
+</div>
 </div>
 <!-- /top tiles -->
 
