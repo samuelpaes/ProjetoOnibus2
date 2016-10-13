@@ -21,6 +21,7 @@ namespace web_TCC.Models
 
         public string Ano { get; set; }
 
+        public string Data { get; set; }
 
     }
 }

@@ -193,6 +193,7 @@
     <Compile Include="Models\Pontos.cs" />
     <Compile Include="Models\Registros.cs" />
     <Compile Include="Models\RegisterConcatenaLogin.cs" />
+    <Compile Include="Models\V_RegistrosGraficoTotal.cs" />
     <Compile Include="Models\V_RegistrosLinhasPontos.cs" />
     <Compile Include="Models\V_RelRegistroPontos.cs" />
     <Compile Include="Models\V_RelRegistroTotal.cs" />
@@ -210,6 +211,8 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\exporting.js" />
+    <Content Include="Scripts\highcharts.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
