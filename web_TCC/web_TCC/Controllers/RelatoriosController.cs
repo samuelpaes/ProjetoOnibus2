@@ -745,7 +745,11 @@ namespace web_TCC.Controllers
                 if (!qRelatorio.Any())
                 {
                     ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
+>>>>>>> origin/vanessa
                 }
 
                 //ViewBag.RelTotal = qRelatorio2.ToList();
@@ -774,7 +778,11 @@ namespace web_TCC.Controllers
         //    ModelState.AddModelError(String.Empty, "Erro");
         //    return Pontos();
         //}
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
+>>>>>>> origin/vanessa
         //}
 
 

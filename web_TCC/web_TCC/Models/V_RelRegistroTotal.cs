@@ -25,7 +25,11 @@ namespace web_TCC.Models
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
+>>>>>>> origin/vanessa
 
     }
 }
