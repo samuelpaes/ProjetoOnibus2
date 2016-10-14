@@ -14,7 +14,11 @@
         Data = myArrayDados[0].Mes + "/" + myArrayDados[0].Ano;
         foreach (var item in myArrayDados)
         {
+<<<<<<< HEAD
             DadosDataView += "[" + myArrayDados[i].Dia + ", " + myArrayDados[i].RegistroTotalPessoas + "],";
+=======
+            DadosDataView += "[\"" + myArrayDados[i].Data + "\", " + myArrayDados[i].RegistroTotalPessoas + "],";
+>>>>>>> master
             i++;
         }
     }
@@ -55,20 +59,40 @@
 {
     if (Model.Any())
     {
+<<<<<<< HEAD
         <div class="x_content">
             <table id="datatable-buttons" class="table table-striped table-bordered">
                 <thead>
+=======
+        <table class="table">
+            <tr>
+                <th>
+                    Linha
+                </th>
+                <th>
+                    Data
+                </th>
+                <th>
+                    Total de passageiros
+                </th>
+            </tr>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+>>>>>>> master
                     <tr>
-                        <th>
-                            Linha
-                        </th>
-                        <th>
-                            Data
-                        </th>
-                        <th>
-                            Total de passageiros
-                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LinhaNumero)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Data)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RegistroTotalPessoas)
+                        </td>
                     </tr>
+<<<<<<< HEAD
                 </thead>
 
                 <tbody>
@@ -117,6 +141,45 @@
 <script src="~/Scripts/exporting.js"></script>
 
 <script type="text/javascript">
+=======
+                }
+            </tbody>
+        </table>
+    }
+}
+
+        @*Gráficos*@
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Gráfico Relatório Total de Passageiros</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="" id="container" style="width: 64%; height: 450px"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/highcharts.js"></script>
+        <script src="~/Scripts/exporting.js"></script>
+
+        @*subtitle: {
+            text: 'Mês: @Data'
+            },*@
+
+
+        <script type="text/javascript">
+>>>>>>> master
     var chart2;
     $(function () {
         chart2 = new Highcharts.Chart({
@@ -127,9 +190,12 @@
             title: {
                 text: 'Grafico Total Passageiros por dia'
             },
+<<<<<<< HEAD
             subtitle: {
                 text: 'Mês: @Data'
             },
+=======
+>>>>>>> master
             xAxis: {
                 type: 'category',
                 labels: {
@@ -140,13 +206,21 @@
                     }
                 },
                 title: {
+<<<<<<< HEAD
             text: 'Dia'
+=======
+            text: 'Data'
+>>>>>>> master
                 }
             },
             yAxis: {
                 min: 0,
                 title: {
+<<<<<<< HEAD
                     text: 'Passageiros (Dia)'
+=======
+                    text: 'Passageiros (Data)'
+>>>>>>> master
                 }
             },
             legend: {
@@ -158,7 +232,11 @@
             series: [{
                 name: 'Passageiros',
                 data: [
+<<<<<<< HEAD
                    @DadosDataView
+=======
+                   @Html.Raw(@DadosDataView)
+>>>>>>> master
                 ],
                 dataLabels: {
                     enabled: true,
@@ -175,4 +253,8 @@
             }]
         });
     });
+<<<<<<< HEAD
 </script>
+=======
+        </script>
+>>>>>>> master

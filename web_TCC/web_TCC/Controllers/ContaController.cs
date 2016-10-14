@@ -84,6 +84,18 @@ namespace web_TCC.Controllers
                     //returnUrl =  ///@ActionLink("Pontos de Ônibus", "Index", "Pontos");
 
                     //return RedirectToAction("Ponto", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+                    
+                    int totalUsuarios = (from p in db.Linhas select p).Count();
+                    TempData["Total de Usuários"] = totalUsuarios;
+                    
+                    int totalLinhas = (from p in db.Linhas select p).Count();
+                    TempData["Total de Linhas"] = totalLinhas;   
+
+                    int totalPontos = (from p in db.Pontos select p).Count();
+                    TempData["Total de Pontos"] = totalPontos;   
+
+                    int totalRegistros = (from p in db.Registros select p).Count();
+                    TempData["Total de Registros"] = totalRegistros;   
 
                     return RedirectToRoute("Login");
 

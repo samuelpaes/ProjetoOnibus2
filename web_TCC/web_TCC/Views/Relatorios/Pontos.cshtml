@@ -19,13 +19,18 @@
             {
                 EntradaDataView += myArrayDados[i].RelatorioEntradaQuantidade;
                 SaidaDataView += myArrayDados[i].RelatorioSaidaQuantidade;
+<<<<<<< HEAD
                 PontoDataView += "'"+myArrayDados[i].PontoCodigo+"'";
+=======
+                PontoDataView += "\"" + myArrayDados[i].PontoCodigo + "\"";
+>>>>>>> master
                 i++;
             }
             else
             {
                 EntradaDataView += "," + myArrayDados[i].RelatorioEntradaQuantidade;
                 SaidaDataView += "," + myArrayDados[i].RelatorioSaidaQuantidade;
+<<<<<<< HEAD
                 PontoDataView += ",'" + myArrayDados[i].PontoCodigo+"'";
                 i++;
             }
@@ -36,12 +41,18 @@
 
     var final = PontoDataView.Replace("\"","'").Split(',');
 
+=======
+                PontoDataView += ",\"" + myArrayDados[i].PontoCodigo + "\"";
+                i++;
+            }
+        }
+    }
+>>>>>>> master
 }
 
 @using (Html.BeginForm())
 
 {
-
     @Html.ValidationSummary(true)
 
     <fieldset>
@@ -73,36 +84,28 @@
     </fieldset>
 }
 
-@if (Model != null) {
-        if (Model.Any())
-        {
-    <div class="x_content">
-        @*<p class="text-muted font-13 m-b-30">
-                The Buttons extension for DataTables provides a common set of options, API methods and styling to display buttons on a page that will interact with a DataTable. The core library provides the based framework upon which plug-ins can built.
-            </p>*@
-        <table id="datatable-buttons" class="table table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th>
-                        Linha
-                    </th>
-                    <th>
-                        Veículo
-                    </th>
-                    <th>
-                        Data
-                    </th>
-                    <th>
-                        Ponto
-                    </th>
-                    <th>
-                        Entradas
-                    </th>
-                    <th>
-                        Saídas
-                    </th>
-                </tr>
-            </thead>
+@if (Model != null)
+{
+    if (Model.Any())
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    Linha
+                </th>
+                <th>
+                    Veículo
+                </th>
+                <th>
+                    Ponto
+                </th>
+                <th>
+                    Entradas
+                </th>
+                <th>
+                    Saídas
+                </th>
+            </tr>
 
             <tbody>
                 @foreach (var item in Model)
@@ -113,9 +116,6 @@
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.RelatorioNumeroVeiculo)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.RelatorioData)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.PontoCodigo) - @Html.DisplayFor(modelItem => item.PontoDescricao)
@@ -130,6 +130,7 @@
                 }
             </tbody>
         </table>
+<<<<<<< HEAD
     </div>
     
     //Gráficos
@@ -153,9 +154,138 @@
     </div>
     }
 }
+=======
+    }
+}
+
+        @*@if (Model != null) {
+                    if (Model.Any())
+                    {
+                <div class="x_content">
+                    <table id="datatable-buttons" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Linha
+                                </th>
+                                <th>
+                                    Veículo
+                                </th>
+                                <th>
+                                    Ponto
+                                </th>
+                                <th>
+                                    Entradas
+                                </th>
+                                <th>
+                                    Saídas
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.LinhaNumero)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RelatorioNumeroVeiculo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.PontoCodigo) - @Html.DisplayFor(modelItem => item.PontoDescricao)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RelatorioEntradaQuantidade)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.RelatorioSaidaQuantidade)
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                }
+            }*@
 
 
+        @*Gráficos*@
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Gráfico Relatório Pontos</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="" id="container" style="width: 64%; height: 450px"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/highcharts.js"></script>
+        <script src="~/Scripts/exporting.js"></script>
+>>>>>>> master
+
+
+        <script type="text/javascript">
+    var chart2;
+    $(function () {
+        chart2 = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                type: 'column'
+            },
+            title: {
+                text: 'Gráfico de Entrada e Saída por ponto'
+            },
+            subtitle: {
+                text: ''
+            },
+            xAxis: {
+                categories:
+                    [
+                        @Html.Raw(@PontoDataView)
+                ],
+                crosshair: true,
+                title: {
+                    text: 'Pontos'
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Pessoas'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y}</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'Entrada',
+                data: [@EntradaDataView]
+
+<<<<<<< HEAD
 <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
 <script src="~/Scripts/highcharts.js"></script>
 <script src="~/Scripts/exporting.js"></script>
@@ -230,3 +360,12 @@
         });
     });
 </script>
+=======
+            }, {
+                name: 'Saída',
+                data: [@SaidaDataView]
+            }]
+        });
+    });
+        </script>
+>>>>>>> master
