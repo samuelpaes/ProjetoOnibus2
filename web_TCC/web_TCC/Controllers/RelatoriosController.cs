@@ -566,24 +566,6 @@ namespace web_TCC.Controllers
                                           RelatorioSaidaQuantidade = g.Count(x => x.Entrada == false),
                                       };
 
-
-                    var qRelatorio2 = from r in db.Registros
-                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                     orderby r.Linhas.ID_linha, r.NumeroVeiculo, r.Data
-                                     group r by new
-                                     {
-                                         r.Linhas.Numero,
-                                         r.Data,
-                                         r.Pontos.Código,
-                                     } into g
-                                     select new V_RelRegistroPontos
-                                     {
-                                         PontoCodigo = g.Key.Código,
-                                         RelatorioEntradaQuantidade = g.Count(x => x.Entrada == true),
-                                         RelatorioSaidaQuantidade = g.Count(x => x.Entrada == false),
-                                     };
-
                     if (!qRelatorio.Any())
                     {
                         ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
@@ -620,76 +602,6 @@ namespace web_TCC.Controllers
         {
             //try
             //{
-<<<<<<< HEAD
-                long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
-                string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
-                string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
-
-                if (dataInicio != "" && ID_linha != 0 && dataInicio.Substring(3,2) == dataFim.Substring(3,2))
-                {
-                    DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
-                    DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
-
-                    var qRelatorio = from r in db.Registros
-                        where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                        && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                        orderby r.ID_linha, r.Data
-                        group r by new
-                        {
-                            r.Data.Year,
-                            r.Data.Month,
-                            r.Data.Day,
-                            r.Linhas.Numero
-                        } into g
-                        select new V_RelRegistroTotal
-                        {
-                            //LinhaId = g.Key.ID_linha,
-                            LinhaNumero = g.Key.Numero,
-                            RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                            Ano = g.Key.Year.ToString(),
-                            Mes = g.Key.Month.ToString(),
-                            Dia = g.Key.Day.ToString(),
-
-                            Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                        };
-
-                    var qRelatorio2 = from r in db.Registros
-                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                     orderby r.ID_linha, r.Data
-                                     group r by new
-                                     {
-                                         r.Data.Year,
-                                         r.Data.Month,
-                                         r.Data.Day,
-                                         r.Linhas.Numero
-                                     } into g
-                                     select new V_RelRegistroTotal
-                                     {
-                                         RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                                         //Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                                         Ano = g.Key.Year.ToString(),
-                                         Mes = g.Key.Month.ToString(),
-                                         Dia = g.Key.Day.ToString()
-                                     };
-
-                    if (!qRelatorio.Any())
-                    {
-                        ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
-                    }
-
-                    ViewBag.RelTotal = qRelatorio2.ToList();
-
-                    var myArrayDados = ViewBag.RelTotal;
-                    
-                    ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
-                    return View(qRelatorio.ToList());
-                }
-                else
-                {
-                    ModelState.AddModelError(String.Empty, "Escolha um período dentro do mesmo mês e uma linha de ônibus");
-                    return Pontos();
-=======
             long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
             string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
             string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
@@ -745,11 +657,6 @@ namespace web_TCC.Controllers
                 if (!qRelatorio.Any())
                 {
                     ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
                 }
 
                 //ViewBag.RelTotal = qRelatorio2.ToList();
@@ -760,13 +667,6 @@ namespace web_TCC.Controllers
                 ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
                 return View(qRelatorio.ToList());
             }
-<<<<<<< HEAD
-            //catch (Exception e)
-            //{
-            //    ModelState.AddModelError(String.Empty, "Erro");
-            //    return Pontos();
-            //}
-=======
             else
             {
                 ModelState.AddModelError(String.Empty, "Escolha um período e uma linha de ônibus");
@@ -778,11 +678,6 @@ namespace web_TCC.Controllers
         //    ModelState.AddModelError(String.Empty, "Erro");
         //    return Pontos();
         //}
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
         //}
 
 

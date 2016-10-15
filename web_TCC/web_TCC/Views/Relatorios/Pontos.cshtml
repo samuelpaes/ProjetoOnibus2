@@ -19,47 +19,23 @@
             {
                 EntradaDataView += myArrayDados[i].RelatorioEntradaQuantidade;
                 SaidaDataView += myArrayDados[i].RelatorioSaidaQuantidade;
-<<<<<<< HEAD
-                PontoDataView += "'"+myArrayDados[i].PontoCodigo+"'";
-=======
+
                 PontoDataView += "\"" + myArrayDados[i].PontoCodigo + "\"";
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
                 i++;
             }
             else
             {
                 EntradaDataView += "," + myArrayDados[i].RelatorioEntradaQuantidade;
                 SaidaDataView += "," + myArrayDados[i].RelatorioSaidaQuantidade;
-<<<<<<< HEAD
-                PontoDataView += ",'" + myArrayDados[i].PontoCodigo+"'";
-                i++;
-            }
-            
-            
-        }
-    }
-
-    var final = PontoDataView.Replace("\"","'").Split(',');
-
-=======
                 PontoDataView += ",\"" + myArrayDados[i].PontoCodigo + "\"";
                 i++;
             }
         }
     }
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
+    
 }
 
 @using (Html.BeginForm())
-
 {
     @Html.ValidationSummary(true)
 
@@ -91,6 +67,7 @@
         </div>
     </fieldset>
 }
+
 
 @if (Model != null)
 {
@@ -138,31 +115,6 @@
                 }
             </tbody>
         </table>
-<<<<<<< HEAD
-    </div>
-    
-    //Gráficos
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Gráfico Pontos</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="" id="container" style="width: 64%; height: 450px"></div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    }
-}
-=======
     }
 }
 
@@ -242,11 +194,6 @@
         <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
         <script src="~/Scripts/highcharts.js"></script>
         <script src="~/Scripts/exporting.js"></script>
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
 
 
         <script type="text/javascript">
@@ -296,83 +243,6 @@
             series: [{
                 name: 'Entrada',
                 data: [@EntradaDataView]
-
-<<<<<<< HEAD
-<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
-<script src="~/Scripts/highcharts.js"></script>
-<script src="~/Scripts/exporting.js"></script>
-
-
-<script type="text/javascript">
-    var chart2;
-    $(function () {
-        chart2 = new Highcharts.Chart({
-            chart: {
-                renderTo: 'container',
-                type: 'column'
-            },
-            title: {
-                text: 'Gráfico de Entrada e Saída por ponto'
-            },
-            subtitle: {
-                text: ''
-            },
-            xAxis: {
-                categories: [
-                    @final
-                    //'Jan',
-                    //'Feb',
-                    //'Mar',
-                    //'Apr',
-                    //'May',
-                    //'Jun',
-                    //'Jul',
-                    //'Aug',
-                    //'Sep',
-                    //'Oct',
-                    //'Nov',
-                    //'Dec'
-                ],
-                crosshair: true,
-                title: {
-                    text: 'Pontos'
-                }
-            },
-            yAxis: {
-                min: 0,
-                title: {
-                    text: 'Pessoas'
-                }
-            },
-            tooltip: {
-                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                    '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
-                footerFormat: '</table>',
-                shared: true,
-                useHTML: true
-            },
-            plotOptions: {
-                column: {
-                    pointPadding: 0.2,
-                    borderWidth: 0
-                }
-            },
-            series: [{
-                name: 'Entrada',
-                data: [@EntradaDataView]
-                //data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
-
-            }, {
-                name: 'Saída',
-                data: [@SaidaDataView]
-                //data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
-
-            }]
-        });
-    });
-</script>
-=======
             }, {
                 name: 'Saída',
                 data: [@SaidaDataView]
@@ -380,8 +250,3 @@
         });
     });
         </script>
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa

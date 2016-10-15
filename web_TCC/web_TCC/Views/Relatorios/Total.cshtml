@@ -14,15 +14,7 @@
         Data = myArrayDados[0].Mes + "/" + myArrayDados[0].Ano;
         foreach (var item in myArrayDados)
         {
-<<<<<<< HEAD
-            DadosDataView += "[" + myArrayDados[i].Dia + ", " + myArrayDados[i].RegistroTotalPessoas + "],";
-=======
             DadosDataView += "[\"" + myArrayDados[i].Data + "\", " + myArrayDados[i].RegistroTotalPessoas + "],";
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
             i++;
         }
     }
@@ -63,32 +55,24 @@
 {
     if (Model.Any())
     {
-<<<<<<< HEAD
-        <div class="x_content">
-            <table id="datatable-buttons" class="table table-striped table-bordered">
-                <thead>
-=======
         <table class="table">
-            <tr>
-                <th>
-                    Linha
-                </th>
-                <th>
-                    Data
-                </th>
-                <th>
-                    Total de passageiros
-                </th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>
+                        Linha
+                    </th>
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Total de passageiros
+                    </th>
+                </tr>
+            </thead>
 
             <tbody>
                 @foreach (var item in Model)
                 {
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
                     <tr>
                         <td>
                             @Html.DisplayFor(modelItem => item.LinhaNumero)
@@ -100,63 +84,11 @@
                             @Html.DisplayFor(modelItem => item.RegistroTotalPessoas)
                         </td>
                     </tr>
-<<<<<<< HEAD
-                </thead>
-
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.LinhaNumero)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Data)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.RegistroTotalPessoas)
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-    }
-    //Gráficos
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Gráfico Geral</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="" id="container" style="width: 64%; height: 450px"></div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-}
-
-
-<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
-<script src="~/Scripts/highcharts.js"></script>
-<script src="~/Scripts/exporting.js"></script>
-
-<script type="text/javascript">
-=======
                 }
             </tbody>
         </table>
-    }
-}
 
-        @*Gráficos*@
+        //Gráficos
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -175,23 +107,15 @@
                 </div>
             </div>
         </div>
+    }
+}
 
 
-        <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
-        <script src="~/Scripts/highcharts.js"></script>
-        <script src="~/Scripts/exporting.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/highcharts.js"></script>
+<script src="~/Scripts/exporting.js"></script>
 
-        @*subtitle: {
-            text: 'Mês: @Data'
-            },*@
-
-
-        <script type="text/javascript">
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
+<script type="text/javascript">
     var chart2;
     $(function () {
         chart2 = new Highcharts.Chart({
@@ -202,16 +126,9 @@
             title: {
                 text: 'Grafico Total Passageiros por dia'
             },
-<<<<<<< HEAD
             subtitle: {
                 text: 'Mês: @Data'
             },
-=======
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
             xAxis: {
                 type: 'category',
                 labels: {
@@ -222,29 +139,13 @@
                     }
                 },
                 title: {
-<<<<<<< HEAD
-            text: 'Dia'
-=======
-            text: 'Data'
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
+                    text: 'Data'
                 }
             },
             yAxis: {
                 min: 0,
                 title: {
-<<<<<<< HEAD
-                    text: 'Passageiros (Dia)'
-=======
                     text: 'Passageiros (Data)'
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
                 }
             },
             legend: {
@@ -256,15 +157,7 @@
             series: [{
                 name: 'Passageiros',
                 data: [
-<<<<<<< HEAD
-                   @DadosDataView
-=======
                    @Html.Raw(@DadosDataView)
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
                 ],
                 dataLabels: {
                     enabled: true,
@@ -281,12 +174,4 @@
             }]
         });
     });
-<<<<<<< HEAD
-</script>
-=======
         </script>
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 59ac704b9c0be6156cd2358785c8813c4c01ec9c
->>>>>>> origin/vanessa
