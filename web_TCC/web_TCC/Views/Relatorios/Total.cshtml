@@ -45,7 +45,7 @@
                 <div class="col-md-1 xdisplay_inputx form-group">
                     <input type="submit" value="Filtrar" class="btn btn-primary" />
                 </div>
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico dos resultados</button>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico</button>
             </div>
         </div>
     </fieldset>
@@ -55,7 +55,7 @@
 {
     if (Model.Any())
     {
-        <table class="table">
+        <table id="datatable-buttons" class="table table-striped table-bordered" cellspacing="0">
             <thead>
                 <tr>
                     <th>
@@ -113,7 +113,7 @@
 
 <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
 <script src="~/Scripts/highcharts.js"></script>
-<script src="~/Scripts/exporting.js"></script>
+@*<script src="~/Scripts/exporting.js"></script>*@
 
 <script type="text/javascript">
     var chart2;
@@ -154,6 +154,11 @@
             tooltip: {
                 pointFormat: '<b>{point.y} Passageiros</b>'
             },
+
+            exporting: {
+                enabled: false
+            },
+
             series: [{
                 name: 'Passageiros',
                 data: [
@@ -174,4 +179,4 @@
             }]
         });
     });
-        </script>
+</script>

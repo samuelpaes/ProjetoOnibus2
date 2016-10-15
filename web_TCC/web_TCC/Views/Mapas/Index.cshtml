@@ -8,15 +8,17 @@
     var myArrayLng = ViewBag.lng;
     var heatmapDataView = "";
     int i = 0;
-    foreach (var item in myArrayLat)
-    {
-        if (heatmapDataView == "")
+    if (myArrayLat != null) {
+        foreach (var item in myArrayLat)
         {
-            heatmapDataView = "new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
-        }
-        heatmapDataView += ", new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
-        i++;
-     }
+            if (heatmapDataView == "")
+            {
+                heatmapDataView = "new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+            }
+            heatmapDataView += ", new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+            i++;
+         }
+    }
     
 }
 
@@ -54,7 +56,9 @@
 
 }
 
+
 @Html.Partial("_HeatMapa")
+
 
 <script>
     function getPoints() {
