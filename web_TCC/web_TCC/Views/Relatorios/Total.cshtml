@@ -20,6 +20,39 @@
     }
 }
 
+@ViewBag.Error
+
+<big>
+    <p class="text-info">
+        Este relatório informa a quantidade total de passageiros que utilizaram a linha do ônibus em determinada data,
+    </p>
+</big>
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Informe o período a ser pesquisado, selecione a linha desejada e clique no botão
+            <strong>Buscar</strong>.
+            <br />
+        </li>
+        <li>
+            Para visualizar o gráfico da pesquisa, clique no botão
+            <strong>Gerar Gráfico</strong>.
+        </li>
+        <li>
+            Caso deseje exportar o gráfico para excel, clique no botão <strong>Excel</strong>
+        </li>
+        <li>
+            Caso deseje imprimir o gráfico, clique no botão <strong>Imprimir</strong>
+        </li>
+        <li>
+            Para filtrar os resultados, insira o texto no campo <strong>Filtrar Resultado</strong>
+        </li>
+    </ul>
+</p>
+<hr />
+
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)

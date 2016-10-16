@@ -1,7 +1,30 @@
 ﻿@{
-    ViewBag.Title = "Dados";
+    ViewBag.Title = "Carregar Arquivo de Dados";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
+
+
+@ViewBag.Error
+
+<big>
+    <p class="text-info">
+        Registre no sistema os registros capturados pelo dispositivo nos ônibus.
+    </p>
+</big>
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Clique no botão <strong>Escolher Arquivo</strong>, e selecione o arquivo .txt extraído do dispositivo.
+        </li>
+        <li>
+            Clique no botão <strong>Registrar Arquivo</strong> para salvar os dados do arquivo no sistema.
+        </li>
+    </ul>
+</p>
+<hr />
+
 
 
 @using (Html.BeginForm("Upload", "Registros", FormMethod.Post,
@@ -10,13 +33,16 @@
     @Html.AntiForgeryToken()
 
     <fieldset>
-        <legend>Carregar Dados</legend>
+        @*<legend>Carregar Dados</legend>*@
         <div class="editor-field">
             <!-- accept determina só arquivos txt podem ser upados -->
-            @Html.TextBox("arquivoExterno", "", new { type = "file", accept = ".txt" })
+            <div class="well">
+                @Html.TextBox("arquivoExterno", "", new {type = "file", accept = ".txt" })
+             </div>
         </div>
+        <br/>
         <div class="editor-field">
-            <input type="submit" value="Upload" />
+            <input type="submit" value="Registrar Arquivo"  class = "dropdown-toggle btn btn-primary" }/>
 
         </div>
         <div><h2>@ViewBag.Message</h2> </div>

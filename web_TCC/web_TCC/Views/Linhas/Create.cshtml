@@ -5,7 +5,19 @@
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
 
-@*<h3>@ViewBag.Title</h3>*@
+@ViewBag.Error
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Insira as informações da linha de ônibus e clique no botão <strong>Salvar</strong>.
+        </li>
+        <li>
+            Caso deseje voltar para a tela anterior sem salvar as informações, clique no botão <strong>Voltar</strong>.
+        </li>
+    </ul>
+</p>
 
 @using (Html.BeginForm()) 
 {
@@ -44,7 +56,7 @@
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
-                @Html.ActionLink("Cancelar", "Index",null, new{@class = "btn btn-default"})
+                @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
             </div>
         </div>
     </div>

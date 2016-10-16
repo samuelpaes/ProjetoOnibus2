@@ -42,7 +42,7 @@
                             <div class="menu_section">
                                 <ul class="nav side-menu">
                                     <li>
-                                        <a href="~/Principal"><i class="fa fa-home"></i> Página Inicial <span class="label label-danger"> Em breve</span></a>
+                                        <a href="~/Principal"><i class="fa fa-home"></i> Página Inicial</a>
                                     </li>
                                     <li>
                                         <a><i class="fa fa-desktop"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
@@ -52,9 +52,9 @@
                                             <li>@Html.ActionLink("Quantidade Passageiros", "Total", "Relatorios")</li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    @*<li>
                                         <a><i class="fa fa-bar-chart-o"></i> Gráficos <span class="label label-danger"> Em breve</span></a>
-                                    </li>
+                                    </li>*@
                                     <li>
                                         <a><i class="fa fa-desktop"></i> Mapas <span class="fa fa-chevron-down"></span></a>
                                         <ul class="nav child_menu">
@@ -196,7 +196,7 @@
                                 info: "Mostrando página _PAGE_ de _PAGES_ ",
                                 infoEmpty: "Nenhum resultado disponível",
                                 infoFiltered: "(Filtrado por _MAX_ resultados)",
-                                search: "Filtrar resultados:",
+                                search: "Filtrar resultado:",
                                 paginate: {
                                     next: "Próxima página",
                                     previous: "Página anterior",
