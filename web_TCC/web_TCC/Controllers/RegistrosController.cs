@@ -202,7 +202,6 @@ namespace web_TCC.Controllers
 
                         teste = auxiliar[0];
 
-                        //Temos um problema aqui
                         if (ModelState.IsValid)
                         {
                             db.Entry(dados).State = EntityState.Added;
@@ -211,7 +210,7 @@ namespace web_TCC.Controllers
                             //db.Entry(dados).State = EntityState.Modified;
                             //db.Registros.Add(dados);
                             db.SaveChanges();
-                            ViewBag.Message = "Sucesso";
+                            ViewBag.Message = "Informações salvas com sucesso";
                         }
                         else
                         {

@@ -19,6 +19,7 @@
             {
                 EntradaDataView += myArrayDados[i].RelatorioEntradaQuantidade;
                 SaidaDataView += myArrayDados[i].RelatorioSaidaQuantidade;
+
                 PontoDataView += "\"" + myArrayDados[i].PontoCodigo + "\"";
                 i++;
             }
@@ -31,7 +32,44 @@
             }
         }
     }
+    
 }
+
+@ViewBag.Error
+
+<big>
+    <p class="text-info">
+        Este relatório informa a quantidade total de embarque e deseembarque de determinada linha em cada ponto de ônibus, 
+        indicando o veículo, o ponto e a quantidade de entrada e saída.
+    </p>
+</big>
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Informe o período a ser pesquisado, selecione a linha desejada e clique no botão
+            <strong>Buscar</strong>.
+            <br />
+        </li>
+        <li>
+            Para visualizar o gráfico da pesquisa, clique no botão
+            <strong>Gerar Gráfico</strong>.
+        </li>
+        <li>
+            Caso deseje exportar o gráfico para excel, clique no botão <strong>Excel</strong>
+        </li>
+        <li>
+            Caso deseje imprimir o gráfico, clique no botão <strong>Imprimir</strong>
+        </li>
+        <li>
+            Para filtrar os resultados, insira o texto no campo <strong>Filtrar Resultado</strong>
+        </li>
+    </ul>
+</p>
+<hr />
+
+
 
 @using (Html.BeginForm())
 {
@@ -57,38 +95,39 @@
         <div class="control-group">
             <div class="controls">
                 <div class="col-md-1 xdisplay_inputx form-group">
-                    <input type="submit" value="Filtrar" class="btn btn-primary" />
+                    <input type="submit" value="Buscar" class="btn btn-primary" />
                 </div>
-                @*<button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico</button>*@
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico dos resultados</button>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico</button>
             </div>
         </div>
     </fieldset>
 }
 
+
 @if (Model != null)
 {
     if (Model.Any())
     {
-        <table class="table">
-            <tr>
-                <th>
-                    Linha
-                </th>
-                <th>
-                    Veículo
-                </th>
-                <th>
-                    Ponto
-                </th>
-                <th>
-                    Entradas
-                </th>
-                <th>
-                    Saídas
-                </th>
-            </tr>
-
+        <table id="datatable-buttons" class="table table-striped table-bordered" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Linha
+                    </th>
+                    <th>
+                        Veículo
+                    </th>
+                    <th>
+                        Ponto
+                    </th>
+                    <th>
+                        Entradas
+                    </th>
+                    <th>
+                        Saídas
+                    </th>
+                </tr>
+            </thead>
             <tbody>
                 @foreach (var item in Model)
                 {
@@ -112,63 +151,9 @@
                 }
             </tbody>
         </table>
-    }
-}
 
-        @*@if (Model != null) {
-                    if (Model.Any())
-                    {
-                <div class="x_content">
-                    <table id="datatable-buttons" class="table table-striped table-bordered">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Linha
-                                </th>
-                                <th>
-                                    Veículo
-                                </th>
-                                <th>
-                                    Ponto
-                                </th>
-                                <th>
-                                    Entradas
-                                </th>
-                                <th>
-                                    Saídas
-                                </th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            @foreach (var item in Model)
-                            {
-                                <tr>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.LinhaNumero)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.RelatorioNumeroVeiculo)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.PontoCodigo) - @Html.DisplayFor(modelItem => item.PontoDescricao)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.RelatorioEntradaQuantidade)
-                                    </td>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.RelatorioSaidaQuantidade)
-                                    </td>
-                                </tr>
-                            }
-                        </tbody>
-                    </table>
-                </div>
-                }
-            }*@
-
-
-        @*Gráficos*@
+    
+        // Gráficos
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -188,12 +173,14 @@
             </div>
         </div>
 
-        <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
-        <script src="~/Scripts/highcharts.js"></script>
-        <script src="~/Scripts/exporting.js"></script>
+    }
+}
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/highcharts.js"></script>
+@*<script src="~/Scripts/exporting.js"></script>*@
 
 
-        <script type="text/javascript">
+<script type="text/javascript">
     var chart2;
     $(function () {
         chart2 = new Highcharts.Chart({
@@ -231,6 +218,11 @@
                 shared: true,
                 useHTML: true
             },
+
+            exporting: {
+                enabled: false
+            },
+
             plotOptions: {
                 column: {
                     pointPadding: 0.2,
@@ -240,11 +232,10 @@
             series: [{
                 name: 'Entrada',
                 data: [@EntradaDataView]
-
             }, {
                 name: 'Saída',
                 data: [@SaidaDataView]
             }]
         });
     });
-        </script>
+</script>

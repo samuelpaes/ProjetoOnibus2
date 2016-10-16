@@ -8,17 +8,56 @@
     var myArrayLng = ViewBag.lng;
     var heatmapDataView = "";
     int i = 0;
-    foreach (var item in myArrayLat)
-    {
-        if (heatmapDataView == "")
+    if (myArrayLat != null) {
+        foreach (var item in myArrayLat)
         {
-            heatmapDataView = "new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
-        }
-        heatmapDataView += ", new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
-        i++;
-     }
+            if (heatmapDataView == "")
+            {
+                heatmapDataView = "new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+            }
+            heatmapDataView += ", new google.maps.LatLng(" + myArrayLat[i] + "," + myArrayLng[i] + " )";
+            i++;
+         }
+    }
     
 }
+
+@ViewBag.Error
+
+<big>
+    <p class="text-info">
+        Visualize no mapa os locais onde ocorreram mais embarque de passageiros em determinada linha.<br/>
+        Uma camada de calor demonstrará a intensidade de entrada nos pontos de ônibus, na qual as áreas 
+        de calor em vermelhos indicam maior intensidade, e em verde, menor intensidade.
+    </p>
+</big>
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Informe o período a ser pesquisado, selecione a linha desejada e clique no botão
+            <strong>Buscar</strong>.
+            <br />
+        </li>
+        <li>
+            Aumente ou diminua o zoom, e arraste o mapa para vê-lo com mais detalhes.
+        </li>
+        <li>
+            Para remover a camada de calor do mapa clique em <strong>Remover Marcação</strong>.
+</li>
+        <li>
+            Para personalizar a aparência da camada de calor do mapa clique em <strong>Alterar Gradiente</strong>.
+</li>
+        <li>
+            Para aumentar ou diminuir o raio da camada de calor clique em <strong>Alterar Raio</strong>.
+</li>
+        <li>
+            Para diminuir ou aumentar a opacidade da camada de calor clique em <strong>Alterar Opacidade</strong>.
+</li>
+    </ul>
+</p>
+<hr />
 
 
 @using (Html.BeginForm())
@@ -46,15 +85,17 @@
         <div class="control-group">
             <div class="controls">
                 <div class="col-md-1 xdisplay_inputx form-group">
-                    <input type="submit" value="Filtrar" class="btn btn-primary" />
+                    <input type="submit" value="Buscar" class="btn btn-primary" />
                 </div>
             </div>
         </div>
     </fieldset>
 
 }
+<hr/>
 
 @Html.Partial("_HeatMapa")
+
 
 <script>
     function getPoints() {
@@ -62,3 +103,4 @@
         ];
     }
 </script>
+

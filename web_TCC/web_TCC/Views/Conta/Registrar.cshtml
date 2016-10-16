@@ -4,6 +4,19 @@
     ViewBag.Title = "Cadastrar Novo Usuário";
 }
 
+@ViewBag.Error
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Insira os dados do usuário a ser cadastrado e clique no botão <strong>Cadastrar</strong> para salvar as informações.
+        </li>
+    </ul>
+</p>
+<hr />
+
+
 @using (Html.BeginForm("Registrar", "Conta", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
@@ -36,7 +49,7 @@
     </div>
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" value="Alterar Senha" class="btn btn-default" />
+            <input type="submit" value="Cadastrar" class="btn btn-default" />
         </div>
     </div>
 }

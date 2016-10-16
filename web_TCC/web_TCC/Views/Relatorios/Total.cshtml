@@ -20,6 +20,39 @@
     }
 }
 
+@ViewBag.Error
+
+<big>
+    <p class="text-info">
+        Este relatório informa a quantidade total de passageiros que utilizaram a linha do ônibus em determinada data,
+    </p>
+</big>
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Informe o período a ser pesquisado, selecione a linha desejada e clique no botão
+            <strong>Buscar</strong>.
+            <br />
+        </li>
+        <li>
+            Para visualizar o gráfico da pesquisa, clique no botão
+            <strong>Gerar Gráfico</strong>.
+        </li>
+        <li>
+            Caso deseje exportar o gráfico para excel, clique no botão <strong>Excel</strong>
+        </li>
+        <li>
+            Caso deseje imprimir o gráfico, clique no botão <strong>Imprimir</strong>
+        </li>
+        <li>
+            Para filtrar os resultados, insira o texto no campo <strong>Filtrar Resultado</strong>
+        </li>
+    </ul>
+</p>
+<hr />
+
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
@@ -43,9 +76,9 @@
         <div class="control-group">
             <div class="controls">
                 <div class="col-md-1 xdisplay_inputx form-group">
-                    <input type="submit" value="Filtrar" class="btn btn-primary" />
+                    <input type="submit" value="Buscar" class="btn btn-primary" />
                 </div>
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico dos resultados</button>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Gerar Gráfico</button>
             </div>
         </div>
     </fieldset>
@@ -55,18 +88,20 @@
 {
     if (Model.Any())
     {
-        <table class="table">
-            <tr>
-                <th>
-                    Linha
-                </th>
-                <th>
-                    Data
-                </th>
-                <th>
-                    Total de passageiros
-                </th>
-            </tr>
+        <table id="datatable-buttons" class="table table-striped table-bordered" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Linha
+                    </th>
+                    <th>
+                        Data
+                    </th>
+                    <th>
+                        Total de passageiros
+                    </th>
+                </tr>
+            </thead>
 
             <tbody>
                 @foreach (var item in Model)
@@ -85,10 +120,8 @@
                 }
             </tbody>
         </table>
-    }
-}
 
-        @*Gráficos*@
+        //Gráficos
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -107,18 +140,15 @@
                 </div>
             </div>
         </div>
+    }
+}
 
 
-        <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
-        <script src="~/Scripts/highcharts.js"></script>
-        <script src="~/Scripts/exporting.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/highcharts.js"></script>
+@*<script src="~/Scripts/exporting.js"></script>*@
 
-        @*subtitle: {
-            text: 'Mês: @Data'
-            },*@
-
-
-        <script type="text/javascript">
+<script type="text/javascript">
     var chart2;
     $(function () {
         chart2 = new Highcharts.Chart({
@@ -128,6 +158,9 @@
             },
             title: {
                 text: 'Grafico Total Passageiros por dia'
+            },
+            subtitle: {
+                text: 'Mês: @Data'
             },
             xAxis: {
                 type: 'category',
@@ -139,7 +172,7 @@
                     }
                 },
                 title: {
-            text: 'Data'
+                    text: 'Data'
                 }
             },
             yAxis: {
@@ -154,6 +187,11 @@
             tooltip: {
                 pointFormat: '<b>{point.y} Passageiros</b>'
             },
+
+            exporting: {
+                enabled: false
+            },
+
             series: [{
                 name: 'Passageiros',
                 data: [
@@ -174,4 +212,4 @@
             }]
         });
     });
-        </script>
+</script>
