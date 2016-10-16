@@ -23,8 +23,7 @@ namespace web_TCC.Models
 
         public System.Data.Entity.DbSet<web_TCC.Models.Pontos> Pontos { get; set; }
 
-        public System.Data.Entity.DbSet<web_TCC.Models.Registros> Registros { get; set; }
-        
-        public System.Data.Entity.DbSet<web_TCC.Models.Conta> Conta { get; set; }
+        public System.Data.Entity.DbSet<web_TCC.Models.Registros> Registros { get; set;}
+    
     }
 }
