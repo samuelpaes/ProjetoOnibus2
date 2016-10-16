@@ -19,8 +19,6 @@
         <!-- Custom Theme Style -->
         <link href="~/Content/build/css/custom.css" rel="stylesheet">
 
-        @*@Styles.Render("~/Content/css")*@
-
         <!-- Datatables -->
         <link href="~/Content/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
         <link href="~/Content/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
@@ -38,42 +36,27 @@
                         <div class="navbar nav_title" style="border: 0;">
                             <a href="~/Principal" class="site_title"><i class="fa fa-bus"></i> <span>SmartBus</span></a>
                         </div>
-                        @*<div class="clearfix"></div>*@
-                        <!-- menu profile quick info -->
-                        @*<div class="profile">
-                            <div class="profile_pic">
-                                <img src="~/Content/picture.jpg" alt="..." class="img-circle profile_img">
-                            </div>
-                            <div class="profile_info">
-                                <span>Bem-vindo (a),</span>
-                                <h2>John Doe</h2>
-                            </div>
-                        </div>*@
-                        <!-- /menu profile quick info -->
                         <br /><br /><br /><br />
                         <!-- sidebar menu -->
                         <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                             <div class="menu_section">
                                 <ul class="nav side-menu">
                                     <li>
-                                        @*<a><i class="fa fa-home"></i> Página Inicial</a>*@
-                                        <a href="~/Principal"><i class="fa fa-home"></i> Página Inicial <span class="label label-danger"> Em breve</span></a>
+                                        <a href="~/Principal"><i class="fa fa-home"></i> Página Inicial</a>
                                     </li>
                                     <li>
                                         <a><i class="fa fa-desktop"></i> Relatórios <span class="fa fa-chevron-down"></span></a>
-                                        @*<a href="~/relatorios/index"><i class="fa fa-desktop"></i>Relatórios <span class="label label-primary"> Em desenvolvimento</span></a>*@
                                         <ul class="nav child_menu">
                                             <li>@Html.ActionLink("Geral", "Geral", "Relatorios")</li>
                                             <li>@Html.ActionLink("Pontos", "Pontos", "Relatorios")</li>
                                             <li>@Html.ActionLink("Quantidade Passageiros", "Total", "Relatorios")</li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    @*<li>
                                         <a><i class="fa fa-bar-chart-o"></i> Gráficos <span class="label label-danger"> Em breve</span></a>
-                                    </li>
+                                    </li>*@
                                     <li>
                                         <a><i class="fa fa-desktop"></i> Mapas <span class="fa fa-chevron-down"></span></a>
-                                        @*<a href="~/relatorios/index"><i class="fa fa-desktop"></i>Relatórios <span class="label label-primary"> Em desenvolvimento</span></a>*@
                                         <ul class="nav child_menu">
                                             <li>@Html.ActionLink("Embarque", "Index", "Mapas")</li>
                                         </ul>
@@ -83,7 +66,6 @@
                                         <ul class="nav child_menu">
                                             <li>@Html.ActionLink("Cadastro de Linhas", "Index", "Linhas")</li>
                                             <li>@Html.ActionLink("Cadastro de Pontos", "Index", "Pontos")</li>
-                                            @*<li class="divider"></li>*@
                                         </ul>
                                     </li> 
                                     <li>
@@ -99,23 +81,6 @@
                                     </li></ul>
                             </div>
                         </div>
-                        <!-- /sidebar menu -->
-                        <!-- /menu footer buttons -->
-                        @*<div class="sidebar-footer hidden-small">
-                            <a data-toggle="tooltip" data-placement="top" title="Settings">
-                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                            </a>
-                            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
-                                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
-                            </a>
-                            <a data-toggle="tooltip" data-placement="top" title="Lock">
-                                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
-                            </a>
-                            <a data-toggle="tooltip" data-placement="top" title="Logout">
-                                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
-                            </a>
-                        </div>*@
-                        <!-- /menu footer buttons -->
                     </div>
                 </div>
                 <!-- top navigation -->
@@ -128,13 +93,11 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="">
                                     <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        @*<img src="~/Content/picture.jpg" alt="">*@  @User.Identity.GetUserName()
+                                        @User.Identity.GetUserName()
                                         <span class=" fa fa-angle-down"></span>
                                     </a>
                                     <ul class="dropdown-menu dropdown-usermenu pull-right">
 
-                                        @*<li><a href="javascript:;">Gerenciar Perfil <span class="label label-danger"> Em breve</span></a></li>*@
-                                        
                                         <li>@Html.ActionLink("Alterar Senha", "AlterarSenha", "Gerenciar")</li>
                                         
                                         @if (Request.IsAuthenticated)
@@ -161,31 +124,13 @@
                     <div class="">
                         <div class="page-title">
                             <div class="title_left">
-                                @*<h3>@ViewBag.Title</h3>*@
-                            </div>
-                            @*<div class="title_right">
-                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search for...">
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-default" type="button">Go!</button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>*@
                         </div>
 
-                        @*<div class="clearfix"></div>*@
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="x_panel">
-                                    @*<div class="x_title">
-                                        <h2>Plain Page</h2>
-                                    </div>*@
-
                                     <h3> @ViewBag.Title</h3>
                                     <hr />
-
                                     @RenderBody()
                                 </div>
                             </div>
@@ -233,14 +178,8 @@
         <script src="~/Content/vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
         <script src="~/Content/vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
         <script src="~/Content/vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
-        @*<script src="~/Content/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>*@
-        @*<script src="~/Content/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>*@
         <script src="~/Content/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
         <script src="~/Content/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
-        @*<script src="~/Content/vendors/datatables.net-scroller/js/datatables.scroller.min.js"></script>*@
-        @*<script src="~/Content/vendors/jszip/dist/jszip.min.js"></script>*@
-        @*<script src="~/Content/vendors/pdfmake/build/pdfmake.min.js"></script>
-        <script src="~/Content/vendors/pdfmake/build/vfs_fonts.js"></script>*@
 
         <!-- Datatables -->
         <script>
@@ -248,25 +187,42 @@
                 var handleDataTableButtons = function () {
                     if ($("#datatable-buttons").length) {
                         $("#datatable-buttons").DataTable({
+                            pageLength: 25,
+                            language: {
+                                decimal: ",",
+                                thousands: ".",
+                                lengthMenu: "Mostrando _MENU_ resultados por página",
+                                zeroRecords: "Nenhum resultado encontrado",
+                                info: "Mostrando página _PAGE_ de _PAGES_ ",
+                                infoEmpty: "Nenhum resultado disponível",
+                                infoFiltered: "(Filtrado por _MAX_ resultados)",
+                                search: "Filtrar resultado:",
+                                paginate: {
+                                    next: "Próxima página",
+                                    previous: "Página anterior",
+                                    first: "Primeira página",
+                                    last: "Última página",
+                                      }
+                            },
                             dom: "Bfrtip",
                             buttons: [
-                              {
-                                  text: 'Copiar',
-                                  extend: "copy",
-                                  className: "btn-sm"
-                              },
-                              {
-                                  extend: "csv",
-                                  className: "btn-sm"
-                              },
+                              //{
+                              //    text: 'Copiar',
+                              //    extend: "copy",
+                              //    className: "btn-sm"
+                              //},
+                              //{
+                              //    extend: "csv",
+                              //    className: "btn-sm"
+                              //},
                               {
                                   extend: "excel",
                                   className: "btn-sm"
                               },
-                              {
-                                  extend: "pdfHtml5",
-                                  className: "btn-sm"
-                              },
+                              //{
+                              //    extend: "pdfHtml5",
+                              //    className: "btn-sm"
+                              //},
                               {
                                   text: 'Imprimir',
                                   extend: "print",
@@ -278,6 +234,7 @@
                     }
                 };
 
+                
                 TableManageButtons = function () {
                     "use strict";
                     return {
@@ -325,20 +282,6 @@
             });
         </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script>
             $(document).ready(function () {
                 $('#txtGetDataInicio').daterangepicker({
@@ -350,16 +293,17 @@
                 });
             });
         </script>
+
         <script>
-    $(document).ready(function () {
-        $('#txtGetDataFim').daterangepicker({
-            singleDatePicker: true,
-            //calender_style: "picker_4",
-            format: 'DD/MM/YYYY',
-        }, function (start, end, label) {
-            console.log(start.toISOString(), end.toISOString(), label);
-        });
-    });
+            $(document).ready(function () {
+                $('#txtGetDataFim').daterangepicker({
+                    singleDatePicker: true,
+                    //calender_style: "picker_4",
+                    format: 'DD/MM/YYYY',
+                }, function (start, end, label) {
+                    console.log(start.toISOString(), end.toISOString(), label);
+                });
+            });
         </script>
 
         @section Scripts {

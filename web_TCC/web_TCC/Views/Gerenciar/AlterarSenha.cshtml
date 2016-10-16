@@ -4,6 +4,19 @@
     ViewBag.Title = "Alterar a senha";
 }
 
+
+@ViewBag.Error
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Informe a sua senha atual, insira a nova senha e a confirme. Clique no botão <strong>Alterar Senha</strong> para salvar a alteração.
+        </li>
+    </ul>
+</p>
+<hr />
+
 @using (Html.BeginForm("AlterarSenha", "Gerenciar", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()

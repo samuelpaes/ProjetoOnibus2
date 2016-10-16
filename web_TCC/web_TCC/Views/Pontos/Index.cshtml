@@ -1,12 +1,24 @@
 ﻿@model IEnumerable<web_TCC.Models.Pontos>
 
 @{
-    ViewBag.Title = "Pontos de Ônibus";
+    ViewBag.Title = "Pontos de Ônibus Cadastrados";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
 
-@*<h3> @ViewBag.Title</h3>
-<hr />*@
+@ViewBag.Error
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Caso deseje cadastrar um novo ponto de ônibus, clique no botão <strong>Novo</strong>
+        </li>
+        <li>
+            Caso deseje alterar um ponto de ônibus existente, clique no botão <strong>Alterar</strong> referente ao ponto de ônibus.
+        </li>
+    </ul>
+</p>
+<hr />
 
 @Html.ActionLink("Novo", "Create", null, new { @class="btn btn-primary" })
 

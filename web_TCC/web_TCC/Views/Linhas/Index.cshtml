@@ -1,11 +1,24 @@
 ﻿@model IEnumerable<web_TCC.Models.Linhas>
 
 @{
-    ViewBag.Title = "Linhas de Ônibus";
+    ViewBag.Title = "Linhas de Ônibus Cadastradas";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
 
-@*<h3>@ViewBag.Title</h3>*@
+@ViewBag.Error
+
+<p class="muted">
+    <ul>
+        <li><big><span class="label label-default">Instruções</span></big><br /></li>
+        <li>
+            Caso deseje cadastrar uma nova linha, clique no botão <strong>Novo</strong>
+        </li>
+        <li>
+            Caso deseje alterar uma linha existente, clique no botão <strong>Alterar</strong> referente à linha de ônibus.
+        </li>
+    </ul>
+</p>
+<hr />
 
 
 <p>
