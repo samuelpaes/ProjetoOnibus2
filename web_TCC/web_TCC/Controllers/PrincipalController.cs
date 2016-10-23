@@ -10,20 +10,17 @@ namespace web_TCC.Controllers
     public class PrincipalController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
-<<<<<<< HEAD
+
         private ApplicationUser db1 = new ApplicationUser();
-        // GET: Principal
-        public ActionResult Index()
-        {
-            int totalUsuarios = (from p in db1.Id select p).Count();
-=======
+        
+
         // GET: Principal
         public ActionResult Index()
         {
             
-            int totalUsuarios = (from p in db.Linhas select p).Count();
->>>>>>> refs/remotes/origin/master
-            TempData["Total de Usuários"] = totalUsuarios;
+            var context = new ApplicationDbContext();
+            int totalUsuarios = context.Users.ToList().Count;
+            TempData["Total de Usuários"] = context.Users.ToList().Count;
 
             int totalLinhas = (from p in db.Linhas select p).Count();
             TempData["Total de Linhas"] = totalLinhas;
@@ -32,11 +29,11 @@ namespace web_TCC.Controllers
             TempData["Total de Pontos"] = totalPontos;
 
             int totalRegistros = (from p in db.Registros select p).Count();
-<<<<<<< HEAD
+
             TempData["Total de Registros"] = totalRegistros;
-=======
+
             TempData["Total de Registros"] = totalRegistros;  
->>>>>>> refs/remotes/origin/master
+
             return View();
         }
     }
