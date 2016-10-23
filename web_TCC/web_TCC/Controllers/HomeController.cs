@@ -14,8 +14,7 @@ namespace web_TCC.Controllers
         public ActionResult Index()
         {
             
-            int quantidadeRegistros = (from p in db.Pontos select p).Count();
-            ViewBag.Dados = quantidadeRegistros;
+            
             return View();
         }
 
