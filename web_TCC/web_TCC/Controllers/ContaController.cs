@@ -85,11 +85,7 @@ namespace web_TCC.Controllers
 
                     //return RedirectToAction("Ponto", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                     
-<<<<<<< HEAD
-                    
-=======
-                     
->>>>>>> refs/remotes/origin/master
+
 
                     return RedirectToRoute("Login");
 
