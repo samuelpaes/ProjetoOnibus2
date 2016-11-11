@@ -85,7 +85,7 @@ namespace web_TCC.Controllers
 
                     //return RedirectToAction("Ponto", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
                     
-                     
+
 
                     return RedirectToRoute("Login");
 
