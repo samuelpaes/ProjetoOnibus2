@@ -10,12 +10,10 @@ using web_TCC.Models;
 
 namespace web_TCC.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class GerenciarController : Controller
     {
-
         private web_TCCContext db = new web_TCCContext();
-
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -53,7 +51,6 @@ namespace web_TCC.Controllers
             }
         }
 
-        //
         // GET: /Manage/Index
         public async Task<ActionResult> Index(ManageMessageId? message)
         {
@@ -78,7 +75,6 @@ namespace web_TCC.Controllers
             return View(model);
         }
 
-        //
         // POST: /Manage/RemoveLogin
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -102,15 +98,12 @@ namespace web_TCC.Controllers
             return RedirectToAction("GerenciarLogins", new { Message = message });
         }
 
-        
-        //
         // GET: /Manage/ChangePassword
         public ActionResult AlterarSenha()
         {
             return View();
         }
 
-        //
         // POST: /Manage/ChangePassword
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -134,14 +127,12 @@ namespace web_TCC.Controllers
             return View(model);
         }
 
-        //
         // GET: /Manage/SetPassword
         public ActionResult SetPassword()
         {
             return View();
         }
 
-        //
         // POST: /Manage/SetPassword
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -166,7 +157,6 @@ namespace web_TCC.Controllers
             return View(model);
         }
 
-        //
         // GET: /Manage/ManageLogins
         public async Task<ActionResult> GerenciarLogins(ManageMessageId? message)
         {
@@ -189,17 +179,15 @@ namespace web_TCC.Controllers
             });
         }
 
-        //
         // POST: /Manage/LinkLogin
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult LinkLogin(string provider)
         {
             // Request a redirect to the external login provider to link a login for the current user
-            return new AccountController.ChallengeResult(provider, Url.Action("LinkLoginCallback", "Manage"), User.Identity.GetUserId());
+            return new ContaController.ChallengeResult(provider, Url.Action("LinkLoginCallback", "Manage"), User.Identity.GetUserId());
         }
 
-        //
         // GET: /Manage/LinkLoginCallback
         public async Task<ActionResult> LinkLoginCallback()
         {

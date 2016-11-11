@@ -9,6 +9,7 @@ using web_TCC.Models;
 
 namespace web_TCC.Controllers
 {
+    [Authorize]
     public class MapasController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
@@ -19,31 +20,6 @@ namespace web_TCC.Controllers
             ViewBag.lat = null;
             ViewBag.lng = null;
             return View();
-
-            //DateTime dataEscolhida = Convert.ToDateTime("27/08/2016");
-
-            //var latitude =
-            //        (from r in db.Registros
-            //         where EntityFunctions.TruncateTime(r.Data) >= dataEscolhida
-            //         && EntityFunctions.TruncateTime(r.Data) <= dataEscolhida
-            //         && r.Entrada == true
-            //         && r.ID_linha == 11
-            //         orderby r.Latitude
-            //         select r.Latitude).ToList();
-
-            //var longitude =
-            //        (from r in db.Registros
-            //         where EntityFunctions.TruncateTime(r.Data) >= dataEscolhida
-            //         && EntityFunctions.TruncateTime(r.Data) <= dataEscolhida
-            //         && r.Entrada == true
-            //         && r.ID_linha == 11
-            //         orderby r.Longitude
-            //         select r.Longitude).ToList();
-
-            //ViewBag.lat = latitude.ToList();
-            //ViewBag.lng = longitude.ToList();
-
-            //return View();
         }
 
         [HttpPost]

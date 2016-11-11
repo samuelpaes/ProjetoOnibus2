@@ -22,9 +22,7 @@ namespace web_TCC.Models
     {
         public ApplicationDbContext()
             : base("web_TCCContext", throwIfV1Schema: false)
-
         {
-            //web_TCCContext db = new web_TCCContext();
         }
 
         public static ApplicationDbContext Create()

@@ -4,11 +4,9 @@
     ViewBag.Title = "Relatórios - Total de passageiros por dia";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
     var myArrayDados = ViewBag.RelTotal;
-
     var Data = "";
     var DadosDataView = "";
     int i = 0;
-
     if (ViewBag.RelTotal != null)
     {
         Data = myArrayDados[0].Mes + "/" + myArrayDados[0].Ano;
@@ -19,15 +17,12 @@
         }
     }
 }
-
 @ViewBag.Error
-
 <big>
     <p class="text-info">
         Este relatório informa a quantidade total de passageiros que utilizaram a linha do ônibus em determinada data,
     </p>
 </big>
-
 <p class="muted">
     <ul>
         <li><big><span class="label label-default">Instruções</span></big><br /></li>
@@ -52,7 +47,6 @@
     </ul>
 </p>
 <hr />
-
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
@@ -83,7 +77,6 @@
         </div>
     </fieldset>
 }
-
 @if (Model != null)
 {
     if (Model.Any())
@@ -102,7 +95,6 @@
                     </th>
                 </tr>
             </thead>
-
             <tbody>
                 @foreach (var item in Model)
                 {
@@ -120,7 +112,6 @@
                 }
             </tbody>
         </table>
-
         //Gráficos
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -142,11 +133,8 @@
         </div>
     }
 }
-
-
 <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
 <script src="~/Scripts/highcharts.js"></script>
-@*<script src="~/Scripts/exporting.js"></script>*@
 
 <script type="text/javascript">
     var chart2;
@@ -202,8 +190,8 @@
                     rotation: -90,
                     color: '#FFFFFF',
                     align: 'right',
-                    format: '{point.y}', // one decimal
-                    y: 10, // 10 pixels down from the top
+                    format: '{point.y}', 
+                    y: 10, 
                     style: {
                         fontSize: '13px',
                         fontFamily: 'Verdana, sans-serif'

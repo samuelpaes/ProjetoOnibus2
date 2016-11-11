@@ -3,29 +3,17 @@
 
 <html>
     <head>
-        @*<meta name="viewport" content="width=device-width" />*@
         <title>@ViewBag.Title</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Meta, title, CSS, favicons, etc. -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap -->
-        <link href="~/Content/vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link href="~/Content/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <!-- NProgress -->
-        <link href="~/Content/vendors/nprogress/nprogress.css" rel="stylesheet">
-        <!-- Custom Theme Style -->
-        <link href="~/Content/build/css/custom.css" rel="stylesheet">
-
-        <!-- Datatables -->
-        <link href="~/Content/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
-        <link href="~/Content/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
-        <link href="~/Content/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
-        <link href="~/Content/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
-        <link href="~/Content/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
         
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+        <link href="~/Content/nprogress.css" rel="stylesheet">
+        <link href="~/Content/custom.min.css" rel="stylesheet">
+        <link href="~/Content/dataTables.bootstrap.min.css" rel="stylesheet">
+        <link href="~/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     </head>
     <body class="nav-md" >
@@ -34,7 +22,7 @@
                 <div class="col-md-3 left_col">
                     <div class="left_col scroll-view">
                         <div class="navbar nav_title" style="border: 0;">
-                            <a href="~/Principal" class="site_title"><i class="fa fa-bus"></i> <span>SmartBus</span></a>
+                            <a href="~/Principal" class="site_title"><i class="fa fa-bus"></i> <span>LiveBus</span></a>
                         </div>
                         <br /><br /><br /><br />
                         <!-- sidebar menu -->
@@ -52,9 +40,6 @@
                                             <li>@Html.ActionLink("Quantidade Passageiros", "Total", "Relatorios")</li>
                                         </ul>
                                     </li>
-                                    @*<li>
-                                        <a><i class="fa fa-bar-chart-o"></i> Gráficos <span class="label label-danger"> Em breve</span></a>
-                                    </li>*@
                                     <li>
                                         <a><i class="fa fa-desktop"></i> Mapas <span class="fa fa-chevron-down"></span></a>
                                         <ul class="nav child_menu">
@@ -76,7 +61,6 @@
                                         <ul class="nav child_menu">
                                             <li>@Html.ActionLink("Alterar Senha", "AlterarSenha", "Gerenciar")</li>
                                             <li>@Html.ActionLink("Cadastrar Novo Usuário", "Registrar", "Conta")</li>
-                                            @*<li class="divider"></li>*@
                                         </ul>
                                     </li></ul>
                             </div>
@@ -106,7 +90,6 @@
                                             {
                                                 @Html.AntiForgeryToken()
                                                 <li><a href="javascript:document.getElementById('logoutForm').submit()">Sair <i class="fa fa-sign-out"></i></a></li>
-                                        
                                             }
                                         }
                                         
@@ -116,10 +99,7 @@
                         </nav>
                     </div>
                 </div>
-                <!-- /top navigation -->
-            
                 <!-- page content -->
-
                 <div class="right_col" role="main">
                     <div class="">
                         <div class="page-title">
@@ -138,48 +118,15 @@
                     </div>
                 </div>
             </div>
-            <!-- /page content -->
             <!-- footer content -->
             <footer>
                 <div class="pull-right">
-                    Copyright &copy; @DateTime.Now.Year - SmartBus
+                    Copyright &copy; @DateTime.Now.Year - LiveBus
                 </div>
                 <div class="clearfix"></div>
             </footer>
-            <!-- /footer content -->
         </div>
         
-
-
-
-        <!-- jQuery -->
-        <script src="~/Content/vendors/jquery/dist/jquery.min.js"></script>
-
-        <!-- Bootstrap -->
-        <script src="~/Content/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <!-- bootstrap-daterangepicker -->
-        <script src="~/Content/vendors/js/moment/moment.min.js"></script>
-        <script src="~/Content/vendors/js/datepicker/daterangepicker.js"></script>
-
-        <!-- Custom Theme Scripts -->
-        <script src="~/Content/build/js/custom.min.js"></script>
-
-        <!-- bootstrap-daterangepicker -->
-        <script src="~/content/js/moment/moment.min.js"></script>
-        <script src="~/content/js/datepicker/daterangepicker.js"></script>
-
-
-        <!-- DataTable Scripts -->
-        <script src="~/Content/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-        <script src="~/Content/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
 
         <!-- Datatables -->
         <script>
@@ -206,23 +153,10 @@
                             },
                             dom: "Bfrtip",
                             buttons: [
-                              //{
-                              //    text: 'Copiar',
-                              //    extend: "copy",
-                              //    className: "btn-sm"
-                              //},
-                              //{
-                              //    extend: "csv",
-                              //    className: "btn-sm"
-                              //},
                               {
                                   extend: "excel",
                                   className: "btn-sm"
                               },
-                              //{
-                              //    extend: "pdfHtml5",
-                              //    className: "btn-sm"
-                              //},
                               {
                                   text: 'Imprimir',
                                   extend: "print",
@@ -234,14 +168,13 @@
                     }
                 };
 
-                
                 TableManageButtons = function () {
                     "use strict";
                     return {
                         init: function () {
                             handleDataTableButtons();
                         }
-                    };
+                    };''
                 }();
 
                 $('#datatable').dataTable();
@@ -286,7 +219,6 @@
             $(document).ready(function () {
                 $('#txtGetDataInicio').daterangepicker({
                     singleDatePicker: true,
-                    //calender_style: "picker_4",
                     format: 'DD/MM/YYYY',                
                 }, function (start, end, label) {
                     console.log(start.toISOString(), end.toISOString(), label);
@@ -298,7 +230,6 @@
             $(document).ready(function () {
                 $('#txtGetDataFim').daterangepicker({
                     singleDatePicker: true,
-                    //calender_style: "picker_4",
                     format: 'DD/MM/YYYY',
                 }, function (start, end, label) {
                     console.log(start.toISOString(), end.toISOString(), label);
@@ -309,5 +240,19 @@
         @section Scripts {
             @Scripts.Render("~/bundles/jqueryval")
         }
+            <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+            <script src="~/Scripts/bootstrap.min.js"></script>
+            <script src="~/Scripts/moment.min.js"></script>
+            <script src="~/Scripts/custom.min.js"></script>
+            <script src="~/Scripts/daterangepicker.js"></script>
+            <script src="~/Scripts/datatables.net/jquery.dataTables.min.js"></script>
+            <script src="~/Scripts/datatables.net-bs/dataTables.bootstrap.min.js"></script>
+            <script src="~/Scripts/datatables.net-buttons/dataTables.buttons.min.js"></script>
+            <script src="~/Scripts/datatables.net-buttons-bs/buttons.bootstrap.min.js"></script>
+            <script src="~/Scripts/datatables.net-buttons/buttons.flash.min.js"></script>
+            <script src="~/Scripts/datatables.net-buttons/buttons.html5.min.js"></script>
+            <script src="~/Scripts/datatables.net-buttons/buttons.print.min.js"></script>
+            <script src="~/Scripts/datatables.net-responsive/dataTables.responsive.min.js"></script>
+            <script src="~/Scripts/datatables.net-responsive/responsive.bootstrap.js"></script>
     </body>
 </html>

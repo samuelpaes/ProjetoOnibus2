@@ -14,6 +14,7 @@ using web_TCC.Models;
 
 namespace web_TCC.Controllers
 {
+    [Authorize]
     public class RelatoriosController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
@@ -41,8 +42,6 @@ namespace web_TCC.Controllers
             ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
             return View();
         }
-
-
 
         // GET: Relatorios/Geral
         [HttpPost]
@@ -74,34 +73,6 @@ namespace web_TCC.Controllers
                         ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
                     }
 
-
-                    //var qRelatorioGrafico =
-                    //from r in db.Registros
-                    //join p in db.Pontos on r.ID_ponto equals p.ID_ponto
-                    //join l in db.Linhas on r.ID_linha equals l.ID_linha
-                    //where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                    //&& EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                    //&& r.ID_linha == ID_linha
-                    //orderby r.NumeroVeiculo, r.Data
-                    //group r by new
-                    //{
-                    //    r.Linhas.ID_linha,
-                    //    r.NumeroVeiculo,
-                    //    r.Data.Year,
-                    //    r.Data.Month,
-                    //    r.Data.Day,
-                    //    r.Data.Hour,
-                    //} into g
-                    //select new V_RegistrosGraficoTotal { 
-                    //    //LinhaId = g.Key.ID_linha,
-                    //    NumeroVeiculo = g.Key.NumeroVeiculo,
-                    //    Ano = g.Key.Year.ToString(),
-                    //    Mes = g.Key.Month.ToString(),
-                    //    Dia = g.Key.Day.ToString(),
-                    //    Hora = g.Key.Hour.ToString()//,
-                    //    //Passageiros = g.Key.QuantidadePessoas
-                    //};
-
                     var qRelatorioGraficoEmb =
                     from r in db.Registros
                     join p in db.Pontos on r.ID_ponto equals p.ID_ponto
@@ -110,23 +81,8 @@ namespace web_TCC.Controllers
                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                     && r.ID_linha == ID_linha
                     orderby r.NumeroVeiculo, r.Data
-                    /*group r by new
-                    {
-                        //r.Linhas.ID_linha,
-                        //r.NumeroVeiculo,
-                        //r.Data.Year,
-                        //r.Data.Month,
-                        //r.Data.Day,
-                        r.Data.Hour,
-                        r.QuantidadePessoas
-                    } into g*/
                     select new V_RegistrosGraficoTotal
                     {
-                        //LinhaId = g.Key.ID_linha,
-                        //NumeroVeiculo = g.Key.NumeroVeiculo,
-                        //Ano = g.Key.Year.ToString(),
-                        //Mes = g.Key.Month.ToString(),
-                        //Dia = g.Key.Day.ToString(),
                         Hora = r.Data.Hour.ToString(),
                         Passageiros = r.Entrada.ToString()
                     };
@@ -234,32 +190,6 @@ namespace web_TCC.Controllers
                         }
                     }
 
-                    //ViewBag.emb0 = 10;//hora0;
-                    //ViewBag.emb1 = 3;//hora1;
-                    //ViewBag.emb2 = 2;//hora2;
-                    //ViewBag.emb3 = 3;//hora3;
-                    //ViewBag.emb4 = 4;//hora4;
-                    //ViewBag.emb5 = 8;//hora5;
-                    //ViewBag.emb6 = 36;//hora6;
-                    //ViewBag.emb7 = 53;//hora7;
-                    //ViewBag.emb8 = 47;//hora8;
-                    //ViewBag.emb9 = 38;// hora9;
-                    //ViewBag.emb10 = 52;//hora10;
-                    //ViewBag.emb11 = 47;//hora11;
-                    //ViewBag.emb12 = 54;//hora12;
-                    //ViewBag.emb13 = 33;//hora13;
-                    //ViewBag.emb14 = 26;//hora14;
-                    //ViewBag.emb15 = 55;//hora15;
-                    //ViewBag.emb16 = 46;//hora16;
-                    //ViewBag.emb17 = 62;//hora17;
-                    //ViewBag.emb18 = 58;//hora18;
-                    //ViewBag.emb19 = 45;//hora19;
-                    //ViewBag.emb20 = 49;//hora20;
-                    //ViewBag.emb21 = 53;//hora21;
-                    //ViewBag.emb22 = 68;//hora22;
-                    //ViewBag.emb23 = 36;// hora23;
-
-
                     ViewBag.emb0 = hora0;
                     ViewBag.emb1 = hora1;
                     ViewBag.emb2 = hora2;
@@ -285,7 +215,6 @@ namespace web_TCC.Controllers
                     ViewBag.emb22 = hora22;
                     ViewBag.emb23 =  hora23;
 
-
                     var qRelatorioGraficoDes =
                     from r in db.Registros
                     join p in db.Pontos on r.ID_ponto equals p.ID_ponto
@@ -297,11 +226,6 @@ namespace web_TCC.Controllers
                     orderby r.NumeroVeiculo, r.Data
                     select new V_RegistrosGraficoTotal
                     {
-                        //LinhaId = g.Key.ID_linha,
-                        //NumeroVeiculo = g.Key.NumeroVeiculo,
-                        //Ano = g.Key.Year.ToString(),
-                        //Mes = g.Key.Month.ToString(),
-                        //Dia = g.Key.Day.ToString(),
                         Hora = r.Data.Hour.ToString(),
                         Passageiros = r.Entrada.ToString()
                     };
@@ -431,31 +355,6 @@ namespace web_TCC.Controllers
                         }
                     }
 
-                    //ViewBag.des0 = 17;//hora0;
-                    //ViewBag.des1 = 11;//hora1;
-                    //ViewBag.des2 = 9;//hora2;
-                    //ViewBag.des3 = 4;//hora3;
-                    //ViewBag.des4 = 1;//hora4;
-                    //ViewBag.des5 = 3;//hora5;
-                    //ViewBag.des6 = 14;//hora6;
-                    //ViewBag.des7 = 21;//hora7;
-                    //ViewBag.des8 = 54;//hora8;
-                    //ViewBag.des9 = 28;//hora9;
-                    //ViewBag.des10 = 37;//hora10;
-                    //ViewBag.des11 = 33;//hora11;
-                    //ViewBag.des12 = 42;//hora12;
-                    //ViewBag.des13 = 36;//hora13;
-                    //ViewBag.des14 = 51;//hora14;
-                    //ViewBag.des15 = 43;//hora15;
-                    //ViewBag.des16 = 49;//hora16;
-                    //ViewBag.des17 = 67;//hora17;
-                    //ViewBag.des18 = 56;//hora18;
-                    //ViewBag.des19 = 45;//hora19;
-                    //ViewBag.des20 = 37;//hora20;
-                    //ViewBag.des21 = 41;//hora21;
-                    //ViewBag.des22 = 47;//hora22;
-                    //ViewBag.des23 = 51;// hora23;
-
                     ViewBag.des0 = hora0;
                     ViewBag.des1 = hora1;
                     ViewBag.des2 = hora2;
@@ -480,8 +379,6 @@ namespace web_TCC.Controllers
                     ViewBag.des21 = hora21;
                     ViewBag.des22 = hora22;
                     ViewBag.des23 = hora23;
-
-
                     ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
 
                     return View(qRelatorio.ToList());
@@ -524,13 +421,13 @@ namespace web_TCC.Controllers
                     var qRelatorio = from r in db.Registros
                                      where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                                      && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     && r.Linhas.ID_linha == ID_linha
                                      orderby r.Linhas.ID_linha, r.NumeroVeiculo, r.Data
                                      group r by new
                                      {
                                          r.Linhas.ID_linha,
                                          r.Linhas.Numero,
                                          r.NumeroVeiculo,
-                                         //r.Data,
                                          r.Pontos.ID_ponto,
                                          r.Pontos.Descricao,
                                          r.Pontos.Código,
@@ -539,7 +436,6 @@ namespace web_TCC.Controllers
                                      {
                                          LinhaId = g.Key.ID_linha,
                                          LinhaNumero = g.Key.Numero,
-                                         //RelatorioData = g.Key.Data,
                                          PontoId = g.Key.ID_ponto,
                                          PontoCodigo = g.Key.Código,
                                          PontoDescricao = g.Key.Descricao,
@@ -556,7 +452,6 @@ namespace web_TCC.Controllers
                                       group r by new
                                       {
                                           r.Linhas.Numero,
-                                          //r.Data,
                                           r.Pontos.Código,
                                       } into g
                                       select new V_RelRegistroPontos
@@ -600,86 +495,83 @@ namespace web_TCC.Controllers
         [HttpPost]
         public ActionResult Total(FormCollection form)
         {
-            //try
-            //{
-            long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
-            string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
-            string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
-
-            if (dataInicio != "" && ID_linha != 0)
+            try
             {
-                DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
-                DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
+                long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
+                string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
+                string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
 
-                var qRelatorio = from r in db.Registros
-                                 where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                 && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                 orderby r.ID_linha, r.Data
-                                 group r by new
-                                 {
-                                     r.Data.Year,
-                                     r.Data.Month,
-                                     r.Data.Day,
-                                     r.Linhas.Numero
-                                 } into g
-                                 select new V_RelRegistroTotal
-                                 {
-                                     //LinhaId = g.Key.ID_linha,
-                                     LinhaNumero = g.Key.Numero,
-                                     RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                                     Ano = g.Key.Year.ToString(),
-                                     Mes = g.Key.Month.ToString(),
-                                     Dia = g.Key.Day.ToString(),
-
-                                     Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                                 };
-
-                var qRelatorio2 = from r in db.Registros
-                                  where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                  && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                  orderby r.ID_linha, r.Data
-                                  group r by new
-                                  {
-                                      r.Data.Year,
-                                      r.Data.Month,
-                                      r.Data.Day,
-                                      r.Linhas.Numero
-                                  } into g
-                                  select new V_RelRegistroTotal
-                                  {
-                                      RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                                      //Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                                      Ano = g.Key.Year.ToString(),
-                                      Mes = g.Key.Month.ToString(),
-                                      Dia = g.Key.Day.ToString()
-                                  };
-
-                if (!qRelatorio.Any())
+                if (dataInicio != "" && ID_linha != 0)
                 {
-                    ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
+                    DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
+                    DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
+
+                    var qRelatorio = from r in db.Registros
+                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     && r.Linhas.ID_linha == ID_linha
+                                     orderby r.ID_linha, r.Data
+                                     group r by new
+                                     {
+                                         r.Data.Year,
+                                         r.Data.Month,
+                                         r.Data.Day,
+                                         r.Linhas.Numero
+                                     } into g
+                                     select new V_RelRegistroTotal
+                                     {
+                                         LinhaNumero = g.Key.Numero,
+                                         RegistroTotalPessoas = g.Count(x => x.Entrada == true),
+                                         Ano = g.Key.Year.ToString(),
+                                         Mes = g.Key.Month.ToString(),
+                                         Dia = g.Key.Day.ToString(),
+
+                                         Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
+                                     };
+
+                    var qRelatorio2 = from r in db.Registros
+                                      where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                      && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                      orderby r.ID_linha, r.Data
+                                      group r by new
+                                      {
+                                          r.Data.Year,
+                                          r.Data.Month,
+                                          r.Data.Day,
+                                          r.Linhas.Numero
+                                      } into g
+                                      select new V_RelRegistroTotal
+                                      {
+                                          RegistroTotalPessoas = g.Count(x => x.Entrada == true),
+                                          Ano = g.Key.Year.ToString(),
+                                          Mes = g.Key.Month.ToString(),
+                                          Dia = g.Key.Day.ToString()
+                                      };
+
+                    if (!qRelatorio.Any())
+                    {
+                        ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
+                    }
+
+                    ViewBag.RelTotal = qRelatorio.ToList();
+
+                    var myArrayDados = ViewBag.RelTotal;
+
+                    ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
+                    return View(qRelatorio.ToList());
                 }
-
-                //ViewBag.RelTotal = qRelatorio2.ToList();
-                ViewBag.RelTotal = qRelatorio.ToList();
-
-                var myArrayDados = ViewBag.RelTotal;
-
-                ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
-                return View(qRelatorio.ToList());
+                else
+                {
+                    ModelState.AddModelError(String.Empty, "Escolha um período e uma linha de ônibus");
+                    return Pontos();
+                }
             }
-            else
+            catch (Exception e)
             {
-                ModelState.AddModelError(String.Empty, "Escolha um período e uma linha de ônibus");
+                ModelState.AddModelError(String.Empty, "Erro");
                 return Pontos();
             }
         }
-        //catch (Exception e)
-        //{
-        //    ModelState.AddModelError(String.Empty, "Erro");
-        //    return Pontos();
-        //}
-        //}
-
 
         protected override void Dispose(bool disposing)
         {
@@ -689,8 +581,5 @@ namespace web_TCC.Controllers
             }
             base.Dispose(disposing);
         }
-
-
-
     }
 }
