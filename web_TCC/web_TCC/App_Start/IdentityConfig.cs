@@ -12,7 +12,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using web_TCC.Models;
 
-namespace web_TCC
+namespace LiveBus
 {
     public class EmailService : IIdentityMessageService
     {

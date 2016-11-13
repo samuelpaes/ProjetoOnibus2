@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace web_TCC
+namespace LiveBus
 {
     public class FilterConfig
     {
