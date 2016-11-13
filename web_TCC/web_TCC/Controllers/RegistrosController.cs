@@ -9,8 +9,9 @@ using System.Web;
 using System.Web.Mvc;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
+    [Authorize]
     public class RegistrosController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
@@ -46,8 +47,6 @@ namespace web_TCC.Controllers
         }
 
         // POST: Registros/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID_registro,Entrada,Data,Latitude,Longitude,QuantidadePessoas,ID_linha,ID_ponto")] Registros registros)
@@ -82,8 +81,6 @@ namespace web_TCC.Controllers
         }
 
         // POST: Registros/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID_registro,Entrada,Data,Latitude,Longitude,QuantidadePessoas,ID_linha,ID_ponto")] Registros registros)
@@ -135,12 +132,10 @@ namespace web_TCC.Controllers
         }
 
         // GET: Dados/Upload/6
-
         public ActionResult Upload()
         {
             return View();
         }
-
 
         // POST: Dados/Upload/6
         [HttpPost]
@@ -162,12 +157,8 @@ namespace web_TCC.Controllers
                     ID_ponto = 2,
                 };
 
-
-                if (arquivoExterno.ContentLength > 0)//verifica se o arquivo é maior que 0
+               if (arquivoExterno.ContentLength > 0)//verifica se o arquivo é maior que 0
                 {
-
-                    
-
                     //Obtemm o Arquivo da View
                     var arquivoInterno = Path.GetFileName(arquivoExterno.FileName);
                     var path = Path.Combine(Server.MapPath("~/App_Data/Temp"), arquivoInterno);
@@ -175,40 +166,26 @@ namespace web_TCC.Controllers
 
                     //Captura o Arquivo salvo temporariamente para tratamento
                     var conteudoArquivo = System.IO.File.ReadAllText(path);
-                    
-             
 
                     //Tratar arquivo
                     string[] array = System.IO.File.ReadAllLines(path);//Cria um array com uma linha para cada registro
-                  
                     
                    for (int i = 0; i < array.Length; i++)
                     {
-                        string[] auxiliar = array[i].Split('@');//Quebra a primeira linha e separa os dados
-
-                        dados.Entrada = Convert.ToBoolean(auxiliar[0]);
+                        string[] auxiliar = array[i].Split(',');//Quebra a primeira linha e separa os dados
+                        dados.Entrada = auxiliar[0] == "1" ? true : false;
                         dados.Data = Convert.ToDateTime(auxiliar[1]);
                         dados.Latitude = auxiliar[2];
                         dados.Longitude = auxiliar[3];
                         dados.QuantidadePessoas = Convert.ToInt32(auxiliar[4]);
                         dados.NumeroVeiculo = auxiliar[5];
-                        /*dados.ID_linha = Convert.ToInt32(auxiliar[6]);
-                        dados.ID_ponto = Convert.ToInt32(auxiliar[7]);*/
-
                         //busca na base o id da linha referente à linha informada.
                         dados.ID_linha = BuscarIdLinha(auxiliar[6]);
                         //calcula o ponto mais próximo das coordenadas capturadas
                         dados.ID_ponto = CalcularDistancia(auxiliar[2], auxiliar[3]); 
-
-                        teste = auxiliar[0];
-
                         if (ModelState.IsValid)
                         {
                             db.Entry(dados).State = EntityState.Added;
-
-                            //db.Entry(dados).State = EntityState.Modified;
-                            //db.Entry(dados).State = EntityState.Modified;
-                            //db.Registros.Add(dados);
                             db.SaveChanges();
                             ViewBag.Message = "Informações salvas com sucesso";
                         }
@@ -216,9 +193,7 @@ namespace web_TCC.Controllers
                         {
                             ViewBag.Message = "Formato Inválido";
                         }
-
                     }
-
                 }
             }
 
@@ -282,14 +257,10 @@ namespace web_TCC.Controllers
             return Convert.ToInt32(view[0]["ID_PONTO"]);
         }
 
-
-
         public ActionResult InclusaoManualTeste()
         {
             return View();
         }
-
-        
     }
 }
     

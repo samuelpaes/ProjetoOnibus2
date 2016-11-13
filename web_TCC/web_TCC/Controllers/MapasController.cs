@@ -7,8 +7,9 @@ using System.Web.Mvc;
 using web_TCC.Models;
 
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
+    [Authorize]
     public class MapasController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
@@ -19,31 +20,6 @@ namespace web_TCC.Controllers
             ViewBag.lat = null;
             ViewBag.lng = null;
             return View();
-
-            //DateTime dataEscolhida = Convert.ToDateTime("27/08/2016");
-
-            //var latitude =
-            //        (from r in db.Registros
-            //         where EntityFunctions.TruncateTime(r.Data) >= dataEscolhida
-            //         && EntityFunctions.TruncateTime(r.Data) <= dataEscolhida
-            //         && r.Entrada == true
-            //         && r.ID_linha == 11
-            //         orderby r.Latitude
-            //         select r.Latitude).ToList();
-
-            //var longitude =
-            //        (from r in db.Registros
-            //         where EntityFunctions.TruncateTime(r.Data) >= dataEscolhida
-            //         && EntityFunctions.TruncateTime(r.Data) <= dataEscolhida
-            //         && r.Entrada == true
-            //         && r.ID_linha == 11
-            //         orderby r.Longitude
-            //         select r.Longitude).ToList();
-
-            //ViewBag.lat = latitude.ToList();
-            //ViewBag.lng = longitude.ToList();
-
-            //return View();
         }
 
         [HttpPost]
@@ -65,7 +41,7 @@ namespace web_TCC.Controllers
                       where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                       && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                       && r.ID_linha == ID_linha
-                      orderby r.Latitude
+                      orderby r.ID_registro
                       select r.Latitude).ToList();
 
                     var longitude =
@@ -73,7 +49,7 @@ namespace web_TCC.Controllers
                              where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                              && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                              && r.ID_linha == ID_linha
-                             orderby r.Longitude
+                             orderby r.ID_registro
                              select r.Longitude).ToList();
 
                     ViewBag.lat = latitude.ToList();

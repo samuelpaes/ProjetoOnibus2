@@ -19,8 +19,6 @@ namespace web_TCC.Models
 
         public DateTime RelatorioData { get; set; }
 
-        //public DateTime RelatoriHora { get; set; }
-
         public bool RelatorioEntrada { get; set; }
 
         public long RelatorioEntradaQuantidade { get; set; }

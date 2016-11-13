@@ -12,8 +12,9 @@ using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
+    [Authorize]
     public class RelatoriosController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
@@ -42,14 +43,12 @@ namespace web_TCC.Controllers
             return View();
         }
 
-
-
         // GET: Relatorios/Geral
         [HttpPost]
         public ActionResult Geral(FormCollection form)
         {
-            try
-            {
+            //try
+            //{
                 long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
                 string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
                 string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
@@ -74,34 +73,6 @@ namespace web_TCC.Controllers
                         ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
                     }
 
-
-                    //var qRelatorioGrafico =
-                    //from r in db.Registros
-                    //join p in db.Pontos on r.ID_ponto equals p.ID_ponto
-                    //join l in db.Linhas on r.ID_linha equals l.ID_linha
-                    //where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                    //&& EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                    //&& r.ID_linha == ID_linha
-                    //orderby r.NumeroVeiculo, r.Data
-                    //group r by new
-                    //{
-                    //    r.Linhas.ID_linha,
-                    //    r.NumeroVeiculo,
-                    //    r.Data.Year,
-                    //    r.Data.Month,
-                    //    r.Data.Day,
-                    //    r.Data.Hour,
-                    //} into g
-                    //select new V_RegistrosGraficoTotal { 
-                    //    //LinhaId = g.Key.ID_linha,
-                    //    NumeroVeiculo = g.Key.NumeroVeiculo,
-                    //    Ano = g.Key.Year.ToString(),
-                    //    Mes = g.Key.Month.ToString(),
-                    //    Dia = g.Key.Day.ToString(),
-                    //    Hora = g.Key.Hour.ToString()//,
-                    //    //Passageiros = g.Key.QuantidadePessoas
-                    //};
-
                     var qRelatorioGraficoEmb =
                     from r in db.Registros
                     join p in db.Pontos on r.ID_ponto equals p.ID_ponto
@@ -109,26 +80,12 @@ namespace web_TCC.Controllers
                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                     && r.ID_linha == ID_linha
+                    && r.Entrada == true
                     orderby r.NumeroVeiculo, r.Data
-                    /*group r by new
-                    {
-                        //r.Linhas.ID_linha,
-                        //r.NumeroVeiculo,
-                        //r.Data.Year,
-                        //r.Data.Month,
-                        //r.Data.Day,
-                        r.Data.Hour,
-                        r.QuantidadePessoas
-                    } into g*/
                     select new V_RegistrosGraficoTotal
                     {
-                        //LinhaId = g.Key.ID_linha,
-                        //NumeroVeiculo = g.Key.NumeroVeiculo,
-                        //Ano = g.Key.Year.ToString(),
-                        //Mes = g.Key.Month.ToString(),
-                        //Dia = g.Key.Day.ToString(),
                         Hora = r.Data.Hour.ToString(),
-                        Passageiros = r.Entrada.ToString()
+                        //Passageiros = r.Entrada.ToString()
                     };
 
                     int hora0 = 0, hora1 = 0, hora2 = 0, hora3 = 0, hora4 = 0, hora5 = 0, hora6 = 0, hora7 = 0, hora8 = 0, hora9 = 0, hora10 = 0, hora11 = 0;
@@ -136,43 +93,43 @@ namespace web_TCC.Controllers
 
                     foreach (var element in qRelatorioGraficoEmb)
                     {
-                        if (element.Hora.ToString().Substring(0, 2) == "0")
+                        if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "0")
                         {
                             hora0++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "1")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "1")
                         {
                             hora1++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "2")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "2")
                         {
                             hora2++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "3")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "3")
                         {
                             hora3++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "4")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "4")
                         {
                             hora4++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "5")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "5")
                         {
                             hora5++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "6")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "6")
                         {
                             hora6++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "7")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "7")
                         {
                             hora7++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "8")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "8")
                         {
                             hora8++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "9")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "9")
                         {
                             hora9++;
                         }
@@ -234,32 +191,6 @@ namespace web_TCC.Controllers
                         }
                     }
 
-                    //ViewBag.emb0 = 10;//hora0;
-                    //ViewBag.emb1 = 3;//hora1;
-                    //ViewBag.emb2 = 2;//hora2;
-                    //ViewBag.emb3 = 3;//hora3;
-                    //ViewBag.emb4 = 4;//hora4;
-                    //ViewBag.emb5 = 8;//hora5;
-                    //ViewBag.emb6 = 36;//hora6;
-                    //ViewBag.emb7 = 53;//hora7;
-                    //ViewBag.emb8 = 47;//hora8;
-                    //ViewBag.emb9 = 38;// hora9;
-                    //ViewBag.emb10 = 52;//hora10;
-                    //ViewBag.emb11 = 47;//hora11;
-                    //ViewBag.emb12 = 54;//hora12;
-                    //ViewBag.emb13 = 33;//hora13;
-                    //ViewBag.emb14 = 26;//hora14;
-                    //ViewBag.emb15 = 55;//hora15;
-                    //ViewBag.emb16 = 46;//hora16;
-                    //ViewBag.emb17 = 62;//hora17;
-                    //ViewBag.emb18 = 58;//hora18;
-                    //ViewBag.emb19 = 45;//hora19;
-                    //ViewBag.emb20 = 49;//hora20;
-                    //ViewBag.emb21 = 53;//hora21;
-                    //ViewBag.emb22 = 68;//hora22;
-                    //ViewBag.emb23 = 36;// hora23;
-
-
                     ViewBag.emb0 = hora0;
                     ViewBag.emb1 = hora1;
                     ViewBag.emb2 = hora2;
@@ -283,7 +214,7 @@ namespace web_TCC.Controllers
                     ViewBag.emb20 = hora20;
                     ViewBag.emb21 = hora21;
                     ViewBag.emb22 = hora22;
-                    ViewBag.emb23 =  hora23;
+                    ViewBag.emb23 = hora23;
 
 
                     var qRelatorioGraficoDes =
@@ -297,13 +228,8 @@ namespace web_TCC.Controllers
                     orderby r.NumeroVeiculo, r.Data
                     select new V_RegistrosGraficoTotal
                     {
-                        //LinhaId = g.Key.ID_linha,
-                        //NumeroVeiculo = g.Key.NumeroVeiculo,
-                        //Ano = g.Key.Year.ToString(),
-                        //Mes = g.Key.Month.ToString(),
-                        //Dia = g.Key.Day.ToString(),
                         Hora = r.Data.Hour.ToString(),
-                        Passageiros = r.Entrada.ToString()
+                        //Passageiros = r.Entrada.ToString()
                     };
 
                     hora0 = 0;
@@ -331,101 +257,101 @@ namespace web_TCC.Controllers
                     hora22 = 0;
                     hora23 = 0;
 
-                    foreach (var element in qRelatorioGraficoDes)
+                    foreach (var elementDes in qRelatorioGraficoDes)
                     {
-                        if (element.Hora.ToString().Substring(0, 2) == "0")
+                        if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "0")
                         {
                             hora0++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "1")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "1")
                         {
                             hora1++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "2")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "2")
                         {
                             hora2++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "3")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "3")
                         {
                             hora3++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "4")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "4")
                         {
                             hora4++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "5")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "5")
                         {
                             hora5++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "6")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "6")
                         {
                             hora6++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "7")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "7")
                         {
                             hora7++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "8")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "8")
                         {
                             hora8++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "9")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "9")
                         {
                             hora9++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "10")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "10")
                         {
                             hora10++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "11")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "11")
                         {
                             hora11++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "12")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "12")
                         {
                             hora12++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "13")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "13")
                         {
                             hora13++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "14")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "14")
                         {
                             hora14++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "15")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "15")
                         {
                             hora15++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "16")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "16")
                         {
                             hora16++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "17")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "17")
                         {
                             hora17++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "18")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "18")
                         {
                             hora18++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "19")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "19")
                         {
                             hora19++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "20")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "20")
                         {
                             hora20++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "21")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "21")
                         {
                             hora21++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "22")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "22")
                         {
                             hora22++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "23")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "23")
                         {
                             hora23++;
                         }
@@ -491,12 +417,12 @@ namespace web_TCC.Controllers
                     ModelState.AddModelError(String.Empty, "Informe a data e a linha.");
                     return Geral();
                 }
-            }
-            catch (Exception e)
-            {
-                ModelState.AddModelError(String.Empty, "Erro.");
-                return Geral();
-            }
+            //}
+            //catch (Exception e)
+            //{
+            //    ModelState.AddModelError(String.Empty, "Erro.");
+            //    return Geral();
+            //}
         }
 
         // GET: Relatorios/Pontos
@@ -524,6 +450,7 @@ namespace web_TCC.Controllers
                     var qRelatorio = from r in db.Registros
                                      where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                                      && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     && r.ID_linha == ID_linha
                                      orderby r.Linhas.ID_linha, r.NumeroVeiculo, r.Data
                                      group r by new
                                      {
@@ -600,86 +527,83 @@ namespace web_TCC.Controllers
         [HttpPost]
         public ActionResult Total(FormCollection form)
         {
-            //try
-            //{
-            long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
-            string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
-            string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
-
-            if (dataInicio != "" && ID_linha != 0)
+            try
             {
-                DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
-                DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
+                long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
+                string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
+                string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
 
-                var qRelatorio = from r in db.Registros
-                                 where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                 && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                 orderby r.ID_linha, r.Data
-                                 group r by new
-                                 {
-                                     r.Data.Year,
-                                     r.Data.Month,
-                                     r.Data.Day,
-                                     r.Linhas.Numero
-                                 } into g
-                                 select new V_RelRegistroTotal
-                                 {
-                                     //LinhaId = g.Key.ID_linha,
-                                     LinhaNumero = g.Key.Numero,
-                                     RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                                     Ano = g.Key.Year.ToString(),
-                                     Mes = g.Key.Month.ToString(),
-                                     Dia = g.Key.Day.ToString(),
-
-                                     Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                                 };
-
-                var qRelatorio2 = from r in db.Registros
-                                  where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
-                                  && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                  orderby r.ID_linha, r.Data
-                                  group r by new
-                                  {
-                                      r.Data.Year,
-                                      r.Data.Month,
-                                      r.Data.Day,
-                                      r.Linhas.Numero
-                                  } into g
-                                  select new V_RelRegistroTotal
-                                  {
-                                      RegistroTotalPessoas = g.Count(x => x.Entrada == true),
-                                      //Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
-                                      Ano = g.Key.Year.ToString(),
-                                      Mes = g.Key.Month.ToString(),
-                                      Dia = g.Key.Day.ToString()
-                                  };
-
-                if (!qRelatorio.Any())
+                if (dataInicio != "" && ID_linha != 0)
                 {
-                    ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
+                    DateTime dataEscolhidaInicio = Convert.ToDateTime(dataInicio);
+                    DateTime dataEscolhidaFim = Convert.ToDateTime(dataFim);
+
+                    var qRelatorio = from r in db.Registros
+                                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                     && r.Linhas.ID_linha == ID_linha
+                                     orderby r.ID_linha, r.Data
+                                     group r by new
+                                     {
+                                         r.Data.Year,
+                                         r.Data.Month,
+                                         r.Data.Day,
+                                         r.Linhas.Numero
+                                     } into g
+                                     select new V_RelRegistroTotal
+                                     {
+                                         LinhaNumero = g.Key.Numero,
+                                         RegistroTotalPessoas = g.Count(x => x.Entrada == true),
+                                         Ano = g.Key.Year.ToString(),
+                                         Mes = g.Key.Month.ToString(),
+                                         Dia = g.Key.Day.ToString(),
+
+                                         Data = (g.Key.Day.ToString() + "/" + g.Key.Month.ToString() + "/" + g.Key.Year.ToString()),
+                                     };
+
+                    var qRelatorio2 = from r in db.Registros
+                                      where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
+                                      && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
+                                      orderby r.ID_linha, r.Data
+                                      group r by new
+                                      {
+                                          r.Data.Year,
+                                          r.Data.Month,
+                                          r.Data.Day,
+                                          r.Linhas.Numero
+                                      } into g
+                                      select new V_RelRegistroTotal
+                                      {
+                                          RegistroTotalPessoas = g.Count(x => x.Entrada == true),
+                                          Ano = g.Key.Year.ToString(),
+                                          Mes = g.Key.Month.ToString(),
+                                          Dia = g.Key.Day.ToString()
+                                      };
+
+                    if (!qRelatorio.Any())
+                    {
+                        ModelState.AddModelError(String.Empty, "Nenhum registro com a Data e Linha informada");
+                    }
+
+                    ViewBag.RelTotal = qRelatorio.ToList();
+
+                    var myArrayDados = ViewBag.RelTotal;
+
+                    ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
+                    return View(qRelatorio.ToList());
                 }
-
-                //ViewBag.RelTotal = qRelatorio2.ToList();
-                ViewBag.RelTotal = qRelatorio.ToList();
-
-                var myArrayDados = ViewBag.RelTotal;
-
-                ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
-                return View(qRelatorio.ToList());
+                else
+                {
+                    ModelState.AddModelError(String.Empty, "Escolha um período e uma linha de ônibus");
+                    return Pontos();
+                }
             }
-            else
+            catch (Exception e)
             {
-                ModelState.AddModelError(String.Empty, "Escolha um período e uma linha de ônibus");
+                ModelState.AddModelError(String.Empty, "Erro");
                 return Pontos();
             }
         }
-        //catch (Exception e)
-        //{
-        //    ModelState.AddModelError(String.Empty, "Erro");
-        //    return Pontos();
-        //}
-        //}
-
 
         protected override void Dispose(bool disposing)
         {
@@ -689,8 +613,5 @@ namespace web_TCC.Controllers
             }
             base.Dispose(disposing);
         }
-
-
-
     }
 }

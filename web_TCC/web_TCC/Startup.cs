@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(web_TCC.Startup))]
-namespace web_TCC
+[assembly: OwinStartupAttribute(typeof(LiveBus.Startup))]
+namespace LiveBus
 {
     public partial class Startup
     {

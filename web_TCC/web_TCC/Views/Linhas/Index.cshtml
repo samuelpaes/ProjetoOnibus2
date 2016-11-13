@@ -4,9 +4,7 @@
     ViewBag.Title = "Linhas de Ônibus Cadastradas";
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 }
-
 @ViewBag.Error
-
 <p class="muted">
     <ul>
         <li><big><span class="label label-default">Instruções</span></big><br /></li>
@@ -14,17 +12,15 @@
             Caso deseje cadastrar uma nova linha, clique no botão <strong>Novo</strong>
         </li>
         <li>
-            Caso deseje alterar uma linha existente, clique no botão <strong>Alterar</strong> referente à linha de ônibus.
+            Caso deseje alterar uma linha existente, clique no botão <strong>Alterar</strong> 
+            referente à linha de ônibus.
         </li>
     </ul>
 </p>
 <hr />
-
-
 <p>
     @Html.ActionLink("Novo", "Create", null, new { @class = "btn btn-primary" })
 </p>
-
 <table class="table">
     <tr>
         <th>

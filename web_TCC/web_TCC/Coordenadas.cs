@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace web_TCC
+namespace LiveBus
 {
     public class Coordenadas
     {

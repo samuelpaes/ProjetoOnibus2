@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace web_TCC
+namespace LiveBus
 {
     public class BundleConfig
     {

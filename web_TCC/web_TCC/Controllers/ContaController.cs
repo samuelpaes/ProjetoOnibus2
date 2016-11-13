@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
    [Authorize]
     public class ContaController : Controller
@@ -81,15 +81,7 @@ namespace web_TCC.Controllers
             switch (result)
             {
                 case SignInStatus.Success:
-                    //returnUrl =  ///@ActionLink("Pontos de Ônibus", "Index", "Pontos");
-
-                    //return RedirectToAction("Ponto", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
-                    
-
-
                     return RedirectToRoute("Login");
-
-                    //return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.Failure:

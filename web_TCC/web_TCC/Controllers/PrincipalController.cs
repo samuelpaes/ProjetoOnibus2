@@ -5,19 +5,17 @@ using System.Web;
 using System.Web.Mvc;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
+    [Authorize]
     public class PrincipalController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
-
         private ApplicationUser db1 = new ApplicationUser();
-        
 
         // GET: Principal
         public ActionResult Index()
         {
-            
             var context = new ApplicationDbContext();
             int totalUsuarios = context.Users.ToList().Count;
             TempData["Total de Usuários"] = context.Users.ToList().Count;

@@ -9,15 +9,12 @@ using System.Web.Mvc;
 using web_TCC.Models;
 using Microsoft.AspNet.Identity;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class LinhasController : Controller
     {
         private web_TCCContext db = new web_TCCContext();
-
-       
-        
 
         // GET: Linhas
         public ActionResult Index()
@@ -48,8 +45,6 @@ namespace web_TCC.Controllers
         }
 
         // POST: Linhas/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID_linha,Numero,Descricao,Ativo")] Linhas Linhas)
@@ -80,8 +75,6 @@ namespace web_TCC.Controllers
         }
 
         // POST: Linhas/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID_linha,Numero,Descricao,Ativo")] Linhas Linhas)
@@ -94,32 +87,6 @@ namespace web_TCC.Controllers
             }
             return View(Linhas);
         }
-
-        // GET: Linhas/Delete/5
-        //public ActionResult Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    Linhas Linhas = db.Linhas.Find(id);
-        //    if (Linhas == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(Linhas);
-        //}
-
-        //// POST: Linhas/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult DeleteConfirmed(int id)
-        //{
-        //    Linhas Linhas = db.Linhas.Find(id);
-        //    db.Linhas.Remove(Linhas);
-        //    db.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
 
         protected override void Dispose(bool disposing)
         {
