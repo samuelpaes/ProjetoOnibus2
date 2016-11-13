@@ -9,7 +9,7 @@ using System.Web.Mvc;
 using web_TCC.Models;
 using Microsoft.AspNet.Identity;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class LinhasController : Controller

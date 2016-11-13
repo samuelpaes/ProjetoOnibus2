@@ -8,7 +8,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using web_TCC.Models;
 
-namespace web_TCC
+namespace LiveBus
 {
     public class MvcApplication : System.Web.HttpApplication
     {

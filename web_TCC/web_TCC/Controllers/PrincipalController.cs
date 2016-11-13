@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class PrincipalController : Controller

@@ -13,7 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System.IO;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class PontosController : Controller

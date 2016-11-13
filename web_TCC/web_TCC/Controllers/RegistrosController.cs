@@ -9,7 +9,7 @@ using System.Web;
 using System.Web.Mvc;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class RegistrosController : Controller
@@ -175,8 +175,8 @@ namespace web_TCC.Controllers
                         string[] auxiliar = array[i].Split(',');//Quebra a primeira linha e separa os dados
                         dados.Entrada = auxiliar[0] == "1" ? true : false;
                         dados.Data = Convert.ToDateTime(auxiliar[1]);
-                        dados.Latitude = auxiliar[3];
-                        dados.Longitude = auxiliar[2];
+                        dados.Latitude = auxiliar[2];
+                        dados.Longitude = auxiliar[3];
                         dados.QuantidadePessoas = Convert.ToInt32(auxiliar[4]);
                         dados.NumeroVeiculo = auxiliar[5];
                         //busca na base o id da linha referente à linha informada.

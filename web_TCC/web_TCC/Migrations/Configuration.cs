@@ -1,4 +1,4 @@
-namespace web_TCC.Migrations
+namespace LiveBus.Migrations
 {
     using System;
     using System.Data.Entity;

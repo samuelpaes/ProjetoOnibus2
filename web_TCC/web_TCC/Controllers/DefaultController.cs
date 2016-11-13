@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     public class DefaultController : Controller
     {

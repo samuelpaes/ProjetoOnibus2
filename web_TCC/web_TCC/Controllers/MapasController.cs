@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using web_TCC.Models;
 
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class MapasController : Controller
@@ -41,7 +41,7 @@ namespace web_TCC.Controllers
                       where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                       && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                       && r.ID_linha == ID_linha
-                      orderby r.Latitude
+                      orderby r.ID_registro
                       select r.Latitude).ToList();
 
                     var longitude =
@@ -49,7 +49,7 @@ namespace web_TCC.Controllers
                              where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                              && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                              && r.ID_linha == ID_linha
-                             orderby r.Longitude
+                             orderby r.ID_registro
                              select r.Longitude).ToList();
 
                     ViewBag.lat = latitude.ToList();

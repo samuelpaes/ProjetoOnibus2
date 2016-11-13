@@ -51,7 +51,7 @@ C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\bin\Microsoft.O
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\LiveBus.csprojResolveAssemblyReference.cache
-C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\web_TCC.Migrations.InitialCreate.resources
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\LiveBus.csproj.GenerateResource.Cache
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\web_TCC.dll
 C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\web_TCC.pdb
+C:\Users\Vanessa\Documents\GitHub\ProjetoOnibus2\web_TCC\web_TCC\obj\Debug\LiveBus.Migrations.InitialCreate.resources

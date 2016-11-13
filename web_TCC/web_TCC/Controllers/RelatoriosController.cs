@@ -12,7 +12,7 @@ using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using web_TCC.Models;
 
-namespace web_TCC.Controllers
+namespace LiveBus.Controllers
 {
     [Authorize]
     public class RelatoriosController : Controller
@@ -47,8 +47,8 @@ namespace web_TCC.Controllers
         [HttpPost]
         public ActionResult Geral(FormCollection form)
         {
-            try
-            {
+            //try
+            //{
                 long ID_linha = form["ID_linha"] == "" ? 0 : long.Parse(form["ID_linha"]);
                 string dataInicio = form["txtGetDataInicio"] == "" ? "" : form["txtGetDataInicio"];
                 string dataFim = form["txtGetDataFim"] == "" ? dataInicio : form["txtGetDataFim"];
@@ -80,11 +80,12 @@ namespace web_TCC.Controllers
                     where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                     && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
                     && r.ID_linha == ID_linha
+                    && r.Entrada == true
                     orderby r.NumeroVeiculo, r.Data
                     select new V_RegistrosGraficoTotal
                     {
                         Hora = r.Data.Hour.ToString(),
-                        Passageiros = r.Entrada.ToString()
+                        //Passageiros = r.Entrada.ToString()
                     };
 
                     int hora0 = 0, hora1 = 0, hora2 = 0, hora3 = 0, hora4 = 0, hora5 = 0, hora6 = 0, hora7 = 0, hora8 = 0, hora9 = 0, hora10 = 0, hora11 = 0;
@@ -92,43 +93,43 @@ namespace web_TCC.Controllers
 
                     foreach (var element in qRelatorioGraficoEmb)
                     {
-                        if (element.Hora.ToString().Substring(0, 2) == "0")
+                        if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "0")
                         {
                             hora0++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "1")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "1")
                         {
                             hora1++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "2")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "2")
                         {
                             hora2++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "3")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "3")
                         {
                             hora3++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "4")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "4")
                         {
                             hora4++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "5")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "5")
                         {
                             hora5++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "6")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "6")
                         {
                             hora6++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "7")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "7")
                         {
                             hora7++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "8")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "8")
                         {
                             hora8++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "9")
+                        else if (element.Hora.ToString().Length == 1 && element.Hora.ToString() == "9")
                         {
                             hora9++;
                         }
@@ -213,7 +214,8 @@ namespace web_TCC.Controllers
                     ViewBag.emb20 = hora20;
                     ViewBag.emb21 = hora21;
                     ViewBag.emb22 = hora22;
-                    ViewBag.emb23 =  hora23;
+                    ViewBag.emb23 = hora23;
+
 
                     var qRelatorioGraficoDes =
                     from r in db.Registros
@@ -227,7 +229,7 @@ namespace web_TCC.Controllers
                     select new V_RegistrosGraficoTotal
                     {
                         Hora = r.Data.Hour.ToString(),
-                        Passageiros = r.Entrada.ToString()
+                        //Passageiros = r.Entrada.ToString()
                     };
 
                     hora0 = 0;
@@ -255,105 +257,130 @@ namespace web_TCC.Controllers
                     hora22 = 0;
                     hora23 = 0;
 
-                    foreach (var element in qRelatorioGraficoDes)
+                    foreach (var elementDes in qRelatorioGraficoDes)
                     {
-                        if (element.Hora.ToString().Substring(0, 2) == "0")
+                        if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "0")
                         {
                             hora0++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "1")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "1")
                         {
                             hora1++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "2")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "2")
                         {
                             hora2++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "3")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "3")
                         {
                             hora3++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "4")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "4")
                         {
                             hora4++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "5")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "5")
                         {
                             hora5++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "6")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "6")
                         {
                             hora6++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "7")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "7")
                         {
                             hora7++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "8")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "8")
                         {
                             hora8++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "9")
+                        else if (elementDes.Hora.ToString().Length == 1 && elementDes.Hora.ToString() == "9")
                         {
                             hora9++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "10")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "10")
                         {
                             hora10++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "11")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "11")
                         {
                             hora11++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "12")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "12")
                         {
                             hora12++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "13")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "13")
                         {
                             hora13++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "14")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "14")
                         {
                             hora14++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "15")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "15")
                         {
                             hora15++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "16")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "16")
                         {
                             hora16++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "17")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "17")
                         {
                             hora17++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "18")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "18")
                         {
                             hora18++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "19")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "19")
                         {
                             hora19++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "20")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "20")
                         {
                             hora20++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "21")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "21")
                         {
                             hora21++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "22")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "22")
                         {
                             hora22++;
                         }
-                        else if (element.Hora.ToString().Substring(0, 2) == "23")
+                        else if (elementDes.Hora.ToString().Substring(0, 2) == "23")
                         {
                             hora23++;
                         }
                     }
+
+                    //ViewBag.des0 = 17;//hora0;
+                    //ViewBag.des1 = 11;//hora1;
+                    //ViewBag.des2 = 9;//hora2;
+                    //ViewBag.des3 = 4;//hora3;
+                    //ViewBag.des4 = 1;//hora4;
+                    //ViewBag.des5 = 3;//hora5;
+                    //ViewBag.des6 = 14;//hora6;
+                    //ViewBag.des7 = 21;//hora7;
+                    //ViewBag.des8 = 54;//hora8;
+                    //ViewBag.des9 = 28;//hora9;
+                    //ViewBag.des10 = 37;//hora10;
+                    //ViewBag.des11 = 33;//hora11;
+                    //ViewBag.des12 = 42;//hora12;
+                    //ViewBag.des13 = 36;//hora13;
+                    //ViewBag.des14 = 51;//hora14;
+                    //ViewBag.des15 = 43;//hora15;
+                    //ViewBag.des16 = 49;//hora16;
+                    //ViewBag.des17 = 67;//hora17;
+                    //ViewBag.des18 = 56;//hora18;
+                    //ViewBag.des19 = 45;//hora19;
+                    //ViewBag.des20 = 37;//hora20;
+                    //ViewBag.des21 = 41;//hora21;
+                    //ViewBag.des22 = 47;//hora22;
+                    //ViewBag.des23 = 51;// hora23;
 
                     ViewBag.des0 = hora0;
                     ViewBag.des1 = hora1;
@@ -379,6 +406,8 @@ namespace web_TCC.Controllers
                     ViewBag.des21 = hora21;
                     ViewBag.des22 = hora22;
                     ViewBag.des23 = hora23;
+
+
                     ViewBag.ID_linha = new SelectList(db.Linhas, "ID_linha", "Numero");
 
                     return View(qRelatorio.ToList());
@@ -388,12 +417,12 @@ namespace web_TCC.Controllers
                     ModelState.AddModelError(String.Empty, "Informe a data e a linha.");
                     return Geral();
                 }
-            }
-            catch (Exception e)
-            {
-                ModelState.AddModelError(String.Empty, "Erro.");
-                return Geral();
-            }
+            //}
+            //catch (Exception e)
+            //{
+            //    ModelState.AddModelError(String.Empty, "Erro.");
+            //    return Geral();
+            //}
         }
 
         // GET: Relatorios/Pontos
@@ -421,13 +450,14 @@ namespace web_TCC.Controllers
                     var qRelatorio = from r in db.Registros
                                      where EntityFunctions.TruncateTime(r.Data) >= dataEscolhidaInicio
                                      && EntityFunctions.TruncateTime(r.Data) <= dataEscolhidaFim
-                                     && r.Linhas.ID_linha == ID_linha
+                                     && r.ID_linha == ID_linha
                                      orderby r.Linhas.ID_linha, r.NumeroVeiculo, r.Data
                                      group r by new
                                      {
                                          r.Linhas.ID_linha,
                                          r.Linhas.Numero,
                                          r.NumeroVeiculo,
+                                         //r.Data,
                                          r.Pontos.ID_ponto,
                                          r.Pontos.Descricao,
                                          r.Pontos.Código,
@@ -436,6 +466,7 @@ namespace web_TCC.Controllers
                                      {
                                          LinhaId = g.Key.ID_linha,
                                          LinhaNumero = g.Key.Numero,
+                                         //RelatorioData = g.Key.Data,
                                          PontoId = g.Key.ID_ponto,
                                          PontoCodigo = g.Key.Código,
                                          PontoDescricao = g.Key.Descricao,
@@ -452,6 +483,7 @@ namespace web_TCC.Controllers
                                       group r by new
                                       {
                                           r.Linhas.Numero,
+                                          //r.Data,
                                           r.Pontos.Código,
                                       } into g
                                       select new V_RelRegistroPontos
