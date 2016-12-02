@@ -5,12 +5,10 @@
     Layout = "~/Views/Shared/_LayoutMaster.cshtml";
 
     var myArrayDados = ViewBag.RelPontos;
-
     var EntradaDataView = "";
     var SaidaDataView = "";
     String PontoDataView = "";
     int i = 0;
-
     if (ViewBag.RelPontos != null)
     {
         foreach (var item in myArrayDados)
@@ -32,18 +30,14 @@
             }
         }
     }
-    
 }
-
 @ViewBag.Error
-
 <big>
     <p class="text-info">
         Este relatório informa a quantidade total de embarque e deseembarque de determinada linha em cada ponto de ônibus, 
         indicando o veículo, o ponto e a quantidade de entrada e saída.
     </p>
 </big>
-
 <p class="muted">
     <ul>
         <li><big><span class="label label-default">Instruções</span></big><br /></li>
@@ -68,13 +62,9 @@
     </ul>
 </p>
 <hr />
-
-
-
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
-
     <fieldset>
         <div class="control-group">
             <div class="controls">
@@ -102,8 +92,6 @@
         </div>
     </fieldset>
 }
-
-
 @if (Model != null)
 {
     if (Model.Any())
@@ -151,8 +139,6 @@
                 }
             </tbody>
         </table>
-
-    
         // Gráficos
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -164,7 +150,7 @@
                         <h4 class="modal-title" id="myModalLabel">Gráfico Relatório Pontos</h4>
                     </div>
                     <div class="modal-body">
-                        <div class="" id="container" style="width: 64%; height: 450px"></div>
+                        <div class="" id="container" style="width: 100%; height: 450px"></div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
@@ -172,13 +158,10 @@
                 </div>
             </div>
         </div>
-
     }
 }
 <script type="text/javascript" src="~/Scripts/jquery-1.10.2.js"></script>
 <script src="~/Scripts/highcharts.js"></script>
-@*<script src="~/Scripts/exporting.js"></script>*@
-
 
 <script type="text/javascript">
     var chart2;

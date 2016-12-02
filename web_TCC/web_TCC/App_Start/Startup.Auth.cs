@@ -7,7 +7,7 @@ using Microsoft.Owin.Security.Google;
 using Owin;
 using web_TCC.Models;
 
-namespace web_TCC
+namespace LiveBus
 {
     public partial class Startup
     {
